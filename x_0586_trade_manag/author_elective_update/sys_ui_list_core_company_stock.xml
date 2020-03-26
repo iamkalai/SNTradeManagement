@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="" relationship="" sys_domain="global" table="core_company" version="2" view="stock">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="core_company" element="NULL" name="core_company" parent="NULL" relationship="NULL" sys_domain="global" view="8d2d744cdb21330057c764d74896199c">1ebd78ccdb21330057c764d7489619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-16 08:51:10</sys_created_on>
+            <sys_id>56bdb8ccdb21330057c764d748961900</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-16 08:51:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>stock_symbol</element>
+            <list_id display_value="core_company" element="NULL" name="core_company" parent="NULL" relationship="NULL" sys_domain="global" view="8d2d744cdb21330057c764d74896199c">1ebd78ccdb21330057c764d7489619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-16 08:51:10</sys_created_on>
+            <sys_id>d6bdb8ccdb21330057c764d748961900</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-16 08:51:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>publicly_traded</element>
+            <list_id display_value="core_company" element="NULL" name="core_company" parent="NULL" relationship="NULL" sys_domain="global" view="8d2d744cdb21330057c764d74896199c">1ebd78ccdb21330057c764d7489619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-16 08:51:10</sys_created_on>
+            <sys_id>5abdb8ccdb21330057c764d748961900</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-16 08:51:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>vendor_type</element>
+            <list_id display_value="core_company" element="NULL" name="core_company" parent="NULL" relationship="NULL" sys_domain="global" view="8d2d744cdb21330057c764d74896199c">1ebd78ccdb21330057c764d7489619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-16 08:51:10</sys_created_on>
+            <sys_id>dabdb8ccdb21330057c764d748961900</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-16 08:51:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>notes</element>
+            <list_id display_value="core_company" element="NULL" name="core_company" parent="NULL" relationship="NULL" sys_domain="global" view="8d2d744cdb21330057c764d74896199c">1ebd78ccdb21330057c764d7489619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-16 08:51:10</sys_created_on>
+            <sys_id>5ebdb8ccdb21330057c764d748961900</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-16 08:51:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>core_company</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-16 08:51:10</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1ebd78ccdb21330057c764d7489619ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>core_company</sys_name>
+            <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
+            <sys_update_name>sys_ui_list_core_company_stock</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-16 08:51:10</sys_updated_on>
+            <sys_user/>
+            <view display_value="Stock" name="stock">8d2d744cdb21330057c764d74896199c</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</application>
+        <file_path/>
+        <instance_id>94cee5d84fc712c094ac220f0310c711</instance_id>
+        <instance_name>dev21998</instance_name>
+        <name>sys_ui_list_core_company_stock</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="core_company" version="2" view="stock"><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>name</element><list_id display_value="core_company" element="NULL" name="core_company" parent="NULL" relationship="NULL" sys_domain="global" view="8d2d744cdb21330057c764d74896199c">1ebd78ccdb21330057c764d7489619ff</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2019-05-16 08:51:10</sys_created_on><sys_id>56bdb8ccdb21330057c764d748961900</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-05-16 08:51:10</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>stock_symbol</element><list_id display_value="core_company" element="NULL" name="core_company" parent="NULL" relationship="NULL" sys_domain="global" view="8d2d744cdb21330057c764d74896199c">1ebd78ccdb21330057c764d7489619ff</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2019-05-16 08:51:10</sys_created_on><sys_id>d6bdb8ccdb21330057c764d748961900</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-05-16 08:51:10</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>publicly_traded</element><list_id display_value="core_company" element="NULL" name="core_company" parent="NULL" relationship="NULL" sys_domain="global" view="8d2d744cdb21330057c764d74896199c">1ebd78ccdb21330057c764d7489619ff</list_id><max_value>false</max_value><min_value>false</min_value><position>2</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2019-05-16 08:51:10</sys_created_on><sys_id>5abdb8ccdb21330057c764d748961900</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-05-16 08:51:10</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>vendor_type</element><list_id display_value="core_company" element="NULL" name="core_company" parent="NULL" relationship="NULL" sys_domain="global" view="8d2d744cdb21330057c764d74896199c">1ebd78ccdb21330057c764d7489619ff</list_id><max_value>false</max_value><min_value>false</min_value><position>3</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2019-05-16 08:51:10</sys_created_on><sys_id>dabdb8ccdb21330057c764d748961900</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-05-16 08:51:10</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>notes</element><list_id display_value="core_company" element="NULL" name="core_company" parent="NULL" relationship="NULL" sys_domain="global" view="8d2d744cdb21330057c764d74896199c">1ebd78ccdb21330057c764d7489619ff</list_id><max_value>false</max_value><min_value>false</min_value><position>4</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2019-05-16 08:51:10</sys_created_on><sys_id>5ebdb8ccdb21330057c764d748961900</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-05-16 08:51:10</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>core_company</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-05-16 08:51:10</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1ebd78ccdb21330057c764d7489619ff</sys_id><sys_mod_count>0</sys_mod_count><sys_name>core_company</sys_name><sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope><sys_update_name>sys_ui_list_core_company_stock</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-05-16 08:51:10</sys_updated_on><sys_user/><view display_value="Stock" name="stock">8d2d744cdb21330057c764d74896199c</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+        <payload_hash>-559136848</payload_hash>
+        <record_name>Company</record_name>
+        <reverted_from/>
+        <source>7bd52d59db376300d8ccd421cf9619f6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-16 08:51:10</sys_created_on>
+        <sys_id>16bdb8ccdb21330057c764d748961903</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16abfd68c9e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-16 08:51:10</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>dabdb8cc282133000bc112b66c0efc02</update_guid>
+        <update_guid_history>dabdb8cc282133000bc112b66c0efc02:-559136848,db6d34cc322133008bec6a41e8a993d1:-368795955</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-16 08:53:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>306cec272a8b474b9ba07edee4a4fe31</sys_id>
+        <sys_metadata>1ebd78ccdb21330057c764d7489619ff</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>core_company</sys_name>
+        <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
+        <sys_parent display_value="Core Company">17729230c4212200a21c0beaf2e29388</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
+        <sys_scope_delete display_value="">0796acae3c1b44d480b90d43a626d764</sys_scope_delete>
+        <sys_update_name>sys_ui_list_core_company_stock</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_core_company_stock">16bdb8ccdb21330057c764d748961903</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-16 08:53:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

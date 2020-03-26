@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="DELETE">
+        <group/>
+        <hidden>false</hidden>
+        <name>stock</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-16 08:48:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8d2d744cdb21330057c764d74896199c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Stock</sys_name>
+        <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
+        <sys_update_name>sys_ui_view_8d2d744cdb21330057c764d74896199c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-16 08:48:37</sys_updated_on>
+        <title>Stock</title>
+        <user/>
+    </sys_ui_view>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</application>
+        <file_path/>
+        <instance_id>94cee5d84fc712c094ac220f0310c711</instance_id>
+        <instance_name>dev21998</instance_name>
+        <name>sys_ui_view_8d2d744cdb21330057c764d74896199c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view"><sys_ui_view action="INSERT_OR_UPDATE"><group/><hidden>false</hidden><name>stock</name><roles/><sys_class_name>sys_ui_view</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-05-16 08:48:37</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>8d2d744cdb21330057c764d74896199c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Stock</sys_name><sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope><sys_update_name>sys_ui_view_8d2d744cdb21330057c764d74896199c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-05-16 08:48:37</sys_updated_on><title>Stock</title><user/></sys_ui_view></record_update>]]></payload>
+        <payload_hash>-404094486</payload_hash>
+        <record_name>Stock</record_name>
+        <reverted_from/>
+        <source>7bd52d59db376300d8ccd421cf9619f6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-16 08:48:37</sys_created_on>
+        <sys_id>8d2d744cdb21330057c764d74896199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16abfd439430000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-16 08:48:37</sys_updated_on>
+        <type>UI View</type>
+        <update_guid>852d744c98213300f62d80ead108f39e</update_guid>
+        <update_guid_history>852d744c98213300f62d80ead108f39e:-404094486</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-16 08:53:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_view">sys_ui_view</sys_db_object>
+        <sys_id>2aed4e79d7d643f59e940ad150ef6b39</sys_id>
+        <sys_metadata>8d2d744cdb21330057c764d74896199c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Stock</sys_name>
+        <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
+        <sys_scope_delete display_value="">0796acae3c1b44d480b90d43a626d764</sys_scope_delete>
+        <sys_update_name>sys_ui_view_8d2d744cdb21330057c764d74896199c</sys_update_name>
+        <sys_update_version display_value="sys_ui_view_8d2d744cdb21330057c764d74896199c">8d2d744cdb21330057c764d74896199e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-16 08:53:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

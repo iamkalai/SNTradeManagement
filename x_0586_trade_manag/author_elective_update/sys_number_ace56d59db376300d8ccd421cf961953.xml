@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_0586_trade_manag_profit_loss_statement">x_0586_trade_manag_profit_loss_statement</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>PRO</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-22 09:09:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ace56d59db376300d8ccd421cf961953</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PRO</sys_name>
+        <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
+        <sys_update_name>sys_number_ace56d59db376300d8ccd421cf961953</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-22 09:09:09</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</application>
+        <file_path/>
+        <instance_id>94cee5d84fc712c094ac220f0310c711</instance_id>
+        <instance_name>dev21998</instance_name>
+        <name>sys_number_ace56d59db376300d8ccd421cf961953</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_0586_trade_manag_profit_loss_statement">x_0586_trade_manag_profit_loss_statement</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>PRO</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-22 09:09:09</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>ace56d59db376300d8ccd421cf961953</sys_id><sys_mod_count>0</sys_mod_count><sys_name>PRO</sys_name><sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope><sys_update_name>sys_number_ace56d59db376300d8ccd421cf961953</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-22 09:09:09</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>-1213972631</payload_hash>
+        <record_name>PRO</record_name>
+        <reverted_from/>
+        <source>7bd52d59db376300d8ccd421cf9619f6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-22 09:09:09</sys_created_on>
+        <sys_id>ace56d59db376300d8ccd421cf961972</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>169147732c70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-22 09:09:09</sys_updated_on>
+        <type>Number</type>
+        <update_guid>a4e56d5961376300cac6add9b3233172</update_guid>
+        <update_guid_history>a4e56d5961376300cac6add9b3233172:-1213972631</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-20 13:39:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>2b68704556574bf288e7e69691a39a09</sys_id>
+        <sys_metadata>ace56d59db376300d8ccd421cf961953</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PRO</sys_name>
+        <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
+        <sys_parent display_value="">e3d5a515db376300d8ccd421cf961925</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
+        <sys_scope_delete display_value="">0796acae3c1b44d480b90d43a626d764</sys_scope_delete>
+        <sys_update_name>sys_number_ace56d59db376300d8ccd421cf961953</sys_update_name>
+        <sys_update_version display_value="sys_number_ace56d59db376300d8ccd421cf961953">ace56d59db376300d8ccd421cf961972</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-20 13:39:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

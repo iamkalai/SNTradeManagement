@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="ad072599db376300d8ccd421cf9619be" sys_domain="global" table="x_0586_trade_manag_profit_loss_statement" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-22 10:13:00</sys_created_on>
+            <sys_id>7374b159db776300d8ccd421cf961935</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_0586_trade_manag_profit_loss_statement" sys_domain="global" view="Default view">ad072599db376300d8ccd421cf9619be</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-22 10:13:00</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>transaction_date</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-22 10:13:00</sys_created_on>
+            <sys_id>3b74b159db776300d8ccd421cf961935</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_0586_trade_manag_profit_loss_statement" sys_domain="global" view="Default view">ad072599db376300d8ccd421cf9619be</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-22 10:13:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>amount</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-22 10:13:00</sys_created_on>
+            <sys_id>bb74b159db776300d8ccd421cf961935</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_0586_trade_manag_profit_loss_statement" sys_domain="global" view="Default view">ad072599db376300d8ccd421cf9619be</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-22 10:13:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-22 10:13:00</sys_created_on>
+            <sys_id>3f74b159db776300d8ccd421cf961935</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_0586_trade_manag_profit_loss_statement" sys_domain="global" view="Default view">ad072599db376300d8ccd421cf9619be</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-22 10:13:00</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>balance</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-22 10:13:00</sys_created_on>
+            <sys_id>bf74b159db776300d8ccd421cf961935</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_0586_trade_manag_profit_loss_statement" sys_domain="global" view="Default view">ad072599db376300d8ccd421cf9619be</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-22 10:13:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-22 10:13:00</sys_created_on>
+            <sys_id>3374b159db776300d8ccd421cf961936</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_0586_trade_manag_profit_loss_statement" sys_domain="global" view="Default view">ad072599db376300d8ccd421cf9619be</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-22 10:13:00</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_0586_trade_manag_profit_loss_statement</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-22 09:14:08</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ad072599db376300d8ccd421cf9619be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_0586_trade_manag_profit_loss_statement</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
+            <sys_update_name>sys_ui_section_ad072599db376300d8ccd421cf9619be</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-22 09:14:08</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</application>
+        <file_path/>
+        <instance_id>94cee5d84fc712c094ac220f0310c711</instance_id>
+        <instance_name>dev21998</instance_name>
+        <name>sys_ui_section_ad072599db376300d8ccd421cf9619be</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="ad072599db376300d8ccd421cf9619be" sys_domain="global" table="x_0586_trade_manag_profit_loss_statement" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-22 10:13:00</sys_created_on><sys_id>7374b159db776300d8ccd421cf961935</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_0586_trade_manag_profit_loss_statement" sys_domain="global" view="Default view">ad072599db376300d8ccd421cf9619be</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-22 10:13:00</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>transaction_date</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-22 10:13:00</sys_created_on><sys_id>3b74b159db776300d8ccd421cf961935</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_0586_trade_manag_profit_loss_statement" sys_domain="global" view="Default view">ad072599db376300d8ccd421cf9619be</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-22 10:13:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>amount</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-22 10:13:00</sys_created_on><sys_id>bb74b159db776300d8ccd421cf961935</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_0586_trade_manag_profit_loss_statement" sys_domain="global" view="Default view">ad072599db376300d8ccd421cf9619be</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-22 10:13:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-22 10:13:00</sys_created_on><sys_id>3f74b159db776300d8ccd421cf961935</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_0586_trade_manag_profit_loss_statement" sys_domain="global" view="Default view">ad072599db376300d8ccd421cf9619be</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-22 10:13:00</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>balance</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-22 10:13:00</sys_created_on><sys_id>bf74b159db776300d8ccd421cf961935</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_0586_trade_manag_profit_loss_statement" sys_domain="global" view="Default view">ad072599db376300d8ccd421cf9619be</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-22 10:13:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-22 10:13:00</sys_created_on><sys_id>3374b159db776300d8ccd421cf961936</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_0586_trade_manag_profit_loss_statement" sys_domain="global" view="Default view">ad072599db376300d8ccd421cf9619be</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-22 10:13:00</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_0586_trade_manag_profit_loss_statement</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-22 09:14:08</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ad072599db376300d8ccd421cf9619be</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_0586_trade_manag_profit_loss_statement</sys_name><sys_overrides/><sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope><sys_update_name>sys_ui_section_ad072599db376300d8ccd421cf9619be</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-22 09:14:08</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1235897119</payload_hash>
+        <record_name>Profit-Loss Statement</record_name>
+        <reverted_from/>
+        <source>7bd52d59db376300d8ccd421cf9619f6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-22 10:13:00</sys_created_on>
+        <sys_id>3774b159db776300d8ccd421cf961938</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16914b1a7520000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-22 10:13:00</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>fb74b159607763003b0a8015eb325737</update_guid>
+        <update_guid_history>fb74b159607763003b0a8015eb325737:1235897119,4449e55d1c37630043efe3dbecef4969:1058480409,131765d9e637630043b3a58be07d032c:415273983,610725991e376300109a5ab5985b72c4:-1438025898,65072599773763005896b4cd3bb569c1:-1338493385</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-20 13:39:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>390a66a15d0e4dd68175c8dd47c6d0c4</sys_id>
+        <sys_metadata>ad072599db376300d8ccd421cf9619be</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_0586_trade_manag_profit_loss_statement</sys_name>
+        <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
+        <sys_parent display_value="">e3d5a515db376300d8ccd421cf961925</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
+        <sys_scope_delete display_value="">0796acae3c1b44d480b90d43a626d764</sys_scope_delete>
+        <sys_update_name>sys_ui_section_ad072599db376300d8ccd421cf9619be</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_ad072599db376300d8ccd421cf9619be">3774b159db776300d8ccd421cf961938</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-20 13:39:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_data_policy2">
+    <sys_data_policy2 action="DELETE">
+        <active>true</active>
+        <apply_import_set>true</apply_import_set>
+        <apply_soap>true</apply_soap>
+        <conditions/>
+        <description/>
+        <enforce_ui>true</enforce_ui>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table>x_0586_trade_manag_profit_loss_statement</model_table>
+        <reverse_if_false>true</reverse_if_false>
+        <short_description>Make Field Mandatory</short_description>
+        <sys_class_name>sys_data_policy2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-22 10:06:26</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>14e2b1d5db776300d8ccd421cf961930</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Make Field Mandatory</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
+        <sys_update_name>sys_data_policy2_14e2b1d5db776300d8ccd421cf961930</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-22 10:06:26</sys_updated_on>
+    </sys_data_policy2>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</application>
+        <file_path/>
+        <instance_id>94cee5d84fc712c094ac220f0310c711</instance_id>
+        <instance_name>dev21998</instance_name>
+        <name>sys_data_policy2_14e2b1d5db776300d8ccd421cf961930</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_data_policy2"><sys_data_policy2 action="INSERT_OR_UPDATE"><active>true</active><apply_import_set>true</apply_import_set><apply_soap>true</apply_soap><conditions/><description/><enforce_ui>true</enforce_ui><inherit>false</inherit><model_id/><model_table>x_0586_trade_manag_profit_loss_statement</model_table><reverse_if_false>true</reverse_if_false><short_description>Make Field Mandatory</short_description><sys_class_name>sys_data_policy2</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-22 10:06:26</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path/><sys_id>14e2b1d5db776300d8ccd421cf961930</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Make Field Mandatory</sys_name><sys_overrides/><sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope><sys_update_name>sys_data_policy2_14e2b1d5db776300d8ccd421cf961930</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-22 10:06:26</sys_updated_on></sys_data_policy2></record_update>]]></payload>
+        <payload_hash>1823632217</payload_hash>
+        <record_name>Make Field Mandatory</record_name>
+        <reverted_from/>
+        <source>7bd52d59db376300d8ccd421cf9619f6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-22 10:06:26</sys_created_on>
+        <sys_id>e3f2fd95db776300d8ccd421cf96190d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16914aba2400000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-22 10:06:26</sys_updated_on>
+        <type>Data Policy</type>
+        <update_guid>abf2fd95cc77630023e7ca0c7a87470c</update_guid>
+        <update_guid_history>abf2fd95cc77630023e7ca0c7a87470c:1823632217</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-20 13:39:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_data_policy2">sys_data_policy2</sys_db_object>
+        <sys_id>0c77e879c8794d6480a9a9387f1c4c90</sys_id>
+        <sys_metadata>14e2b1d5db776300d8ccd421cf961930</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Make Field Mandatory</sys_name>
+        <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
+        <sys_parent display_value="">e3d5a515db376300d8ccd421cf961925</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
+        <sys_scope_delete display_value="">0796acae3c1b44d480b90d43a626d764</sys_scope_delete>
+        <sys_update_name>sys_data_policy2_14e2b1d5db776300d8ccd421cf961930</sys_update_name>
+        <sys_update_version display_value="sys_data_policy2_14e2b1d5db776300d8ccd421cf961930">e3f2fd95db776300d8ccd421cf96190d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-20 13:39:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

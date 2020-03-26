@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_type</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Calculate Target and Stop Loss Price</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading) {
+		return;
+	}
+	
+	var stockPrice = g_form.getDecimalValue('u_stock_price');
+	var targetPricePercent = g_form.getDecimalValue('u_target_percent');
+	var stopLossPricePercent = g_form.getDecimalValue('u_stop_loss_percent');
+	
+	if(g_form.getValue('u_type') == 'long')
+		{
+		if(targetPricePercent != 0 && stockPrice != 0)
+			{
+			g_form.setValue('u_target_price',Math.round((stockPrice + ((stockPrice*targetPricePercent)/100))*10)/10);
+		}
+		
+		if(stopLossPricePercent != 0 && stockPrice != 0)
+			{
+			g_form.setValue('u_stop_loss_price',Math.round((stockPrice - ((stockPrice*stopLossPricePercent)/100))*10)/10);
+		}
+	}
+	else
+		{
+		if(targetPricePercent != 0 && stockPrice != 0)
+			{
+			g_form.setValue('u_target_price',Math.round((stockPrice - ((stockPrice*targetPricePercent)/100))*10)/10);
+		}
+		
+		if(stopLossPricePercent != 0 && stockPrice != 0)
+			{
+			g_form.setValue('u_stop_loss_price',Math.round((stockPrice + ((stockPrice*stopLossPricePercent)/100))*10)/10);
+		}
+	}
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-30 10:30:19</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f2fa7a7adb05330057c764d74896191f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Calculate Target and Stop Loss Price</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
+        <sys_update_name>sys_script_client_f2fa7a7adb05330057c764d74896191f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-30 10:30:19</sys_updated_on>
+        <table>x_0586_trade_manag_trade</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

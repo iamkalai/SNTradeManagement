@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
+    <sys_transform_entry action="DELETE">
+        <choice_action>create</choice_action>
+        <coalesce>false</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="Import Profit Loss Transform">88dae1dddb376300d8ccd421cf961933</map>
+        <reference_value_field/>
+        <source_field>[Script]</source_field>
+        <source_script><![CDATA[answer = (function transformEntry(source) {
+	var amount = 0;
+	var debit = parseInt(source.u_debit);
+	if(debit != 0)
+		{
+		amount = -parseInt(debit);
+	}
+	else
+		{
+		amount = parseInt(source.u_credit);
+	}
+	return amount; // return the value to be put into the target field
+	
+})(source);]]></source_script>
+        <source_table>x_0586_trade_manag_import_profit_loss_statement</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-22 09:35:34</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ce4be9dddb376300d8ccd421cf96191f</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>[Script]</sys_name>
+        <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
+        <sys_update_name>sys_transform_entry_ce4be9dddb376300d8ccd421cf96191f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-22 10:10:21</sys_updated_on>
+        <target_field>amount</target_field>
+        <target_table>x_0586_trade_manag_profit_loss_statement</target_table>
+        <use_source_script>true</use_source_script>
+    </sys_transform_entry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</application>
+        <file_path/>
+        <instance_id>94cee5d84fc712c094ac220f0310c711</instance_id>
+        <instance_name>dev21998</instance_name>
+        <name>sys_transform_entry_ce4be9dddb376300d8ccd421cf96191f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;false&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value="Import Profit Loss Transform"&gt;88dae1dddb376300d8ccd421cf961933&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;[Script]&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+	var amount = 0;
+	var debit = parseInt(source.u_debit);
+	if(debit != 0)
+		{
+		amount = -parseInt(debit);
+	}
+	else
+		{
+		amount = parseInt(source.u_credit);
+	}
+	return amount; // return the value to be put into the target field
+	
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;x_0586_trade_manag_import_profit_loss_statement&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-02-22 09:35:34&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;ce4be9dddb376300d8ccd421cf96191f&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;[Script]&lt;/sys_name&gt;&lt;sys_package display_value="Trade Management" source="x_0586_trade_manag"&gt;a3d5a515db376300d8ccd421cf961925&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Trade Management"&gt;a3d5a515db376300d8ccd421cf961925&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_ce4be9dddb376300d8ccd421cf96191f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-02-22 10:10:21&lt;/sys_updated_on&gt;&lt;target_field&gt;amount&lt;/target_field&gt;&lt;target_table&gt;x_0586_trade_manag_profit_loss_statement&lt;/target_table&gt;&lt;use_source_script&gt;true&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-345618805</payload_hash>
+        <record_name>[Script]</record_name>
+        <reverted_from/>
+        <source>7bd52d59db376300d8ccd421cf9619f6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-22 10:10:21</sys_created_on>
+        <sys_id>45e3b5d5db776300d8ccd421cf9619a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16914af39330000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-22 10:10:21</sys_updated_on>
+        <type>Field Map</type>
+        <update_guid>0de3b5d5c7776300ebf1a821a2c736a4</update_guid>
+        <update_guid_history>0de3b5d5c7776300ebf1a821a2c736a4:-345618805,9bd175551b7763003a5bcbbd1dad42e2:-1965742463,1aa175551c7763002899eac068c7a514:-180134337,ab8ca5dd15376300215d6c59566286dc:220048493,9e7ce9dd1e376300137d6a4eca0f9b26:-78745935,67eba9dda0376300c34469407d3f66ad:-1323975089</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-20 13:41:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_transform_entry">sys_transform_entry</sys_db_object>
+        <sys_id>33c6daf9bb904e06a80ead735ef620e1</sys_id>
+        <sys_metadata>ce4be9dddb376300d8ccd421cf96191f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>[Script]</sys_name>
+        <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
+        <sys_scope_delete display_value="">0796acae3c1b44d480b90d43a626d764</sys_scope_delete>
+        <sys_update_name>sys_transform_entry_ce4be9dddb376300d8ccd421cf96191f</sys_update_name>
+        <sys_update_version display_value="sys_transform_entry_ce4be9dddb376300d8ccd421cf96191f">45e3b5d5db776300d8ccd421cf9619a5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-20 13:41:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

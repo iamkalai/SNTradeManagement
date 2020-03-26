@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="Trade Management">e4e56d59db376300d8ccd421cf961976</application>
+        <filter/>
+        <name>Trades</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles/>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-30 07:30:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>2bb15232db81330057c764d7489619d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Trades</sys_name>
+        <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
+        <sys_update_name>sys_ui_module_2bb15232db81330057c764d7489619d0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-30 07:30:30</sys_updated_on>
+        <table>x_0586_trade_manag_trade</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</application>
+        <file_path/>
+        <instance_id>94cee5d84fc712c094ac220f0310c711</instance_id>
+        <instance_name>dev21998</instance_name>
+        <name>sys_ui_module_2bb15232db81330057c764d7489619d0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Trade Management">e4e56d59db376300d8ccd421cf961976</application><filter/><name>Trades</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles/><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-04-30 07:30:30</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path/><sys_id>2bb15232db81330057c764d7489619d0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Trades</sys_name><sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope><sys_update_name>sys_ui_module_2bb15232db81330057c764d7489619d0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-04-30 07:30:30</sys_updated_on><table>x_0586_trade_manag_trade</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>105956502</payload_hash>
+        <record_name>Trades</record_name>
+        <reverted_from/>
+        <source>7bd52d59db376300d8ccd421cf9619f6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-30 07:30:30</sys_created_on>
+        <sys_id>f4d11afedb41330057c764d748961906</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16a6d26f4820000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-30 07:30:30</sys_updated_on>
+        <type>Module</type>
+        <update_guid>fcd11afeca413300d9ca9ba3d2d51005</update_guid>
+        <update_guid_history>fcd11afeca413300d9ca9ba3d2d51005:105956502</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-30 10:33:46</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>53482d28ee734013986eb0caba49db69</sys_id>
+        <sys_metadata>2bb15232db81330057c764d7489619d0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Trades</sys_name>
+        <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
+        <sys_scope_delete display_value="">0796acae3c1b44d480b90d43a626d764</sys_scope_delete>
+        <sys_update_name>sys_ui_module_2bb15232db81330057c764d7489619d0</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_2bb15232db81330057c764d7489619d0">f4d11afedb41330057c764d748961906</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-30 10:33:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

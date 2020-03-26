@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_policy_rule">
+    <sys_data_policy_rule action="DELETE">
+        <disabled>ignore</disabled>
+        <field>balance</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_data_policy_rule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-22 10:07:08</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_data_policy display_value="Make Field Mandatory">14e2b1d5db776300d8ccd421cf961930</sys_data_policy>
+        <sys_id>31237995db776300d8ccd421cf96193d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>balance</sys_name>
+        <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
+        <sys_update_name>sys_data_policy_rule_31237995db776300d8ccd421cf96193d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-22 10:07:08</sys_updated_on>
+        <table>x_0586_trade_manag_profit_loss_statement</table>
+    </sys_data_policy_rule>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</application>
+        <file_path/>
+        <instance_id>94cee5d84fc712c094ac220f0310c711</instance_id>
+        <instance_name>dev21998</instance_name>
+        <name>sys_data_policy_rule_31237995db776300d8ccd421cf96193d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_policy_rule"><sys_data_policy_rule action="INSERT_OR_UPDATE"><disabled>ignore</disabled><field>balance</field><mandatory>true</mandatory><sys_class_name>sys_data_policy_rule</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-22 10:07:08</sys_created_on><sys_customer_update>false</sys_customer_update><sys_data_policy display_value="Make Field Mandatory">14e2b1d5db776300d8ccd421cf961930</sys_data_policy><sys_id>31237995db776300d8ccd421cf96193d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>balance</sys_name><sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope><sys_update_name>sys_data_policy_rule_31237995db776300d8ccd421cf96193d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-22 10:07:08</sys_updated_on><table>x_0586_trade_manag_profit_loss_statement</table></sys_data_policy_rule></record_update>]]></payload>
+        <payload_hash>257898841</payload_hash>
+        <record_name>balance</record_name>
+        <reverted_from/>
+        <source>7bd52d59db376300d8ccd421cf9619f6</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-22 10:07:08</sys_created_on>
+        <sys_id>b123b5d5db776300d8ccd421cf96199b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16914ac456b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-22 10:07:08</sys_updated_on>
+        <type>Data Policy Rule</type>
+        <update_guid>752379954d77630066689305d5df643e</update_guid>
+        <update_guid_history>752379954d77630066689305d5df643e:257898841</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-20 13:39:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_data_policy_rule">sys_data_policy_rule</sys_db_object>
+        <sys_id>04504ba97060420480626009ffebaed9</sys_id>
+        <sys_metadata>31237995db776300d8ccd421cf96193d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>balance</sys_name>
+        <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
+        <sys_parent display_value="">14e2b1d5db776300d8ccd421cf961930</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
+        <sys_scope_delete display_value="">0796acae3c1b44d480b90d43a626d764</sys_scope_delete>
+        <sys_update_name>sys_data_policy_rule_31237995db776300d8ccd421cf96193d</sys_update_name>
+        <sys_update_version display_value="sys_data_policy_rule_31237995db776300d8ccd421cf96193d">b123b5d5db776300d8ccd421cf96199b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-20 13:39:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

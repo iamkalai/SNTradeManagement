@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_actual_quantity</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Calculate Realised PL</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading) {
+		return;
+	}
+	
+	if(newValue === '')
+		{
+		g_form.clearValue('u_exit_price');
+		g_form.clearValue('u_actual_quantity');
+		g_form.clearValue('u_realised_pl_percent');
+		g_form.clearValue('u_realised_pl');
+		return;
+	}
+	
+	var stockPrice = g_form.getDecimalValue('u_stock_price');
+	var actualPrice = g_form.getDecimalValue('u_exit_price');
+	var actualQuantity = g_form.getDecimalValue('u_actual_quantity');
+	var capital = g_form.getDecimalValue('u_capital');
+	
+	if(stockPrice != 0 && actualPrice != 0 && actualQuantity != 0 && capital != 0)
+		{
+		var actualPL = round((actualPrice - stockPrice)*actualQuantity);
+		var capitalUsed = actualQuantity * stockPrice;
+		
+		g_form.setValue('u_realised_pl', actualPL);
+		
+		if (capitalUsed < capital) {
+			g_form.setValue('u_realised_pl_percent', round((actualPL*100)/capitalUsed));
+		} else {
+			g_form.setValue('u_realised_pl_percent', round((actualPL*100)/capital));
+		}
+	}
+	
+	function round(value) {
+		return Number(Math.round(value+'e2')+'e-2');
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-02 11:58:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8d72e923db09330057c764d748961902</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Calculate Realised PL</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
+        <sys_update_name>sys_script_client_8d72e923db09330057c764d748961902</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-14 04:44:53</sys_updated_on>
+        <table>x_0586_trade_manag_trade</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
