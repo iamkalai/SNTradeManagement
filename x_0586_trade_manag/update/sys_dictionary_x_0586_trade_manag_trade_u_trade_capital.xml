@@ -14,7 +14,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Trade Capital</column_label>
+        <column_label>Deprecated Trade Capital</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -55,15 +55,15 @@
         <sys_created_on>2019-04-30 07:16:13</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>d26c4ab2db01330057c764d748961901</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Trade Capital</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Deprecated Trade Capital</sys_name>
         <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name>sys_dictionary_x_0586_trade_manag_trade_u_trade_capital</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-04-30 07:16:13</sys_updated_on>
+        <sys_updated_on>2020-07-30 15:42:32</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

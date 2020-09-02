@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>u_trade_capital</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-30 07:39:44</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8cf31e72db81330057c764d7489619d5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>u_trade_capital</sys_name>
+        <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
+        <sys_update_name>sys_ui_policy_action_8cf31e72db81330057c764d7489619d5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-23 18:11:54</sys_updated_on>
+        <table>x_0586_trade_manag_trade</table>
+        <ui_policy display_value="Default Fields Behaviour">c6839ab2db81330057c764d748961926</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</application>
+        <file_path/>
+        <instance_id>94cee5d84fc712c094ac220f0310c711</instance_id>
+        <instance_name>dev21998</instance_name>
+        <name>sys_ui_policy_action_8cf31e72db81330057c764d7489619d5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>u_trade_capital</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-04-30 07:39:44</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>8cf31e72db81330057c764d7489619d5</sys_id><sys_mod_count>1</sys_mod_count><sys_name>u_trade_capital</sys_name><sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope><sys_update_name>sys_ui_policy_action_8cf31e72db81330057c764d7489619d5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-05-23 18:11:54</sys_updated_on><table>x_0586_trade_manag_trade</table><ui_policy display_value="Default Fields Behaviour">c6839ab2db81330057c764d748961926</ui_policy><visible>ignore</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>312767982</payload_hash>
+        <record_name>u_trade_capital</record_name>
+        <reverted_from/>
+        <source>7bd52d59db376300d8ccd421cf9619f6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-23 18:11:54</sys_created_on>
+        <sys_id>e431c756db21330057c764d74896199a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16ae5e46f140000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-23 18:11:54</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>ac31c756332133003e744c17b2a74499</update_guid>
+        <update_guid_history>ac31c756332133003e744c17b2a74499:312767982,48f352f21d8133007791b76464179289:-1816488206</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-30 16:52:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>54cecc742ca246089e5dd6a46f28f144</sys_id>
+        <sys_metadata>8cf31e72db81330057c764d7489619d5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_trade_capital</sys_name>
+        <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
+        <sys_parent display_value="Default Fields Behaviour">c6839ab2db81330057c764d748961926</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
+        <sys_scope_delete display_value="">0796acae3c1b44d480b90d43a626d764</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_8cf31e72db81330057c764d7489619d5</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_8cf31e72db81330057c764d7489619d5">e431c756db21330057c764d74896199a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-30 16:52:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

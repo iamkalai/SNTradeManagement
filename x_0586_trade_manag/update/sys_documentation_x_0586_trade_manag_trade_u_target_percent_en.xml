@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="u_target_percent" label="Target Percent" language="en" table="x_0586_trade_manag_trade">
+    <sys_documentation element="u_target_percent" label="Deprecated Target Percent" language="en" table="x_0586_trade_manag_trade">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>u_target_percent</element>
             <help/>
             <hint/>
-            <label>Target Percent</label>
+            <label>Deprecated Target Percent</label>
             <language>en</language>
             <name>x_0586_trade_manag_trade</name>
-            <plural>Target Percents</plural>
+            <plural>Deprecated Target Percents</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-04-30 07:16:15</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_id>c89e42fadb41330057c764d7489619c5</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>Target Percent</sys_name>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Deprecated Target Percent</sys_name>
             <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
             <sys_update_name>sys_documentation_x_0586_trade_manag_trade_u_target_percent_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-04-30 07:16:15</sys_updated_on>
+            <sys_updated_on>2020-07-30 15:41:05</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

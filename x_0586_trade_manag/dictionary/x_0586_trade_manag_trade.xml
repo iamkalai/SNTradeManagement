@@ -1,12 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Trade" max_length="40" name="x_0586_trade_manag_trade" sizeclass="52" type="collection">
+    <element label="Trade" max_length="40" name="x_0586_trade_manag_trade" sizeclass="68" type="collection">
+        <element label="Closing Comments" max_length="4000" name="closing_comments" type="string"/>
+        <element label="Duration" max_length="40" name="duration" type="integer"/>
+        <element default="javascript:gs.nowDateTime()" dynamic_default_value="79cb83a85f220100a9ad2572f2b4773c" label="Entry Date" max_length="40" name="entry_date" type="glide_date_time" use_dynamic_default="true"/>
+        <element label="Entry Rationale" max_length="4000" name="entry_rationale" type="string"/>
+        <element label="Exit Date" max_length="40" name="exit_date" type="glide_date_time"/>
+        <element choice="3" default="stock" label="Instrument" max_length="40" name="instrument" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Stock" sequence="10" value="stock"/>
+                <element inactive_on_update="false" label="Future" sequence="20" value="future"/>
+                <element inactive_on_update="false" label="Option" sequence="30" value="option"/>
+            </choice>
+        </element>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Points Captured" max_length="20" name="points_captured" type="decimal"/>
         <element default="true" label="Active" max_length="40" name="u_active" type="boolean"/>
-        <element label="Actual Quantity" max_length="40" name="u_actual_quantity" type="integer"/>
-        <element default="10000" label="Capital" max_length="20" name="u_capital" type="decimal"/>
-        <element label="Comments" max_length="4000" name="u_comments" type="journal"/>
-        <element label="Actual Exit Price" max_length="20" name="u_exit_price" type="decimal"/>
-        <element choice="1" default="2" label="Margin" max_length="40" name="u_margin" type="choice">
+        <element label="Quantity" max_length="40" name="u_actual_quantity" type="integer"/>
+        <element default="10000" label="Deprecated Capital" max_length="20" name="u_capital" type="decimal"/>
+        <element label="Deprecated Comments" max_length="4000" name="u_comments" type="journal"/>
+        <element label="Exit Price" max_length="20" name="u_exit_price" type="decimal"/>
+        <element choice="1" default="2" label="Deprecated Margin" max_length="40" name="u_margin" type="choice">
             <choice>
                 <element inactive_on_update="false" label="1" sequence="0" value="1"/>
                 <element inactive_on_update="false" label="2" sequence="1" value="2"/>
@@ -20,14 +33,14 @@
                 <element inactive_on_update="false" label="10" sequence="9" value="10"/>
             </choice>
         </element>
-        <element label="Max Gain" max_length="20" name="u_max_gain" type="decimal"/>
-        <element label="Max Loss" max_length="20" name="u_max_loss" type="decimal"/>
-        <element label="Quantity" max_length="40" name="u_quantity" type="integer"/>
-        <element label="Realised PL" max_length="20" name="u_realised_pl" type="decimal"/>
-        <element label="Realised PL Percent" max_length="20" name="u_realised_pl_percent" type="decimal"/>
+        <element label="Deprecated Max Gain" max_length="20" name="u_max_gain" type="decimal"/>
+        <element label="Deprecated Max Loss" max_length="20" name="u_max_loss" type="decimal"/>
+        <element label="Deprecated Quantity" max_length="40" name="u_quantity" type="integer"/>
+        <element label="Total PL" max_length="20" name="u_realised_pl" type="decimal"/>
+        <element label="PL Percent" max_length="20" name="u_realised_pl_percent" type="decimal"/>
         <element label="Stock" max_length="32" name="u_stock" reference="core_company" reference_qual="stock_symbolISNOTEMPTY^publicly_traded=true^vendor_typeLIKE2c094c08db5fcb00d8ccd421cf961910^EQ" reference_qual_condition="stock_symbolISNOTEMPTY^publicly_traded=true^vendor_typeLIKE2c094c08db5fcb00d8ccd421cf961910^EQ" type="reference"/>
-        <element label="Stock Price" max_length="20" name="u_stock_price" type="decimal"/>
-        <element choice="1" default=".5" label="Stop Loss Percent" max_length="40" name="u_stop_loss_percent" type="choice">
+        <element label="Entry Price" max_length="20" name="u_stock_price" type="decimal"/>
+        <element choice="1" default=".5" label="Deprecated Stop Loss Percent" max_length="40" name="u_stop_loss_percent" type="choice">
             <choice>
                 <element inactive_on_update="false" label=".5" sequence="0" value=".5"/>
                 <element inactive_on_update="false" label="1" sequence="1" value="1"/>
@@ -41,7 +54,7 @@
             </choice>
         </element>
         <element label="Stop Loss Price" max_length="20" name="u_stop_loss_price" type="decimal"/>
-        <element choice="1" default="1.5" label="Target Percent" max_length="40" name="u_target_percent" type="choice">
+        <element choice="1" default="1.5" label="Deprecated Target Percent" max_length="40" name="u_target_percent" type="choice">
             <choice>
                 <element inactive_on_update="false" label="1" sequence="0" value="1"/>
                 <element inactive_on_update="false" label="1.5" sequence="1" value="1.5"/>
@@ -54,8 +67,8 @@
                 <element inactive_on_update="false" label="5" sequence="8" value="5"/>
             </choice>
         </element>
-        <element label="Target Price" max_length="20" name="u_target_price" type="decimal"/>
-        <element label="Trade Capital" max_length="20" name="u_trade_capital" type="decimal"/>
+        <element label="Deprecated Target Price" max_length="20" name="u_target_price" type="decimal"/>
+        <element label="Deprecated Trade Capital" max_length="20" name="u_trade_capital" type="decimal"/>
         <element choice="3" default="long" label="Type" max_length="40" name="u_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Long" sequence="0" value="long"/>

@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="u_max_loss" label="Max Loss" language="en" table="x_0586_trade_manag_trade">
+    <sys_documentation element="u_max_loss" label="Deprecated Max Loss" language="en" table="x_0586_trade_manag_trade">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>u_max_loss</element>
             <help/>
             <hint/>
-            <label>Max Loss</label>
+            <label>Deprecated Max Loss</label>
             <language>en</language>
             <name>x_0586_trade_manag_trade</name>
-            <plural>Max Loss</plural>
+            <plural>Deprecated Max Loss</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-05-02 03:18:07</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_id>d73b2b1bdb01330057c764d7489619c8</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>Max Loss</sys_name>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Deprecated Max Loss</sys_name>
             <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
             <sys_update_name>sys_documentation_x_0586_trade_manag_trade_u_max_loss_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-05-02 03:18:07</sys_updated_on>
+            <sys_updated_on>2020-07-30 15:44:33</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

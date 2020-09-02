@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="b733a5ca1b9298908ed631d7dc4bcb9f" sys_domain="global" table="x_0586_trade_manag_trade" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-30 15:52:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f733a5ca1b9298908ed631d7dc4bcba0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_0586_trade_manag_trade" name="x_0586_trade_manag_trade" sys_domain="global" view="Default view">b733a5ca1b9298908ed631d7dc4bcb9f</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_0586_trade_manag_trade" sys_domain="global" view="Default view">b8be02badb41330057c764d748961980</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-30 15:52:21</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-30 16:30:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3afb250e1bd298908ed631d7dc4bcbfc</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_0586_trade_manag_trade" name="x_0586_trade_manag_trade" sys_domain="global" view="Default view">b733a5ca1b9298908ed631d7dc4bcb9f</sys_ui_form>
+            <sys_ui_section caption="Entry" display_value="Entry" name="x_0586_trade_manag_trade" sys_domain="global" view="Default view">72fb250e1bd298908ed631d7dc4bcba1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-30 16:30:30</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-30 16:27:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2c5be1ca1bd298908ed631d7dc4bcb72</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_0586_trade_manag_trade" name="x_0586_trade_manag_trade" sys_domain="global" view="Default view">b733a5ca1b9298908ed631d7dc4bcb9f</sys_ui_form>
+            <sys_ui_section caption="Exit" display_value="Exit" name="x_0586_trade_manag_trade" sys_domain="global" view="Default view">d05be1ca1bd298908ed631d7dc4bcb1e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-30 16:30:31</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-30 16:30:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7afb650e1bd298908ed631d7dc4bcb00</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_0586_trade_manag_trade" name="x_0586_trade_manag_trade" sys_domain="global" view="Default view">b733a5ca1b9298908ed631d7dc4bcb9f</sys_ui_form>
+            <sys_ui_section caption="Summary" display_value="Summary" name="x_0586_trade_manag_trade" sys_domain="global" view="Default view">36fb250e1bd298908ed631d7dc4bcba2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-30 16:30:31</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-30 15:53:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>da73a14e1b9298908ed631d7dc4bcb33</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_0586_trade_manag_trade" name="x_0586_trade_manag_trade" sys_domain="global" view="Default view">b733a5ca1b9298908ed631d7dc4bcb9f</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_0586_trade_manag_trade" sys_domain="global" view="Default view">9673a14e1b9298908ed631d7dc4bcb31</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-30 16:30:31</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_0586_trade_manag_trade</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-30 15:52:20</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b733a5ca1b9298908ed631d7dc4bcb9f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_0586_trade_manag_trade</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
+            <sys_update_name>sys_ui_form_sections_b733a5ca1b9298908ed631d7dc4bcb9f</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-30 15:52:20</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

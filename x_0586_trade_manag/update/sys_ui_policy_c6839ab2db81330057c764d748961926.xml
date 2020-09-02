@@ -10,7 +10,7 @@
         <model_table/>
         <on_load>true</on_load>
         <order>100</order>
-        <reverse_if_false>true</reverse_if_false>
+        <reverse_if_false>false</reverse_if_false>
         <run_scripts>true</run_scripts>
         <script_false><![CDATA[function onCondition() {
 
@@ -19,7 +19,8 @@
 
     if (!g_form.isNewRecord()) {
         g_form.setMandatory('u_exit_price', true);
-        g_form.setMandatory('u_actual_quantity', true);
+        g_form.setMandatory('exit_date', true);
+		g_form.setMandatory('closing_comments', true);
     }
 
 }]]></script_true>
@@ -32,7 +33,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c6839ab2db81330057c764d748961926</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Default Fields Behaviour</sys_name>
         <sys_overrides/>
         <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
@@ -41,7 +42,7 @@
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name>sys_ui_policy_c6839ab2db81330057c764d748961926</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-20 13:50:12</sys_updated_on>
+        <sys_updated_on>2020-07-30 17:10:33</sys_updated_on>
         <table>x_0586_trade_manag_trade</table>
         <ui_type>10</ui_type>
         <view/>

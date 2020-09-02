@@ -3,122 +3,92 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_0586_trade_manag_trade" element="NULL" name="x_0586_trade_manag_trade" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">58a969ebdb09330057c764d74896194f</list_id>
+            <list_id display_value="x_0586_trade_manag_trade" element="NULL" name="x_0586_trade_manag_trade" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0caf75021b9698908ed631d7dc4bcb65</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-05-02 12:30:20</sys_created_on>
-            <sys_id>90a969ebdb09330057c764d748961950</sys_id>
+            <sys_created_on>2020-07-30 17:56:20</sys_created_on>
+            <sys_id>0caf75021b9698908ed631d7dc4bcb66</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-05-02 12:30:20</sys_updated_on>
+            <sys_updated_on>2020-07-30 17:56:20</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_stock</element>
-            <list_id display_value="x_0586_trade_manag_trade" element="NULL" name="x_0586_trade_manag_trade" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">58a969ebdb09330057c764d74896194f</list_id>
+            <list_id display_value="x_0586_trade_manag_trade" element="NULL" name="x_0586_trade_manag_trade" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0caf75021b9698908ed631d7dc4bcb65</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-05-02 12:30:20</sys_created_on>
-            <sys_id>14a969ebdb09330057c764d748961950</sys_id>
+            <sys_created_on>2020-07-30 17:56:20</sys_created_on>
+            <sys_id>80af75021b9698908ed631d7dc4bcb67</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-05-02 12:30:20</sys_updated_on>
+            <sys_updated_on>2020-07-30 17:56:20</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_type</element>
-            <list_id display_value="x_0586_trade_manag_trade" element="NULL" name="x_0586_trade_manag_trade" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">58a969ebdb09330057c764d74896194f</list_id>
+            <list_id display_value="x_0586_trade_manag_trade" element="NULL" name="x_0586_trade_manag_trade" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0caf75021b9698908ed631d7dc4bcb65</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-05-02 12:30:20</sys_created_on>
-            <sys_id>94a969ebdb09330057c764d748961950</sys_id>
+            <sys_created_on>2020-07-30 17:56:20</sys_created_on>
+            <sys_id>04af75021b9698908ed631d7dc4bcb67</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-05-02 12:30:20</sys_updated_on>
+            <sys_updated_on>2020-07-30 17:56:20</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>u_capital</element>
-            <list_id display_value="x_0586_trade_manag_trade" element="NULL" name="x_0586_trade_manag_trade" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">58a969ebdb09330057c764d74896194f</list_id>
+            <element>u_actual_quantity</element>
+            <list_id display_value="x_0586_trade_manag_trade" element="NULL" name="x_0586_trade_manag_trade" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0caf75021b9698908ed631d7dc4bcb65</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-05-02 12:30:20</sys_created_on>
-            <sys_id>18a969ebdb09330057c764d748961950</sys_id>
+            <sys_created_on>2020-07-30 17:56:20</sys_created_on>
+            <sys_id>84af75021b9698908ed631d7dc4bcb67</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-05-02 12:30:20</sys_updated_on>
+            <sys_updated_on>2020-07-30 17:56:20</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>u_margin</element>
-            <list_id display_value="x_0586_trade_manag_trade" element="NULL" name="x_0586_trade_manag_trade" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">58a969ebdb09330057c764d74896194f</list_id>
+            <element>u_realised_pl</element>
+            <list_id display_value="x_0586_trade_manag_trade" element="NULL" name="x_0586_trade_manag_trade" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0caf75021b9698908ed631d7dc4bcb65</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-05-02 12:30:20</sys_created_on>
-            <sys_id>98a969ebdb09330057c764d748961950</sys_id>
+            <sys_created_on>2020-07-30 17:56:20</sys_created_on>
+            <sys_id>08af75021b9698908ed631d7dc4bcb67</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-05-02 12:30:20</sys_updated_on>
+            <sys_updated_on>2020-07-30 17:56:20</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>u_actual_quantity</element>
-            <list_id display_value="x_0586_trade_manag_trade" element="NULL" name="x_0586_trade_manag_trade" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">58a969ebdb09330057c764d74896194f</list_id>
+            <element>u_realised_pl_percent</element>
+            <list_id display_value="x_0586_trade_manag_trade" element="NULL" name="x_0586_trade_manag_trade" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0caf75021b9698908ed631d7dc4bcb65</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-05-02 12:30:20</sys_created_on>
-            <sys_id>1ca969ebdb09330057c764d748961950</sys_id>
+            <sys_created_on>2020-07-30 17:56:20</sys_created_on>
+            <sys_id>88af75021b9698908ed631d7dc4bcb67</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-05-02 12:30:20</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>u_realised_pl</element>
-            <list_id display_value="x_0586_trade_manag_trade" element="NULL" name="x_0586_trade_manag_trade" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">58a969ebdb09330057c764d74896194f</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>6</position>
-            <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-05-02 12:30:20</sys_created_on>
-            <sys_id>9ca969ebdb09330057c764d748961950</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-05-02 12:30:20</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>u_realised_pl_percent</element>
-            <list_id display_value="x_0586_trade_manag_trade" element="NULL" name="x_0586_trade_manag_trade" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">58a969ebdb09330057c764d74896194f</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>7</position>
-            <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-05-02 12:30:20</sys_created_on>
-            <sys_id>10a969ebdb09330057c764d748961951</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-05-02 12:30:20</sys_updated_on>
+            <sys_updated_on>2020-07-30 17:56:20</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -132,11 +102,11 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-05-02 12:30:20</sys_created_on>
+            <sys_created_on>2020-07-30 17:56:20</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>58a969ebdb09330057c764d74896194f</sys_id>
+            <sys_id>0caf75021b9698908ed631d7dc4bcb65</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_0586_trade_manag_trade</sys_name>
             <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
@@ -145,7 +115,7 @@
             <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
             <sys_update_name>sys_ui_list_x_0586_trade_manag_trade_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-05-02 12:30:20</sys_updated_on>
+            <sys_updated_on>2020-07-30 17:56:20</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

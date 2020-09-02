@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Price" section_id="7733a5ca1b9298908ed631d7dc4bcba1" sys_domain="global" table="x_0586_trade_manag_trade" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_stock_price</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-30 15:52:56</sys_created_on>
+            <sys_id>a463250e1b9298908ed631d7dc4bcb0c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Price" display_value="Price" name="x_0586_trade_manag_trade" sys_domain="global" view="Default view">7733a5ca1b9298908ed631d7dc4bcba1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-30 15:52:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_exit_price</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-30 15:52:56</sys_created_on>
+            <sys_id>2c63250e1b9298908ed631d7dc4bcb0c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Price" display_value="Price" name="x_0586_trade_manag_trade" sys_domain="global" view="Default view">7733a5ca1b9298908ed631d7dc4bcba1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-30 15:52:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_stop_loss_price</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-30 15:52:56</sys_created_on>
+            <sys_id>a063250e1b9298908ed631d7dc4bcb0d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Price" display_value="Price" name="x_0586_trade_manag_trade" sys_domain="global" view="Default view">7733a5ca1b9298908ed631d7dc4bcba1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-30 15:52:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Price</caption>
+            <header>false</header>
+            <name>x_0586_trade_manag_trade</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-30 15:52:21</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7733a5ca1b9298908ed631d7dc4bcba1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Price</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
+            <sys_update_name>sys_ui_section_7733a5ca1b9298908ed631d7dc4bcba1</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-30 15:52:21</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</application>
+        <file_path/>
+        <instance_id>94cee5d84fc712c094ac220f0310c711</instance_id>
+        <instance_name>dev21998</instance_name>
+        <name>sys_ui_section_7733a5ca1b9298908ed631d7dc4bcba1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Price" section_id="7733a5ca1b9298908ed631d7dc4bcba1" sys_domain="global" table="x_0586_trade_manag_trade" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>u_stock_price</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-07-30 15:52:56</sys_created_on><sys_id>a463250e1b9298908ed631d7dc4bcb0c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Price" display_value="Price" name="x_0586_trade_manag_trade" sys_domain="global" view="Default view">7733a5ca1b9298908ed631d7dc4bcba1</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-07-30 15:52:56</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_exit_price</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-07-30 15:52:56</sys_created_on><sys_id>2c63250e1b9298908ed631d7dc4bcb0c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Price" display_value="Price" name="x_0586_trade_manag_trade" sys_domain="global" view="Default view">7733a5ca1b9298908ed631d7dc4bcba1</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-07-30 15:52:56</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_stop_loss_price</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-07-30 15:52:56</sys_created_on><sys_id>a063250e1b9298908ed631d7dc4bcb0d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Price" display_value="Price" name="x_0586_trade_manag_trade" sys_domain="global" view="Default view">7733a5ca1b9298908ed631d7dc4bcba1</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-07-30 15:52:56</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Price</caption><header>false</header><name>x_0586_trade_manag_trade</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-07-30 15:52:21</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7733a5ca1b9298908ed631d7dc4bcba1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Price</sys_name><sys_overrides/><sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope><sys_update_name>sys_ui_section_7733a5ca1b9298908ed631d7dc4bcba1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-07-30 15:52:21</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1024858201</payload_hash>
+        <record_name>Trade</record_name>
+        <reverted_from/>
+        <source>d128d4691bff80108ed631d7dc4bcbdd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-30 15:52:57</sys_created_on>
+        <sys_id>2463250e1b9298908ed631d7dc4bcb0f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173a06d2fba0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-30 15:52:57</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>a863250e1c929890e9f3976c20bf890e</update_guid>
+        <update_guid_history>a863250e1c929890e9f3976c20bf890e:1024858201,5d43e10e6b929890c267a82b09e34e15:-448615528</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-30 16:27:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>0d4bf2c0d78548f88ba278706b6eaf90</sys_id>
+        <sys_metadata>7733a5ca1b9298908ed631d7dc4bcba1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Price</sys_name>
+        <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
+        <sys_parent display_value="Trade">f4fb063adb41330057c764d74896191d</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
+        <sys_scope_delete display_value="">0796acae3c1b44d480b90d43a626d764</sys_scope_delete>
+        <sys_update_name>sys_ui_section_7733a5ca1b9298908ed631d7dc4bcba1</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_7733a5ca1b9298908ed631d7dc4bcba1">2463250e1b9298908ed631d7dc4bcb0f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-30 16:27:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

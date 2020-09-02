@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Exit" section_id="d05be1ca1bd298908ed631d7dc4bcb1e" sys_domain="global" table="x_0586_trade_manag_trade" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_exit_price</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-30 16:30:31</sys_created_on>
+            <sys_id>4ffb650e1bd298908ed631d7dc4bcb3b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Exit" display_value="Exit" name="x_0586_trade_manag_trade" sys_domain="global" view="Default view">d05be1ca1bd298908ed631d7dc4bcb1e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-30 16:30:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-30 16:30:31</sys_created_on>
+            <sys_id>c3fb650e1bd298908ed631d7dc4bcb3c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Exit" display_value="Exit" name="x_0586_trade_manag_trade" sys_domain="global" view="Default view">d05be1ca1bd298908ed631d7dc4bcb1e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-30 16:30:31</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>exit_date</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-30 16:30:31</sys_created_on>
+            <sys_id>4bfb650e1bd298908ed631d7dc4bcb3c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Exit" display_value="Exit" name="x_0586_trade_manag_trade" sys_domain="global" view="Default view">d05be1ca1bd298908ed631d7dc4bcb1e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-30 16:30:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Exit</caption>
+            <header>false</header>
+            <name>x_0586_trade_manag_trade</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-30 16:27:36</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d05be1ca1bd298908ed631d7dc4bcb1e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Exit</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
+            <sys_update_name>sys_ui_section_d05be1ca1bd298908ed631d7dc4bcb1e</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-30 16:27:36</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Idea" max_length="40" name="x_0586_trade_manag_idea" sizeclass="7" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Entry Price" max_length="20" name="entry_price" type="decimal"/>
+        <element label="Rationale" max_length="8000" name="rationale" type="html"/>
+        <element label="Resistance" max_length="20" name="resistance" type="decimal"/>
+        <element label="Stock" max_length="32" name="stock" reference="core_company" type="reference"/>
+        <element label="Success" max_length="40" name="success" type="boolean"/>
+        <element label="Support" max_length="20" name="support" type="decimal"/>
+        <element choice="3" default="pending" label="Status" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Pending" sequence="10" value="pending"/>
+                <element inactive_on_update="false" label="Executed" sequence="20" value="executed"/>
+                <element inactive_on_update="false" label="Closed" sequence="30" value="closed"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="40" value="cancelled"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="stock"/>
+        </index>
+    </element>
+</database>
