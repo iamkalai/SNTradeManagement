@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description/>
+        <name>Insert option contracts</name>
+        <record_for_rollback>false</record_for_rollback>
+        <script><![CDATA[var gr = new GlideRecord("core_company");
+gr.addEncodedQuery("name=BankNifty 22000 PE");
+gr.query();
+if (gr.next()) {
+    for (var i = 20000; i <= 40000; i = i + 100) {
+        var newStockCE = new GlideRecord("core_company");
+        newStockCE.addEncodedQuery("name=BankNifty " + i + " CE");
+        newStockCE.query();
+        if (!newStockCE.hasNext()) {
+            gr.name = "BankNifty " + i + " CE";
+            gr.stock_symbol = "BankNifty " + i + " CE";
+            gr.insert();
+        }
+
+        var newStockPE = new GlideRecord("core_company");
+        newStockPE.addEncodedQuery("name=BankNifty " + i + " PE");
+        newStockPE.query();
+        if (!newStockPE.hasNext()) {
+            gr.name = "BankNifty " + i + " PE";
+            gr.stock_symbol = "BankNifty " + i + " PE";
+            gr.insert();
+        }
+
+    }
+}]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-06 10:48:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e3eb14a52fe5acd051dad5f62799b602</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Insert option contracts</sys_name>
+        <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
+        <sys_update_name>sys_script_fix_e3eb14a52fe5acd051dad5f62799b602</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-06 10:48:04</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

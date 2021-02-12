@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="incident_sla" version="2" view="RPT1f28f027d7010200b96d45a3ce610337">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>inc_number</element>
+            <list_id display_value="incident_sla" element="NULL" name="incident_sla" parent="NULL" relationship="NULL" sys_domain="global" view="c9baccc01ba318908ed631d7dc4bcb82">4dbaccc01ba318908ed631d7dc4bcb83</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-24 07:36:08</sys_created_on>
+            <sys_id>c5baccc01ba318908ed631d7dc4bcb85</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-24 07:36:08</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>inc_short_description</element>
+            <list_id display_value="incident_sla" element="NULL" name="incident_sla" parent="NULL" relationship="NULL" sys_domain="global" view="c9baccc01ba318908ed631d7dc4bcb82">4dbaccc01ba318908ed631d7dc4bcb83</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-24 07:36:08</sys_created_on>
+            <sys_id>cdbaccc01ba318908ed631d7dc4bcb85</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-24 07:36:08</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>inc_priority</element>
+            <list_id display_value="incident_sla" element="NULL" name="incident_sla" parent="NULL" relationship="NULL" sys_domain="global" view="c9baccc01ba318908ed631d7dc4bcb82">4dbaccc01ba318908ed631d7dc4bcb83</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-24 07:36:08</sys_created_on>
+            <sys_id>41baccc01ba318908ed631d7dc4bcb86</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-24 07:36:08</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>inc_state</element>
+            <list_id display_value="incident_sla" element="NULL" name="incident_sla" parent="NULL" relationship="NULL" sys_domain="global" view="c9baccc01ba318908ed631d7dc4bcb82">4dbaccc01ba318908ed631d7dc4bcb83</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-24 07:36:09</sys_created_on>
+            <sys_id>c1baccc01ba318908ed631d7dc4bcb86</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-24 07:36:09</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>inc_assignment_group</element>
+            <list_id display_value="incident_sla" element="NULL" name="incident_sla" parent="NULL" relationship="NULL" sys_domain="global" view="c9baccc01ba318908ed631d7dc4bcb82">4dbaccc01ba318908ed631d7dc4bcb83</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-24 07:36:09</sys_created_on>
+            <sys_id>45baccc01ba318908ed631d7dc4bcb86</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-24 07:36:09</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>inc_assigned_to</element>
+            <list_id display_value="incident_sla" element="NULL" name="incident_sla" parent="NULL" relationship="NULL" sys_domain="global" view="c9baccc01ba318908ed631d7dc4bcb82">4dbaccc01ba318908ed631d7dc4bcb83</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-24 07:36:09</sys_created_on>
+            <sys_id>c5baccc01ba318908ed631d7dc4bcb86</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-24 07:36:09</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>inc_category</element>
+            <list_id display_value="incident_sla" element="NULL" name="incident_sla" parent="NULL" relationship="NULL" sys_domain="global" view="c9baccc01ba318908ed631d7dc4bcb82">4dbaccc01ba318908ed631d7dc4bcb83</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-24 07:36:09</sys_created_on>
+            <sys_id>49baccc01ba318908ed631d7dc4bcb86</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-24 07:36:09</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>incident_sla</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-24 07:36:08</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4dbaccc01ba318908ed631d7dc4bcb83</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>incident_sla</sys_name>
+            <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
+            <sys_update_name>sys_ui_list_incident_sla_RPT1f28f027d7010200b96d45a3ce610337</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-24 07:36:08</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpt1f28f027d7010200b96d45a3ce610337" name="RPT1f28f027d7010200b96d45a3ce610337">c9baccc01ba318908ed631d7dc4bcb82</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

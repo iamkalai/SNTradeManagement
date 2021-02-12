@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Option Chain" max_length="40" name="x_0586_trade_manag_option_chain" sizeclass="82" type="collection">
+        <element label="LTP" max_length="20" name="ltp" type="decimal"/>
+        <element label="OI" max_length="40" name="oi" type="integer"/>
+        <element choice="1" label="Option" max_length="40" name="option" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="CALL" value="call"/>
+                <element inactive_on_update="false" label="PUT" value="put"/>
+            </choice>
+        </element>
+        <element label="Strike Price" max_length="40" name="strike_price" type="integer"/>
+    </element>
+</database>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_policy_rule">
+    <sys_data_policy_rule action="DELETE">
+        <disabled>ignore</disabled>
+        <field>resistance</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_data_policy_rule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-13 08:13:19</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_data_policy display_value="Default Idea">e63048621bee54148ed631d7dc4bcb39</sys_data_policy>
+        <sys_id>9c700c621bee54148ed631d7dc4bcb54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>resistance</sys_name>
+        <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
+        <sys_update_name>sys_data_policy_rule_9c700c621bee54148ed631d7dc4bcb54</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-13 08:13:19</sys_updated_on>
+        <table>x_0586_trade_manag_idea</table>
+    </sys_data_policy_rule>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</application>
+        <file_path/>
+        <instance_id>94cee5d84fc712c094ac220f0310c711</instance_id>
+        <instance_name>dev21998</instance_name>
+        <name>sys_data_policy_rule_9c700c621bee54148ed631d7dc4bcb54</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_policy_rule"><sys_data_policy_rule action="INSERT_OR_UPDATE"><disabled>ignore</disabled><field>resistance</field><mandatory>true</mandatory><sys_class_name>sys_data_policy_rule</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-08-13 08:13:19</sys_created_on><sys_customer_update>false</sys_customer_update><sys_data_policy display_value="Default Idea">e63048621bee54148ed631d7dc4bcb39</sys_data_policy><sys_id>9c700c621bee54148ed631d7dc4bcb54</sys_id><sys_mod_count>0</sys_mod_count><sys_name>resistance</sys_name><sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope><sys_update_name>sys_data_policy_rule_9c700c621bee54148ed631d7dc4bcb54</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-08-13 08:13:19</sys_updated_on><table>x_0586_trade_manag_idea</table></sys_data_policy_rule></record_update>]]></payload>
+        <payload_hash>-1895890473</payload_hash>
+        <record_name>resistance</record_name>
+        <reverted_from/>
+        <source>d128d4691bff80108ed631d7dc4bcbdd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-13 08:13:19</sys_created_on>
+        <sys_id>94700c621bee54148ed631d7dc4bcb57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173e6e16c310000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-13 08:13:19</sys_updated_on>
+        <type>Data Policy Rule</type>
+        <update_guid>9c700c6245ee54149586c036df266d56</update_guid>
+        <update_guid_history>9c700c6245ee54149586c036df266d56:-1895890473</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-09 15:07:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_data_policy_rule">sys_data_policy_rule</sys_db_object>
+        <sys_id>35dbbfd104274db48f2a8985ea3e6389</sys_id>
+        <sys_metadata>9c700c621bee54148ed631d7dc4bcb54</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>resistance</sys_name>
+        <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
+        <sys_parent display_value="Default Idea">e63048621bee54148ed631d7dc4bcb39</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
+        <sys_scope_delete display_value="">0796acae3c1b44d480b90d43a626d764</sys_scope_delete>
+        <sys_update_name>sys_data_policy_rule_9c700c621bee54148ed631d7dc4bcb54</sys_update_name>
+        <sys_update_version display_value="sys_data_policy_rule_9c700c621bee54148ed631d7dc4bcb54">94700c621bee54148ed631d7dc4bcb57</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-09 15:07:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

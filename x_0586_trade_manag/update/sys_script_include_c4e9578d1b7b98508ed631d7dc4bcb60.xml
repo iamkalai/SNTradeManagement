@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_0586_trade_manag.TradeManagementHelper</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>TradeManagementHelper</name>
+        <script><![CDATA[var TradeManagementHelper = Class.create();
+TradeManagementHelper.prototype = {
+
+    initialize: function(obj) {
+
+        this.rangeStart = obj.start;
+        this.rangeEnd = obj.end;
+        this.increment = obj.increment;
+        this.minimumProfit = obj.minimumProfit;
+        this.tradeResultRangeStart = obj.tradeRangeStart;
+        this.tradeResultRangeEnd = obj.tradeRangeEnd;
+        this.optionChain = this.getOptionChain();
+        this.generatedTrades = {};
+        this.allTrades = obj.allTrades;
+
+    },
+
+    generateTrade: function() {
+
+        var option = ["call", "put"];
+        var type = ["buy", "sell"];
+
+        for (var i = 0; i < type.length; i++) {
+            for (var j = 0; j < type.length; j++) {
+                for (var k = 0; k < type.length; k++) {
+                    for (var l = 0; l < type.length; l++) {
+                        for (var m = 0; m < option.length; m++) {
+                            for (var n = 0; n < option.length; n++) {
+                                for (var o = 0; o < option.length; o++) {
+                                    for (var p = 0; p < option.length; p++) {
+
+                                        for (var index1 = this.rangeStart; index1 <= this.rangeEnd; index1 += this.increment) {
+                                            for (var index2 = this.rangeStart; index2 <= this.rangeEnd; index2 += this.increment) {
+                                                for (var index3 = this.rangeStart; index3 <= this.rangeEnd; index3 += this.increment) {
+                                                    for (var index4 = this.rangeStart; index4 <= this.rangeEnd; index4 += this.increment) {
+
+                                                        var trade = {
+                                                            option1: option[m],
+                                                            type1: type[i],
+                                                            strike1: index1,
+                                                            price1: this.getOptionPrice(option[m], index1),
+                                                            option2: option[n],
+                                                            type2: type[j],
+                                                            strike2: index2,
+                                                            price2: this.getOptionPrice(option[n], index2),
+                                                            option3: option[o],
+                                                            type3: type[k],
+                                                            strike3: index3,
+                                                            price3: this.getOptionPrice(option[o], index3),
+                                                            option4: option[p],
+                                                            type4: type[l],
+                                                            strike4: index4,
+                                                            price4: this.getOptionPrice(option[p], index4)
+                                                        };
+
+                                                        //skip if LTP is 0
+                                                        if (trade.price1 == 0 || trade.price2 == 0 || trade.price3 == 0 || trade.price4 == 0) {
+                                                            trade = {};
+                                                            continue;
+                                                        }
+
+                                                        //skip if LTP is 0
+                                                        if (trade.price1 == 0 || trade.price2 == 0 || trade.price3 == 0 || trade.price4 == 0) {
+                                                            trade = {};
+                                                            continue;
+                                                        }
+
+
+                                                        //ignore trade were all are buy or sell of same type
+                                                        if ((trade.type1 == trade.type2 && trade.type3 == trade.type4 && trade.type1 == trade.type4) && (trade.option1 == trade.option2 && trade.option3 == trade.option4 && trade.option1 == trade.option4)) {
+                                                            trade = {};
+                                                            continue;
+                                                        }
+
+                                                        if (!this.isTradeProcessed(trade)) {
+                                                            this.processTrade(trade);
+                                                            //gs.info(JSON.stringify(trade));
+                                                        }
+
+                                                        trade = {};
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        gs.info(Object.keys(this.generatedTrades).length);
+    },
+
+    processTrade: function(obj) {
+
+        var option1 = obj.option1;
+        var type1 = obj.type1;
+        var strike1 = parseFloat(obj.strike1);
+        var price1 = parseFloat(obj.price1);
+
+        var option2 = obj.option2;
+        var type2 = obj.type2;
+        var strike2 = parseFloat(obj.strike2);
+        var price2 = parseFloat(obj.price2);
+
+        var option3 = obj.option3;
+        var type3 = obj.type3;
+        var strike3 = parseFloat(obj.strike3);
+        var price3 = parseFloat(obj.price3);
+
+        var option4 = obj.option4;
+        var type4 = obj.type4;
+        var strike4 = parseFloat(obj.strike4);
+        var price4 = parseFloat(obj.price4);
+
+        var optionResult1 = this.calculateOptionTransaction(option1, type1, strike1, price1);
+        var optionResult2 = this.calculateOptionTransaction(option2, type2, strike2, price2);
+        var optionResult3 = this.calculateOptionTransaction(option3, type3, strike3, price3);
+        var optionResult4 = this.calculateOptionTransaction(option4, type4, strike4, price4);
+
+        var tradeResults = this.tradeSettlement(optionResult1, optionResult2, optionResult3, optionResult4);
+        var minProfit = this.findMin(tradeResults);
+
+        var trade = [];
+
+        trade.push(type1 + " " + option1 + " " + strike1 + " @ " + price1);
+        trade.push(type2 + " " + option2 + " " + strike2 + " @ " + price2);
+        trade.push(type3 + " " + option3 + " " + strike3 + " @ " + price3);
+        trade.push(type4 + " " + option4 + " " + strike4 + " @ " + price4);
+
+        trade.sort();
+
+        //if all trades required to be printed
+        if (this.allTrades) {
+            this.addMockTestResults(trade.toString(), this.findMax(tradeResults), minProfit, tradeResults.toString());
+            return;
+        }
+
+        //Skip processing if minimum profit is less than expected minimum profit
+        if (minProfit < this.minimumProfit) {
+            return;
+        }
+
+        if (this.isAllPositive(tradeResults) && minProfit >= this.minimumProfit) {
+            this.addMockTestResults(trade.toString(), this.findMax(tradeResults), minProfit, tradeResults.toString());
+        }
+
+        return;
+
+    },
+
+    tradeSettlement: function(optionResult1, optionResult2, optionResult3, optionResult4) {
+        var result = [];
+
+        for (var index = 0; index < optionResult1.length; index++) {
+            result.push(75 * (optionResult1[index] + optionResult2[index] + optionResult3[index] + optionResult4[index]));
+        }
+
+        return result;
+    },
+
+    calculateOptionTransaction: function(option, type, strike, price) {
+        var result = [];
+        if (option == "call" && type == "buy") {
+            for (var index1 = this.tradeResultRangeStart; index1 <= this.tradeResultRangeEnd; index1 += this.increment) {
+                result.push(this.longCallResult(price, strike, index1));
+            }
+        }
+
+        if (option == "call" && type == "sell") {
+            for (var index2 = this.tradeResultRangeStart; index2 <= this.tradeResultRangeEnd; index2 += this.increment) {
+                result.push(this.shortCallResult(price, strike, index2));
+            }
+        }
+
+        if (option == "put" && type == "buy") {
+            for (var index3 = this.tradeResultRangeStart; index3 <= this.tradeResultRangeEnd; index3 += this.increment) {
+                result.push(this.longPutResult(price, strike, index3));
+            }
+        }
+
+        if (option == "put" && type == "sell") {
+            for (var index4 = this.tradeResultRangeStart; index4 <= this.tradeResultRangeEnd; index4 += this.increment) {
+                result.push(this.shortPutResult(price, strike, index4));
+            }
+        }
+
+        return result;
+    },
+
+    longCallResult: function(buyPrice, strike, expiry) {
+        return this.callIntrinsic(strike, expiry) - buyPrice;
+    },
+
+    shortCallResult: function(sellPrice, strike, expiry) {
+        return sellPrice - this.callIntrinsic(strike, expiry);
+    },
+
+    longPutResult: function(buyPrice, strike, expiry) {
+        return this.putIntrinsic(strike, expiry) - buyPrice;
+    },
+
+    shortPutResult: function(sellPrice, strike, expiry) {
+        return sellPrice - this.putIntrinsic(strike, expiry);
+    },
+
+    callIntrinsic: function(strike, expiry) {
+        if (expiry <= strike) {
+            return 0.25;
+        }
+        return expiry - strike;
+    },
+
+    putIntrinsic: function(strike, expiry) {
+        if (expiry >= strike) {
+            return 0.25;
+        }
+        return strike - expiry;
+    },
+
+    addMockTestResults: function(trade, maxGain, maxLoss, comments) {
+        var gr = new GlideRecord("x_0586_trade_manag_mock_trade_results");
+        gr.initialize();
+        gr.comments = comments;
+        gr.trade = trade;
+        gr.max_win = maxGain;
+        gr.max_loss = maxLoss;
+        gr.insert();
+    },
+
+    findMax: function(array) {
+        var max = array[0],
+            a = array.length,
+            counter;
+
+        for (counter = 0; counter < a; counter++) {
+            if (array[counter] > max) {
+                max = array[counter];
+            }
+        }
+        return max;
+    },
+
+    findMin: function(array) {
+        var min = array[0],
+            a = array.length,
+            counter;
+
+        for (counter = 0; counter < a; counter++) {
+            if (array[counter] < min) {
+                min = array[counter];
+            }
+        }
+        return min;
+    },
+
+    getOptionPrice: function(option, strike) {
+        return (this.optionChain[option + '-' + strike]);
+
+    },
+
+    getOptionChain: function(type, strike) {
+        var results = [];
+
+        var gr = new GlideRecord("x_0586_trade_manag_option_chain");
+        gr.query();
+        while (gr.next()) {
+            results[gr.getValue('option') + '-' + gr.getValue('strike_price')] = gr.getValue('ltp');
+        }
+
+        return results;
+
+    },
+
+    isAllPositive: function(array) {
+        var min = array[0],
+            a = array.length,
+            counter;
+
+        for (counter = 0; counter < a; counter++) {
+            if (array[counter] < min) {
+                return false;
+            }
+        }
+        if (min == 0) {
+            return false;
+        }
+        return true;
+    },
+
+    isTradeProcessed: function(obj) {
+        var option1 = obj.option1;
+        var type1 = obj.type1;
+        var strike1 = parseFloat(obj.strike1);
+        var price1 = parseFloat(obj.price1);
+
+        var option2 = obj.option2;
+        var type2 = obj.type2;
+        var strike2 = parseFloat(obj.strike2);
+        var price2 = parseFloat(obj.price2);
+
+        var option3 = obj.option3;
+        var type3 = obj.type3;
+        var strike3 = parseFloat(obj.strike3);
+        var price3 = parseFloat(obj.price3);
+
+        var option4 = obj.option4;
+        var type4 = obj.type4;
+        var strike4 = parseFloat(obj.strike4);
+        var price4 = parseFloat(obj.price4);
+
+        var trade = [];
+
+        trade.push(type1 + " " + option1 + " " + strike1 + " @ " + price1);
+        trade.push(type2 + " " + option2 + " " + strike2 + " @ " + price2);
+        trade.push(type3 + " " + option3 + " " + strike3 + " @ " + price3);
+        trade.push(type4 + " " + option4 + " " + strike4 + " @ " + price4);
+
+        trade.sort();
+
+        if (this.generatedTrades.hasOwnProperty(trade.toString())) {
+            return true;
+        } else {
+            this.generatedTrades[trade.toString()] = 1;
+            return false;
+        }
+    },
+
+    type: 'TradeManagementHelper'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-10 11:38:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c4e9578d1b7b98508ed631d7dc4bcb60</sys_id>
+        <sys_mod_count>63</sys_mod_count>
+        <sys_name>TradeManagementHelper</sys_name>
+        <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
+        <sys_update_name>sys_script_include_c4e9578d1b7b98508ed631d7dc4bcb60</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-27 04:30:21</sys_updated_on>
+    </sys_script_include>
+</record_update>

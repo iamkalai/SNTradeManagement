@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="ml_capability_definition_clustering">
+    <ml_capability_definition_clustering action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <cal_purity>false</cal_purity>
+        <capability display_value="Clustering">366d333453c73300d1dcddeeff7b12fc</capability>
+        <cluster_concept_fields/>
+        <cluster_concept_type/>
+        <create_ci_table>false</create_ci_table>
+        <current_solution_version>1</current_solution_version>
+        <dataset_language>en</dataset_language>
+        <fields>cluster_parameters</fields>
+        <filter table="v_cmdb_running_process">sys_created_on&gt;2020-03-07 12:35:59^sys_created_on&lt;=2020-03-07 12:59:01<item endquery="false" field="sys_created_on" goto="false" newquery="false" operator="&gt;" or="false" value="2020-03-07 12:35:59"/>
+            <item endquery="false" field="sys_created_on" goto="false" newquery="false" operator="&lt;=" or="false" value="2020-03-07 12:59:01"/>
+        </filter>
+        <group_unclustered_rec>false</group_unclustered_rec>
+        <min_records>2</min_records>
+        <purity_fields/>
+        <request_source>api</request_source>
+        <segmentation_field>cluster_name</segmentation_field>
+        <solution_label>application_suggestion</solution_label>
+        <solution_name>ml_x_0586_x_0586_trade_manag_global_application_suggestion</solution_name>
+        <solution_parameters/>
+        <solution_properties>{"advancedParams":{"LD":"","Minimum Neighbors":1,"Epsilon":0.25,"DBSCAN":""},"datasetProperties":{"tableName":"v_cmdb_running_process","fieldNames":["cluster_name","cluster_parameters"],"encodedQuery":"sys_created_on\u003e2020-03-07 12:35:59^sys_created_on\u003c\u003d2020-03-07 12:59:01"},"groupByFieldName":"cluster_name","inputFieldNames":["cluster_parameters"],"label":"application_suggestion","processingLanguage":"en","stopwords":["Default English Stopwords"],"trainingFrequency":"run_once","updateFrequency":"do_not_update"}</solution_properties>
+        <stopwords>a6282a25533333008c5bddeeff7b12c3</stopwords>
+        <sys_class_name>ml_capability_definition_clustering</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-12 10:06:45</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>ce55ba552f9e201051dad5f62799b630</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>application_suggestion</sys_name>
+        <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
+        <sys_update_name>ml_capability_definition_clustering_ce55ba552f9e201051dad5f62799b630</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-12 10:06:45</sys_updated_on>
+        <table>v_cmdb_running_process</table>
+        <training_frequency>run_once</training_frequency>
+        <update_frequency>do_not_update</update_frequency>
+        <use_segmentation>true</use_segmentation>
+        <word_vector_corpus/>
+    </ml_capability_definition_clustering>
+</record_update>

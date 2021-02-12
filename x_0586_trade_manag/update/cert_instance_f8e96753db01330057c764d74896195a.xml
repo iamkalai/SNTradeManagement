@@ -31,6 +31,8 @@
         <name>Unix Server in South Africa</name>
         <next_scheduled_run/>
         <number>CRTINST0010035</number>
+        <offset/>
+        <offset_type>0</offset_type>
         <percent_complete>100</percent_complete>
         <prev_last_run_date/>
         <run_as display_value="Kalaiarasan P">6816f79cc0a8016401c5a33be04be441</run_as>

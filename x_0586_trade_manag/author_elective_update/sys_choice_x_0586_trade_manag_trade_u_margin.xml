@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_choice action="INSERT_OR_UPDATE" field="u_margin" table="x_0586_trade_manag_trade" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_margin</element>
+            <name>x_0586_trade_manag_trade</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-04-30 07:27:15</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>5111127edb41330057c764d74896191f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_margin</sys_name>
+            <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
+            <sys_update_name>sys_choice_x_0586_trade_manag_trade_u_margin</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-04-30 07:27:15</sys_updated_on>
+        </sys_choice_set>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>u_margin</element>
@@ -9,6 +27,7 @@
             <language>en</language>
             <name>x_0586_trade_manag_trade</name>
             <sequence>0</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-04-30 07:27:15</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -28,6 +47,7 @@
             <language>en</language>
             <name>x_0586_trade_manag_trade</name>
             <sequence>1</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-04-30 07:27:15</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -47,6 +67,7 @@
             <language>en</language>
             <name>x_0586_trade_manag_trade</name>
             <sequence>2</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-04-30 07:27:15</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -66,6 +87,7 @@
             <language>en</language>
             <name>x_0586_trade_manag_trade</name>
             <sequence>3</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-04-30 07:27:15</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -85,6 +107,7 @@
             <language>en</language>
             <name>x_0586_trade_manag_trade</name>
             <sequence>4</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-04-30 07:27:15</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -104,6 +127,7 @@
             <language>en</language>
             <name>x_0586_trade_manag_trade</name>
             <sequence>5</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-04-30 07:27:15</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -123,6 +147,7 @@
             <language>en</language>
             <name>x_0586_trade_manag_trade</name>
             <sequence>6</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-04-30 07:27:15</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -142,6 +167,7 @@
             <language>en</language>
             <name>x_0586_trade_manag_trade</name>
             <sequence>7</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-04-30 07:27:15</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -161,6 +187,7 @@
             <language>en</language>
             <name>x_0586_trade_manag_trade</name>
             <sequence>8</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-04-30 07:27:15</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -180,6 +207,7 @@
             <language>en</language>
             <name>x_0586_trade_manag_trade</name>
             <sequence>9</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-04-30 07:27:15</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -190,23 +218,5 @@
             <sys_updated_on>2019-04-30 07:27:15</sys_updated_on>
             <value>10</value>
         </sys_choice>
-        <sys_choice_set action="INSERT_OR_UPDATE">
-            <element>u_margin</element>
-            <name>x_0586_trade_manag_trade</name>
-            <sys_class_name>sys_choice_set</sys_class_name>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-04-30 07:27:15</sys_created_on>
-            <sys_customer_update>false</sys_customer_update>
-            <sys_id>5111127edb41330057c764d74896191f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>u_margin</sys_name>
-            <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
-            <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-            <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
-            <sys_update_name>sys_choice_x_0586_trade_manag_trade_u_margin</sys_update_name>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-04-30 07:27:15</sys_updated_on>
-        </sys_choice_set>
     </sys_choice>
 </record_update>

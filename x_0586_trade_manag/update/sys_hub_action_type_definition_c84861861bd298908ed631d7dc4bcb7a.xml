@@ -52,7 +52,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 16:20:05</sys_updated_on>
         <value/>
-        <variable display_value="">4a99650a1bd298908ed631d7dc4bcb18</variable>
+        <variable display_value="Points Captured">4a99650a1bd298908ed631d7dc4bcb18</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_type_definition</document>
@@ -66,7 +66,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 16:20:05</sys_updated_on>
         <value/>
-        <variable display_value="">8299650a1bd298908ed631d7dc4bcb1f</variable>
+        <variable display_value="Total PL">8299650a1bd298908ed631d7dc4bcb1f</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_type_definition</document>
@@ -80,7 +80,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 16:20:05</sys_updated_on>
         <value/>
-        <variable display_value="">4299650a1bd298908ed631d7dc4bcb31</variable>
+        <variable display_value="PL Percent">4299650a1bd298908ed631d7dc4bcb31</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_type_definition</document>
@@ -94,7 +94,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 17:01:35</sys_updated_on>
         <value/>
-        <variable display_value="">0e133d0a1b1698908ed631d7dc4bcb0c</variable>
+        <variable display_value="Duration">0e133d0a1b1698908ed631d7dc4bcb0c</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=c84861861bd298908ed631d7dc4bcb7a"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -202,7 +202,7 @@
   outputs.duration = (duration.getDayPart() &gt;=1) ? duration.getDayPart() : 1;
 })(inputs, outputs);
 </value>
-        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -216,7 +216,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 16:16:17</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=62b86d861bd298908ed631d7dc4bcbd3"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -2044,7 +2044,7 @@
   outputs.duration = (duration.getDayPart() &gt;=1) ? duration.getDayPart() : 1;
 })(inputs, outputs);
 </value>
-        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -2058,7 +2058,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 16:16:17</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=62b86d861bd298908ed631d7dc4bcbd3"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -3313,7 +3313,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 17:02:11</sys_updated_on>
         <value/>
-        <variable display_value="">3e33714a1b1698908ed631d7dc4bcb41</variable>
+        <variable display_value="Total PL">3e33714a1b1698908ed631d7dc4bcb41</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_type_snapshot</document>
@@ -3327,7 +3327,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 17:02:11</sys_updated_on>
         <value/>
-        <variable display_value="">3a33714a1b1698908ed631d7dc4bcb4d</variable>
+        <variable display_value="Duration">3a33714a1b1698908ed631d7dc4bcb4d</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_type_snapshot</document>
@@ -3341,7 +3341,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 17:02:11</sys_updated_on>
         <value/>
-        <variable display_value="">ba33714a1b1698908ed631d7dc4bcb47</variable>
+        <variable display_value="PL Percent">ba33714a1b1698908ed631d7dc4bcb47</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_type_snapshot</document>
@@ -3355,7 +3355,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 17:02:11</sys_updated_on>
         <value/>
-        <variable display_value="">b633714a1b1698908ed631d7dc4bcb3b</variable>
+        <variable display_value="Points Captured">b633714a1b1698908ed631d7dc4bcb3b</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=5a33314a1b1698908ed631d7dc4bcba8"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -3448,7 +3448,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 17:02:10</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -3477,7 +3477,7 @@
   outputs.duration = (duration.getDayPart() &gt;=1) ? duration.getDayPart() : 1;
 })(inputs, outputs);
 </value>
-        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=ae33314a1b1698908ed631d7dc4bcbf4"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -5290,7 +5290,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 17:02:10</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -5319,7 +5319,7 @@
   outputs.duration = (duration.getDayPart() &gt;=1) ? duration.getDayPart() : 1;
 })(inputs, outputs);
 </value>
-        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=ae33314a1b1698908ed631d7dc4bcbf4"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">

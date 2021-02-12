@@ -30,6 +30,8 @@
         <name>Verify Oracle</name>
         <next_scheduled_run/>
         <number>CRTINST0010126</number>
+        <offset/>
+        <offset_type>0</offset_type>
         <percent_complete>0</percent_complete>
         <prev_last_run_date/>
         <run_as display_value="Kalaiarasan P">6816f79cc0a8016401c5a33be04be441</run_as>

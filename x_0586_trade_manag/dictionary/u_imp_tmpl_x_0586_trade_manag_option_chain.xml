@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Imp Tmpl X 0586 Trade Manag Option Chain" max_length="40" name="u_imp_tmpl_x_0586_trade_manag_option_chain" sizeclass="0" type="collection">
+        <element attributes="import_attribute_name=LTP" label="LTP" max_length="20" name="u_ltp" type="decimal"/>
+        <element attributes="import_attribute_name=OI" label="OI" max_length="40" name="u_oi" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Option" label="Option" max_length="40" name="u_option" type="string"/>
+        <element attributes="import_attribute_name=Strike Price" label="Strike Price" max_length="40" name="u_strike_price" type="integer"/>
+    </element>
+</database>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Idea" max_length="40" name="x_0586_trade_manag_idea" sizeclass="7" type="collection">
+    <element label="Idea" max_length="40" name="x_0586_trade_manag_idea" sizeclass="18" type="collection">
         <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
         <element label="Entry Price" max_length="20" name="entry_price" type="decimal"/>
         <element label="Rationale" max_length="8000" name="rationale" type="html"/>

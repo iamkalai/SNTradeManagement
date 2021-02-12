@@ -6,19 +6,20 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
-        <compiler_build>glide-orlando-12-11-2019__patch0-hotfix1-01-08-2020</compiler_build>
+        <compiler_build>glide-quebec-12-09-2020__patch0-hotfix2-01-08-2021</compiler_build>
         <copied_from/>
         <copied_from_name/>
         <description/>
         <internal_name>trade</internal_name>
         <label_cache>[{"name":"d1ebf4d9-1009-4378-9483-221857144984.duration","label":"2➛Duration","type":"integer","base_type":"integer","attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"b45381cc-68f6-454f-9b82-e4dd1913dd5b"}},{"name":"Created_1.current.u_type","label":"Trigger➛Trade Record➛Type","reference":"","reference_display":"Type","type":"choice","base_type":"choice","parent_table_name":"x_0586_trade_manag_trade","column_name":"u_type"},{"name":"Created_1.current.exit_date","label":"Trigger➛Trade Record➛Exit Date","reference":"","reference_display":"Exit Date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_0586_trade_manag_trade","column_name":"exit_date"},{"name":"Created_1.current.entry_date","label":"Trigger➛Trade Record➛Entry Date","reference":"","reference_display":"Entry Date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_0586_trade_manag_trade","column_name":"entry_date"},{"name":"Created_1.current.u_exit_price","label":"Trigger➛Trade Record➛Exit Price","reference":"","reference_display":"Exit Price","type":"decimal","base_type":"decimal","parent_table_name":"x_0586_trade_manag_trade","column_name":"u_exit_price"},{"name":"Created_1.current.u_stock_price","label":"Trigger➛Trade Record➛Entry Price","reference":"","reference_display":"Entry Price","type":"decimal","base_type":"decimal","parent_table_name":"x_0586_trade_manag_trade","column_name":"u_stock_price"},{"name":"Created_1.current.u_actual_quantity","label":"Trigger➛Trade Record➛Quantity","reference":"","reference_display":"Quantity","type":"integer","base_type":"integer","parent_table_name":"x_0586_trade_manag_trade","column_name":"u_actual_quantity"},{"name":"d1ebf4d9-1009-4378-9483-221857144984.pl_percent","label":"2➛PL Percent","type":"decimal","base_type":"decimal","attributes":{"uiType":"decimal","uiTypeLabel":"Decimal","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"99e10187-6ff7-4b43-b385-9f2f7501321a"}},{"name":"d1ebf4d9-1009-4378-9483-221857144984.total_pl","label":"2➛Total PL","type":"decimal","base_type":"decimal","attributes":{"uiType":"decimal","uiTypeLabel":"Decimal","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"ee342bd8-faf1-446b-b1d0-4e355e0deee6"}},{"name":"d1ebf4d9-1009-4378-9483-221857144984.points_captured","label":"2➛Points Captured","type":"decimal","base_type":"decimal","attributes":{"uiType":"decimal","uiTypeLabel":"Decimal","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"f8dbffd0-1280-4ed9-b130-dcae62713835"}},{"name":"6595e4de-a698-4169-9912-d9fe07bc67da.table_name","label":"3➛Trade Table","reference":"x_0586_trade_manag_trade","reference_display":"Trade","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6595e4de-a698-4169-9912-d9fe07bc67da.record","label":"3➛Trade Record","reference":"x_0586_trade_manag_trade","reference_display":"Trade","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger➛Trade Record","reference":"x_0586_trade_manag_trade","reference_display":"Trade","type":"reference","base_type":"reference"}]</label_cache>
-        <latest_snapshot>ff3e7d4e1b5698908ed631d7dc4bcb6e</latest_snapshot>
+        <latest_snapshot>a7de5a5d2fd6201051dad5f62799b60d</latest_snapshot>
         <master_snapshot>aaba61afdb09330057c764d74896197a</master_snapshot>
         <name>Trade</name>
         <natlang/>
         <outputs/>
         <remote_trigger_id>72baa1afdb09330057c764d74896193f</remote_trigger_id>
         <run_as>system</run_as>
+        <run_with_roles/>
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
@@ -51,6 +52,7 @@
         <on_insert>true</on_insert>
         <on_update>false</on_update>
         <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
         <run_when_setting>both</run_when_setting>
         <run_when_user_list/>
         <run_when_user_setting>any</run_when_user_setting>
@@ -72,6 +74,31 @@
         <sys_updated_on>2019-05-02 14:32:23</sys_updated_on>
         <table>x_0586_trade_manag_trade</table>
     </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"table":"sys_trigger_runner_mapping","id":"1a19d2592f96201051dad5f62799b640","name":"trigger_runner","type":"java.util.HashMap"}</data>
+        <identifier>21e969ebdb09330057c764d748961958</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-02-12 08:03:20</sys_created_on>
+        <sys_id>1a19d2592f96201051dad5f62799b640</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-02-12 08:03:20</sys_updated_on>
+        <trigger display_value="">72baa1afdb09330057c764d74896193f</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_json_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MiZGWoTYkAEFVsdC0N1iY2oY+KyjnmaXU2XzUPPEWAtljKEIqH749EIigd31JfG/42XNK+wHxPKN7oYAAAA=</data>
+        <document_id>1a19d2592f96201051dad5f62799b640</document_id>
+        <field>trigger_runner</field>
+        <length>144</length>
+        <position>0</position>
+        <source_table>sys_trigger_runner_mapping</source_table>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-02-12 08:03:20</sys_created_on>
+        <sys_id>9a19d2592f96201051dad5f62799b640</sys_id>
+    </sys_json_chunk>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=21e969ebdb09330057c764d748961958^sys_idNOT IN1a19d2592f96201051dad5f62799b640"/>
     <sys_hub_flow_component action="delete_multiple" query="flow=21e969ebdb09330057c764d748961958^sys_idNOT IN0cba21afdb09330057c764d748961989,48ba21afdb09330057c764d74896197d,7fdf6d821b1698908ed631d7dc4bcb43"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -113,7 +140,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 17:03:21</sys_updated_on>
         <value/>
-        <variable display_value="">e7d270ccc3c632002841b63b12d3ae8b</variable>
+        <variable display_value="Fields">e7d270ccc3c632002841b63b12d3ae8b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -127,7 +154,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-05-02 12:35:08</sys_updated_on>
         <value>x_0586_trade_manag_trade</value>
-        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -141,7 +168,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-05-02 12:34:58</sys_updated_on>
         <value>x_0586_trade_manag_trade</value>
-        <variable display_value="">1fd27c8cc3c632002841b63b12d3aeb9</variable>
+        <variable display_value="Table">1fd27c8cc3c632002841b63b12d3aeb9</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -155,7 +182,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-05-02 12:35:08</sys_updated_on>
         <value>u_active=false</value>
-        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=0cba21afdb09330057c764d748961989"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -270,7 +297,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 16:13:12</sys_updated_on>
         <value>exit_dateISNOTEMPTY</value>
-        <variable display_value="">5ff92c160b10030085c083eb37673ac1</variable>
+        <variable display_value="Conditions">5ff92c160b10030085c083eb37673ac1</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -284,7 +311,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-05-02 12:34:58</sys_updated_on>
         <value>x_0586_trade_manag_trade</value>
-        <variable display_value="">36f9a8160b10030085c083eb37673af3</variable>
+        <variable display_value="Table">36f9a8160b10030085c083eb37673af3</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -298,7 +325,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 16:50:01</sys_updated_on>
         <value>exit_dateISNOTEMPTY</value>
-        <variable display_value="">c7f92c160b10030085c083eb37673a49</variable>
+        <variable display_value="Conditions">c7f92c160b10030085c083eb37673a49</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -312,7 +339,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-05-02 12:35:07</sys_updated_on>
         <value>x_0586_trade_manag_trade</value>
-        <variable display_value="">1ff92c160b10030085c083eb37673a81</variable>
+        <variable display_value="Table">1ff92c160b10030085c083eb37673a81</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=48ba21afdb09330057c764d74896197d"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -427,7 +454,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 16:47:30</sys_updated_on>
         <value/>
-        <variable display_value="">ce39a9c61bd298908ed631d7dc4bcbf2</variable>
+        <variable display_value="Entry Date">ce39a9c61bd298908ed631d7dc4bcbf2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -441,7 +468,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 16:47:30</sys_updated_on>
         <value/>
-        <variable display_value="">c639a9c61bd298908ed631d7dc4bcbf8</variable>
+        <variable display_value="Exit Date">c639a9c61bd298908ed631d7dc4bcbf8</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -455,7 +482,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 16:47:30</sys_updated_on>
         <value/>
-        <variable display_value="">ce39a9c61bd298908ed631d7dc4bcbe7</variable>
+        <variable display_value="Entry Price">ce39a9c61bd298908ed631d7dc4bcbe7</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -469,7 +496,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 16:47:30</sys_updated_on>
         <value/>
-        <variable display_value="">0e39adc21bd298908ed631d7dc4bcba2</variable>
+        <variable display_value="Quantity">0e39adc21bd298908ed631d7dc4bcba2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -483,7 +510,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 16:47:30</sys_updated_on>
         <value/>
-        <variable display_value="">c639a9c61bd298908ed631d7dc4bcbed</variable>
+        <variable display_value="Exit Price">c639a9c61bd298908ed631d7dc4bcbed</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=7fdf6d821b1698908ed631d7dc4bcb43"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -597,7 +624,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-05-02 12:34:57</sys_updated_on>
         <value>^EQ</value>
-        <variable display_value="">66aadea0c31322002841b63b12d3aebf</variable>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_trigger_instance</document>
@@ -611,7 +638,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-05-02 12:34:57</sys_updated_on>
         <value>x_0586_trade_manag_trade</value>
-        <variable display_value="">cfca92e0c31322002841b63b12d3ae00</variable>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
     </sys_variable_value>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=21e969ebdb09330057c764d748961958^sys_idNOT IN2de969ebdb09330057c764d748961958"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -840,7 +867,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 17:03:21</sys_updated_on>
         <value/>
-        <variable display_value="">e7d270ccc3c632002841b63b12d3ae8b</variable>
+        <variable display_value="Fields">e7d270ccc3c632002841b63b12d3ae8b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -854,7 +881,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-05-02 12:35:08</sys_updated_on>
         <value>x_0586_trade_manag_trade</value>
-        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -868,7 +895,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-05-02 12:34:58</sys_updated_on>
         <value>x_0586_trade_manag_trade</value>
-        <variable display_value="">1fd27c8cc3c632002841b63b12d3aeb9</variable>
+        <variable display_value="Table">1fd27c8cc3c632002841b63b12d3aeb9</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -882,7 +909,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-05-02 12:35:08</sys_updated_on>
         <value>u_active=false</value>
-        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=0cba21afdb09330057c764d748961989"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -997,7 +1024,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 16:13:12</sys_updated_on>
         <value>exit_dateISNOTEMPTY</value>
-        <variable display_value="">5ff92c160b10030085c083eb37673ac1</variable>
+        <variable display_value="Conditions">5ff92c160b10030085c083eb37673ac1</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1011,7 +1038,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-05-02 12:34:58</sys_updated_on>
         <value>x_0586_trade_manag_trade</value>
-        <variable display_value="">36f9a8160b10030085c083eb37673af3</variable>
+        <variable display_value="Table">36f9a8160b10030085c083eb37673af3</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1025,7 +1052,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 16:50:01</sys_updated_on>
         <value>exit_dateISNOTEMPTY</value>
-        <variable display_value="">c7f92c160b10030085c083eb37673a49</variable>
+        <variable display_value="Conditions">c7f92c160b10030085c083eb37673a49</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1039,7 +1066,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-05-02 12:35:07</sys_updated_on>
         <value>x_0586_trade_manag_trade</value>
-        <variable display_value="">1ff92c160b10030085c083eb37673a81</variable>
+        <variable display_value="Table">1ff92c160b10030085c083eb37673a81</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=48ba21afdb09330057c764d74896197d"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -1154,7 +1181,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 16:47:30</sys_updated_on>
         <value/>
-        <variable display_value="">ce39a9c61bd298908ed631d7dc4bcbf2</variable>
+        <variable display_value="Entry Date">ce39a9c61bd298908ed631d7dc4bcbf2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1168,7 +1195,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 16:47:30</sys_updated_on>
         <value/>
-        <variable display_value="">c639a9c61bd298908ed631d7dc4bcbf8</variable>
+        <variable display_value="Exit Date">c639a9c61bd298908ed631d7dc4bcbf8</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1182,7 +1209,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 16:47:30</sys_updated_on>
         <value/>
-        <variable display_value="">ce39a9c61bd298908ed631d7dc4bcbe7</variable>
+        <variable display_value="Entry Price">ce39a9c61bd298908ed631d7dc4bcbe7</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1196,7 +1223,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 16:47:30</sys_updated_on>
         <value/>
-        <variable display_value="">0e39adc21bd298908ed631d7dc4bcba2</variable>
+        <variable display_value="Quantity">0e39adc21bd298908ed631d7dc4bcba2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1210,7 +1237,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 16:47:30</sys_updated_on>
         <value/>
-        <variable display_value="">c639a9c61bd298908ed631d7dc4bcbed</variable>
+        <variable display_value="Exit Price">c639a9c61bd298908ed631d7dc4bcbed</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=7fdf6d821b1698908ed631d7dc4bcb43"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -1341,7 +1368,7 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"36baa1afdb09330057c764d748961941","name":"plan"}}</plan>
         <plan_id>21e969ebdb09330057c764d748961958</plan_id>
-        <snapshot>ff3e7d4e1b5698908ed631d7dc4bcb6e</snapshot>
+        <snapshot>a7de5a5d2fd6201051dad5f62799b60d</snapshot>
         <sys_class_name>sys_flow_trigger_plan</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-05-02 12:35:09</sys_created_on>
@@ -1379,6 +1406,7 @@
         <parent_flow display_value="Trade">21e969ebdb09330057c764d748961958</parent_flow>
         <remote_trigger_id/>
         <run_as>system</run_as>
+        <run_with_roles/>
         <sc_callable>false</sc_callable>
         <status>published</status>
         <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
@@ -1441,7 +1469,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-05-02 12:35:08</sys_updated_on>
         <value>x_0586_trade_manag_trade</value>
-        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1455,7 +1483,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 17:43:12</sys_updated_on>
         <value/>
-        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=7abaa1afdb09330057c764d748961922"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -1534,7 +1562,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-05-02 12:35:08</sys_updated_on>
         <value>x_0586_trade_manag_trade</value>
-        <variable display_value="">1ff92c160b10030085c083eb37673a81</variable>
+        <variable display_value="Table">1ff92c160b10030085c083eb37673a81</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1548,7 +1576,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 17:43:12</sys_updated_on>
         <value>exit_dateISNOTEMPTY</value>
-        <variable display_value="">5ff92c160b10030085c083eb37673ac1</variable>
+        <variable display_value="Conditions">5ff92c160b10030085c083eb37673ac1</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=eaba61afdb09330057c764d7489619fe"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -1627,7 +1655,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 17:43:12</sys_updated_on>
         <value/>
-        <variable display_value="">5e33314a1b1698908ed631d7dc4bcba9</variable>
+        <variable display_value="Quantity">5e33314a1b1698908ed631d7dc4bcba9</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1641,7 +1669,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 17:43:12</sys_updated_on>
         <value/>
-        <variable display_value="">5633314a1b1698908ed631d7dc4bcbb0</variable>
+        <variable display_value="Entry Price">5633314a1b1698908ed631d7dc4bcbb0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1655,7 +1683,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 17:43:12</sys_updated_on>
         <value/>
-        <variable display_value="">e233314a1b1698908ed631d7dc4bcbb6</variable>
+        <variable display_value="Exit Price">e233314a1b1698908ed631d7dc4bcbb6</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1669,7 +1697,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 17:43:12</sys_updated_on>
         <value/>
-        <variable display_value="">6233314a1b1698908ed631d7dc4bcbbc</variable>
+        <variable display_value="Entry Date">6233314a1b1698908ed631d7dc4bcbbc</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1683,7 +1711,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 17:43:12</sys_updated_on>
         <value/>
-        <variable display_value="">2633314a1b1698908ed631d7dc4bcbe7</variable>
+        <variable display_value="Exit Date">2633314a1b1698908ed631d7dc4bcbe7</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=ff9c798a1b5698908ed631d7dc4bcbeb"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -1797,7 +1825,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-05-02 12:35:08</sys_updated_on>
         <value>x_0586_trade_manag_trade</value>
-        <variable display_value="">cfca92e0c31322002841b63b12d3ae00</variable>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_trigger_instance</document>
@@ -1811,7 +1839,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-05-02 12:35:08</sys_updated_on>
         <value>^EQ</value>
-        <variable display_value="">66aadea0c31322002841b63b12d3aebf</variable>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
     </sys_variable_value>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=aaba61afdb09330057c764d74896197a^sys_idNOT INa6ba61afdb09330057c764d74896197b"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -2040,7 +2068,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-05-02 12:35:08</sys_updated_on>
         <value>x_0586_trade_manag_trade</value>
-        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -2054,7 +2082,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 17:43:12</sys_updated_on>
         <value/>
-        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=7abaa1afdb09330057c764d748961922"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -2133,7 +2161,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-05-02 12:35:08</sys_updated_on>
         <value>x_0586_trade_manag_trade</value>
-        <variable display_value="">1ff92c160b10030085c083eb37673a81</variable>
+        <variable display_value="Table">1ff92c160b10030085c083eb37673a81</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -2147,7 +2175,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 17:43:12</sys_updated_on>
         <value>exit_dateISNOTEMPTY</value>
-        <variable display_value="">5ff92c160b10030085c083eb37673ac1</variable>
+        <variable display_value="Conditions">5ff92c160b10030085c083eb37673ac1</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=eaba61afdb09330057c764d7489619fe"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -2226,7 +2254,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 17:43:12</sys_updated_on>
         <value/>
-        <variable display_value="">5e33314a1b1698908ed631d7dc4bcba9</variable>
+        <variable display_value="Quantity">5e33314a1b1698908ed631d7dc4bcba9</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -2240,7 +2268,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 17:43:12</sys_updated_on>
         <value/>
-        <variable display_value="">5633314a1b1698908ed631d7dc4bcbb0</variable>
+        <variable display_value="Entry Price">5633314a1b1698908ed631d7dc4bcbb0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -2254,7 +2282,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 17:43:12</sys_updated_on>
         <value/>
-        <variable display_value="">e233314a1b1698908ed631d7dc4bcbb6</variable>
+        <variable display_value="Exit Price">e233314a1b1698908ed631d7dc4bcbb6</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -2268,7 +2296,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 17:43:12</sys_updated_on>
         <value/>
-        <variable display_value="">6233314a1b1698908ed631d7dc4bcbbc</variable>
+        <variable display_value="Entry Date">6233314a1b1698908ed631d7dc4bcbbc</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -2282,7 +2310,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 17:43:12</sys_updated_on>
         <value/>
-        <variable display_value="">2633314a1b1698908ed631d7dc4bcbe7</variable>
+        <variable display_value="Exit Date">2633314a1b1698908ed631d7dc4bcbe7</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=ff9c798a1b5698908ed631d7dc4bcbeb"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
