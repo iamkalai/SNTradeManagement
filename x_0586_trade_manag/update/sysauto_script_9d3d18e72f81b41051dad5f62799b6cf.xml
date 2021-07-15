@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time>1970-01-01 04:30:00</entered_time>
+        <name>Update Duration Of Active Trades</name>
+        <offset/>
+        <offset_type/>
+        <run_as display_value="Kalaiarasan P">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2021-07-05 15:41:03</run_start>
+        <run_time>1969-12-31 23:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[var gr = new GlideRecord("x_0586_trade_manag_trade");
+gr.addEncodedQuery("u_active=true^exit_dateISEMPTY");
+gr.query();
+while (gr.next()) {
+    var entry = new GlideDateTime(gr.getValue('entry_date'));
+    var exit = new GlideDateTime();
+    var duration = GlideDateTime.subtract(entry, exit);
+    gr.duration = (duration.getDayPart() >= 1) ? duration.getDayPart() : 1;
+    gr.update();
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-05 15:42:12</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>9d3d18e72f81b41051dad5f62799b6cf</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Update Duration Of Active Trades</sys_name>
+        <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
+        <sys_update_name>sysauto_script_9d3d18e72f81b41051dad5f62799b6cf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-14 18:02:54</sys_updated_on>
+        <time_zone>IST</time_zone>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

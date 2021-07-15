@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_source">
+    <sys_report_source action="INSERT_OR_UPDATE">
+        <description>Contains the active trades after quiting FnO trading</description>
+        <display>Trade Management - Active Trades (After FO) (Trade)</display>
+        <filter table="x_0586_trade_manag_trade">u_active=true^entry_date&gt;javascript:gs.dateGenerate('2021-02-28','23:59:59')^instrument=stock<item endquery="false" field="u_active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="entry_date" goto="false" newquery="false" operator="&gt;" or="false" value="javascript:gs.dateGenerate('2021-02-28','23:59:59')"/>
+            <item display_value="Stock" endquery="false" field="instrument" goto="false" newquery="false" operator="=" or="false" value="stock"/>
+        </filter>
+        <name>Trade Management - Active Trades (After FO)</name>
+        <sys_class_name>sys_report_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-04 17:13:05</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4fe7a3cf2fc9f01051dad5f62799b6cd</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Trade Management - Active Trades (After FO) (Trade)</sys_name>
+        <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
+        <sys_update_name>sys_report_source_4fe7a3cf2fc9f01051dad5f62799b6cd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-05 14:48:02</sys_updated_on>
+        <table>x_0586_trade_manag_trade</table>
+    </sys_report_source>
+</record_update>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Trade" max_length="40" name="x_0586_trade_manag_trade" sizeclass="266" type="collection">
+    <element attributes="hasLabels=true" label="Trade" max_length="40" name="x_0586_trade_manag_trade" sizeclass="300" type="collection">
         <element label="Closing Comments" max_length="4000" name="closing_comments" type="string"/>
         <element label="Duration" max_length="40" name="duration" type="integer"/>
         <element default="javascript:gs.nowDateTime()" dynamic_default_value="79cb83a85f220100a9ad2572f2b4773c" label="Entry Date" max_length="40" name="entry_date" type="glide_date_time" use_dynamic_default="true"/>
@@ -8,13 +8,16 @@
         <element choice="3" default="stock" label="Instrument" max_length="40" name="instrument" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Stock" sequence="10" value="stock"/>
+                <element inactive_on_update="false" label="Stock - Investment" sequence="15" value="stock_investment"/>
                 <element inactive_on_update="false" label="Future" sequence="20" value="future"/>
                 <element inactive_on_update="false" label="Option" sequence="30" value="option"/>
             </choice>
         </element>
+        <element label="Investment" max_length="20" name="investment" type="decimal"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Pair Trade" max_length="32" name="pair_trade" reference="x_0586_trade_manag_trade" type="reference"/>
         <element label="Points Captured" max_length="20" name="points_captured" type="decimal"/>
+        <element label="Sentiments and Observations" max_length="4000" name="sentiments_and_observation" type="string"/>
         <element default="true" label="Active" max_length="40" name="u_active" type="boolean"/>
         <element label="Quantity" max_length="40" name="u_actual_quantity" type="integer"/>
         <element default="10000" label="Deprecated Capital" max_length="20" name="u_capital" type="decimal"/>

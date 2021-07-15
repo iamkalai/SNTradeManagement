@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+        <grid_canvas display_value="PA Trade Management - New Tab">8996a70f2fc9f01051dad5f62799b6d6</grid_canvas>
+        <height>15</height>
+        <portal_widget display_value="Created 2021-07-04 22:37:52">db77a38f2fc9f01051dad5f62799b64a</portal_widget>
+        <posx>6</posx>
+        <posy>0</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-04 17:07:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5377a38f2fc9f01051dad5f62799b64e</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_name>8996a70f2fc9f01051dad5f62799b6d6</sys_name>
+        <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_5377a38f2fc9f01051dad5f62799b64e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-14 18:58:24</sys_updated_on>
+        <width>6</width>
+    </sys_grid_canvas_pane>
+</record_update>

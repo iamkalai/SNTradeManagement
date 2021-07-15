@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2021-07-15 04:38:39">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles>snc_internal</read_roles>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-04 17:03:53</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4596ebcb2fc9f01051dad5f62799b62b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA Trade Management - New Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
+        <sys_update_name>sys_portal_page_4596ebcb2fc9f01051dad5f62799b62b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-04 17:03:53</sys_updated_on>
+        <title>PA Trade Management - New Tab</title>
+        <user/>
+        <view>pa_trade_management_-_new_tab</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Trade Management - New Tab">4596ebcb2fc9f01051dad5f62799b62b</page>
+                <summary>Trading Management - Number Of Monthly Trades (Opened)</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2021-07-05 14:44:47</sys_created_on>
+                <sys_id>0150d02f2f01b41051dad5f62799b619</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2021-07-05 14:44:47</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2021-07-05 20:14:47">0150d02f2f01b41051dad5f62799b619</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2021-07-05 14:44:47</sys_created_on>
+                        <sys_id>0550d02f2f01b41051dad5f62799b619</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2021-07-05 14:44:47</sys_updated_on>
+                        <value>50ef0cab2f01b41051dad5f62799b6de</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2021-07-05 20:14:47">0150d02f2f01b41051dad5f62799b619</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2021-07-05 14:44:47</sys_created_on>
+                        <sys_id>0d50d02f2f01b41051dad5f62799b619</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2021-07-05 14:44:47</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2021-07-05 20:14:47">0150d02f2f01b41051dad5f62799b619</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2021-07-05 14:44:47</sys_created_on>
+                        <sys_id>4550d02f2f01b41051dad5f62799b61a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2021-07-05 14:44:47</sys_updated_on>
+                        <value>Trading Management - Number Of Monthly Trades (Opened)</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2021-07-05 20:14:47">0150d02f2f01b41051dad5f62799b619</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2021-07-05 14:44:47</sys_created_on>
+                        <sys_id>4950d02f2f01b41051dad5f62799b619</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2021-07-05 14:44:47</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2021-07-05 20:14:47">0150d02f2f01b41051dad5f62799b619</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2021-07-05 14:44:47</sys_created_on>
+                        <sys_id>8150d02f2f01b41051dad5f62799b61a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2021-07-05 14:44:47</sys_updated_on>
+                        <value>line</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2021-07-05 20:14:47">0150d02f2f01b41051dad5f62799b619</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2021-07-05 14:44:47</sys_created_on>
+                        <sys_id>cd50d02f2f01b41051dad5f62799b619</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2021-07-05 14:44:47</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Trade Management - New Tab">4596ebcb2fc9f01051dad5f62799b62b</page>
+                <summary>Trading Management - Active Investments</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2021-07-14 18:56:22</sys_created_on>
+                <sys_id>063067da2f91341051dad5f62799b658</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2021-07-14 18:56:22</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2021-07-15 00:26:22">063067da2f91341051dad5f62799b658</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2021-07-14 18:56:22</sys_created_on>
+                        <sys_id>063067da2f91341051dad5f62799b65a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2021-07-14 18:56:22</sys_updated_on>
+                        <value>list</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2021-07-15 00:26:22">063067da2f91341051dad5f62799b658</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2021-07-14 18:56:22</sys_created_on>
+                        <sys_id>423067da2f91341051dad5f62799b65a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2021-07-14 18:56:22</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2021-07-15 00:26:22">063067da2f91341051dad5f62799b658</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2021-07-14 18:56:22</sys_created_on>
+                        <sys_id>8e3067da2f91341051dad5f62799b659</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2021-07-14 18:56:22</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2021-07-15 00:26:22">063067da2f91341051dad5f62799b658</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2021-07-14 18:56:22</sys_created_on>
+                        <sys_id>c63067da2f91341051dad5f62799b65a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2021-07-14 18:56:22</sys_updated_on>
+                        <value>Trading Management - Active Investments</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2021-07-15 00:26:22">063067da2f91341051dad5f62799b658</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2021-07-14 18:56:22</sys_created_on>
+                        <sys_id>ca3067da2f91341051dad5f62799b659</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2021-07-14 18:56:22</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2021-07-15 00:26:22">063067da2f91341051dad5f62799b658</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2021-07-14 18:56:22</sys_created_on>
+                        <sys_id>ce3067da2f91341051dad5f62799b658</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2021-07-14 18:56:22</sys_updated_on>
+                        <value>1bff131e2f91341051dad5f62799b602</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Trade Management - New Tab">4596ebcb2fc9f01051dad5f62799b62b</page>
+                <summary>Trading Management - Active Trades</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2021-07-04 17:23:11</sys_created_on>
+                <sys_id>2bfa23072f0df01051dad5f62799b6ef</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2021-07-04 17:23:11</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2021-07-04 22:53:11">2bfa23072f0df01051dad5f62799b6ef</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2021-07-04 17:23:11</sys_created_on>
+                        <sys_id>3bfa23072f0df01051dad5f62799b6f1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2021-07-04 17:23:11</sys_updated_on>
+                        <value>Trading Management - Active Trades</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2021-07-04 22:53:11">2bfa23072f0df01051dad5f62799b6ef</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2021-07-04 17:23:11</sys_created_on>
+                        <sys_id>3ffa23072f0df01051dad5f62799b6f0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2021-07-04 17:23:11</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2021-07-04 22:53:11">2bfa23072f0df01051dad5f62799b6ef</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2021-07-04 17:23:11</sys_created_on>
+                        <sys_id>63fa23072f0df01051dad5f62799b6f0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2021-07-04 17:23:11</sys_updated_on>
+                        <value>07eaeb832f0df01051dad5f62799b67b</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2021-07-04 22:53:11">2bfa23072f0df01051dad5f62799b6ef</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2021-07-04 17:23:11</sys_created_on>
+                        <sys_id>77fa23072f0df01051dad5f62799b6f1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2021-07-04 17:23:11</sys_updated_on>
+                        <value>list</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2021-07-04 22:53:11">2bfa23072f0df01051dad5f62799b6ef</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2021-07-04 17:23:11</sys_created_on>
+                        <sys_id>b3fa23072f0df01051dad5f62799b6f1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2021-07-04 17:23:11</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2021-07-04 22:53:11">2bfa23072f0df01051dad5f62799b6ef</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2021-07-04 17:23:11</sys_created_on>
+                        <sys_id>fffa23072f0df01051dad5f62799b6f0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2021-07-04 17:23:11</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Trade Management - New Tab">4596ebcb2fc9f01051dad5f62799b62b</page>
+                <summary>Trading Management - Total Income</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2021-07-05 14:25:56</sys_created_on>
+                <sys_id>410cc4af2fcd741051dad5f62799b6f5</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2021-07-05 14:25:56</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2021-07-05 19:55:56">410cc4af2fcd741051dad5f62799b6f5</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2021-07-05 14:25:56</sys_created_on>
+                        <sys_id>090cc4af2fcd741051dad5f62799b6f6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2021-07-05 14:25:56</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 2021-07-05 19:55:56">410cc4af2fcd741051dad5f62799b6f5</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2021-07-05 14:25:56</sys_created_on>
+                        <sys_id>450c8ce32f01b41051dad5f62799b628</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2021-07-05 14:25:56</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2021-07-05 19:55:56">410cc4af2fcd741051dad5f62799b6f5</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2021-07-05 14:25:56</sys_created_on>
+                        <sys_id>450cc4af2fcd741051dad5f62799b6f6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2021-07-05 14:25:56</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2021-07-05 19:55:56">410cc4af2fcd741051dad5f62799b6f5</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2021-07-05 14:25:56</sys_created_on>
+                        <sys_id>850c8ce32f01b41051dad5f62799b627</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2021-07-05 14:25:56</sys_updated_on>
+                        <value>Trading Management - Total Income</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2021-07-05 19:55:56">410cc4af2fcd741051dad5f62799b6f5</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2021-07-05 14:25:56</sys_created_on>
+                        <sys_id>8d0cc4af2fcd741051dad5f62799b6f6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2021-07-05 14:25:56</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2021-07-05 19:55:56">410cc4af2fcd741051dad5f62799b6f5</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2021-07-05 14:25:56</sys_created_on>
+                        <sys_id>c10c8ce32f01b41051dad5f62799b627</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2021-07-05 14:25:56</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2021-07-05 19:55:56">410cc4af2fcd741051dad5f62799b6f5</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2021-07-05 14:25:56</sys_created_on>
+                        <sys_id>c90cc4af2fcd741051dad5f62799b6f5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2021-07-05 14:25:56</sys_updated_on>
+                        <value>37dbc0e32f01b41051dad5f62799b625</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 2021-07-05 19:55:56">410cc4af2fcd741051dad5f62799b6f5</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2021-07-05 14:25:56</sys_created_on>
+                        <sys_id>c90cc4af2fcd741051dad5f62799b6f6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2021-07-05 14:25:56</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Trade Management - New Tab">4596ebcb2fc9f01051dad5f62799b62b</page>
+                <summary>Trade Management - Active Ideas</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2021-07-05 18:21:22</sys_created_on>
+                <sys_id>79e189ef2f85b41051dad5f62799b6bd</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2021-07-05 18:21:22</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2021-07-05 23:51:22">79e189ef2f85b41051dad5f62799b6bd</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2021-07-05 18:21:22</sys_created_on>
+                        <sys_id>31e189ef2f85b41051dad5f62799b6bf</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2021-07-05 18:21:22</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2021-07-05 23:51:22">79e189ef2f85b41051dad5f62799b6bd</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2021-07-05 18:21:22</sys_created_on>
+                        <sys_id>79e189ef2f85b41051dad5f62799b6bf</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2021-07-05 18:21:22</sys_updated_on>
+                        <value>Trade Management - Active Ideas</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2021-07-05 23:51:22">79e189ef2f85b41051dad5f62799b6bd</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2021-07-05 18:21:22</sys_created_on>
+                        <sys_id>7de189ef2f85b41051dad5f62799b6be</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2021-07-05 18:21:22</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2021-07-05 23:51:22">79e189ef2f85b41051dad5f62799b6bd</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2021-07-05 18:21:22</sys_created_on>
+                        <sys_id>b5e189ef2f85b41051dad5f62799b6bf</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2021-07-05 18:21:22</sys_updated_on>
+                        <value>list</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2021-07-05 23:51:22">79e189ef2f85b41051dad5f62799b6bd</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2021-07-05 18:21:22</sys_created_on>
+                        <sys_id>f1e189ef2f85b41051dad5f62799b6be</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2021-07-05 18:21:22</sys_updated_on>
+                        <value>92d185eb2f85b41051dad5f62799b678</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2021-07-05 23:51:22">79e189ef2f85b41051dad5f62799b6bd</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2021-07-05 18:21:22</sys_created_on>
+                        <sys_id>f1e189ef2f85b41051dad5f62799b6bf</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2021-07-05 18:21:22</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Trade Management - New Tab">4596ebcb2fc9f01051dad5f62799b62b</page>
+                <summary>Trading Management - Monthly Income</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2021-07-04 17:07:52</sys_created_on>
+                <sys_id>db77a38f2fc9f01051dad5f62799b64a</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2021-07-04 17:07:52</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2021-07-04 22:37:52">db77a38f2fc9f01051dad5f62799b64a</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2021-07-04 17:07:52</sys_created_on>
+                        <sys_id>1f77a38f2fc9f01051dad5f62799b64c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2021-07-04 17:07:52</sys_updated_on>
+                        <value>line</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2021-07-04 22:37:52">db77a38f2fc9f01051dad5f62799b64a</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2021-07-04 17:07:52</sys_created_on>
+                        <sys_id>5b77a38f2fc9f01051dad5f62799b64c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2021-07-04 17:07:52</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2021-07-04 22:37:52">db77a38f2fc9f01051dad5f62799b64a</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2021-07-04 17:07:52</sys_created_on>
+                        <sys_id>9777a38f2fc9f01051dad5f62799b64c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2021-07-04 17:07:52</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2021-07-04 22:37:52">db77a38f2fc9f01051dad5f62799b64a</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2021-07-04 17:07:52</sys_created_on>
+                        <sys_id>d377a38f2fc9f01051dad5f62799b64c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2021-07-04 17:07:52</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2021-07-04 22:37:52">db77a38f2fc9f01051dad5f62799b64a</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2021-07-04 17:07:52</sys_created_on>
+                        <sys_id>d777a38f2fc9f01051dad5f62799b64b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2021-07-04 17:07:52</sys_updated_on>
+                        <value>52ce67f82fcd741051dad5f62799b60d</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2021-07-04 22:37:52">db77a38f2fc9f01051dad5f62799b64a</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2021-07-04 17:07:52</sys_created_on>
+                        <sys_id>df77a38f2fc9f01051dad5f62799b64c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2021-07-04 17:07:52</sys_updated_on>
+                        <value>Trading Management - Monthly Income</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Trade Management - New Tab">4596ebcb2fc9f01051dad5f62799b62b</page>
+                <summary>Trading Management - Number Of Monthly Trades (Closed)</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2021-07-05 14:44:41</sys_created_on>
+                <sys_id>f34054eb2f01b41051dad5f62799b6e8</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2021-07-05 14:44:41</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2021-07-05 20:14:41">f34054eb2f01b41051dad5f62799b6e8</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2021-07-05 14:44:41</sys_created_on>
+                        <sys_id>3b409c2f2f01b41051dad5f62799b6bd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2021-07-05 14:44:41</sys_updated_on>
+                        <value>line</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2021-07-05 20:14:41">f34054eb2f01b41051dad5f62799b6e8</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2021-07-05 14:44:41</sys_created_on>
+                        <sys_id>3f4054eb2f01b41051dad5f62799b6e8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2021-07-05 14:44:41</sys_updated_on>
+                        <value>619927032f0df01051dad5f62799b649</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2021-07-05 20:14:41">f34054eb2f01b41051dad5f62799b6e8</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2021-07-05 14:44:41</sys_created_on>
+                        <sys_id>77409c2f2f01b41051dad5f62799b6bd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2021-07-05 14:44:41</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2021-07-05 20:14:41">f34054eb2f01b41051dad5f62799b6e8</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2021-07-05 14:44:41</sys_created_on>
+                        <sys_id>7b4054eb2f01b41051dad5f62799b6e9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2021-07-05 14:44:41</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2021-07-05 20:14:41">f34054eb2f01b41051dad5f62799b6e8</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2021-07-05 14:44:41</sys_created_on>
+                        <sys_id>b74054eb2f01b41051dad5f62799b6e9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2021-07-05 14:44:41</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2021-07-05 20:14:41">f34054eb2f01b41051dad5f62799b6e8</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2021-07-05 14:44:41</sys_created_on>
+                        <sys_id>fb409c2f2f01b41051dad5f62799b6bd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2021-07-05 14:44:41</sys_updated_on>
+                        <value>Trading Management - Number Of Monthly Trades (Closed)</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

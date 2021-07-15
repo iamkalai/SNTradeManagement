@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="Trading Management - Number Of Monthly Trades (Opened)">50ef0cab2f01b41051dad5f62799b6de</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-05 14:42:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>18ef0cab2f01b41051dad5f62799b6de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>50ef0cab2f01b41051dad5f62799b6de</sys_name>
+        <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
+        <sys_update_name>sys_report_users_groups_18ef0cab2f01b41051dad5f62799b6de</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-05 14:42:48</sys_updated_on>
+        <user_id display_value="Kalaiarasan P">6816f79cc0a8016401c5a33be04be441</user_id>
+    </sys_report_users_groups>
+</record_update>
