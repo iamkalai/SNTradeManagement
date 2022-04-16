@@ -31,49 +31,67 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+    try {
+        current.investment = current.u_stock_price * current.u_actual_quantity;
 
-    current.investment = current.u_stock_price * current.u_actual_quantity;
+        var entry = new GlideDateTime(current.getValue('entry_date'));
+        var exit = new GlideDateTime();
+        var duration = GlideDateTime.subtract(entry, exit);
+        current.duration = (duration.getDayPart() >= 1) ? duration.getDayPart() : 1;
 
-    if (current.u_exit_price == '') {
-        if (current.investment.changes()) {
-            var addExpense = new GlideRecord("x_0586_personal_ex_expenses");
-            addExpense.addEncodedQuery("type=savings^category=trading_stocks^payment_method=electronic^details=" + current.u_stock.stock_symbol.toString());
-            addExpense.query();
-            if (addExpense.next()) {
-                addExpense.amount = current.investment;
-                addExpense.update();
-            } else {
+        if (current.u_exit_price == '') {
+            if (current.investment.changes() || current.operation() == 'insert') {
                 var entryDate = new GlideDateTime(current.getValue('entry_date'));
+                var addExpense = new GlideRecord("x_0586_personal_ex_expenses");
                 addExpense.initialize();
                 addExpense.type = 'savings';
-                addExpense.category = 'trading_stocks';
+
+                if (current.instrument == 'stock') {
+                    addExpense.category = 'trading_stocks';
+                } else {
+                    addExpense.category = 'stocks';
+                }
                 addExpense.payment_method = 'electronic';
-                addExpense.date = entryDate.getDate();
+
                 addExpense.details = current.u_stock.stock_symbol;
-                addExpense.amount = current.investment;
+                if (current.operation() == 'insert') {
+                    addExpense.amount = current.investment;
+                    addExpense.date = entryDate.getDate();
+                } else {
+                    addExpense.amount = current.investment - previous.investment;
+                }
+
                 addExpense.insert();
             }
-        }
-    } else {
-        var getExpense = new GlideRecord("x_0586_personal_ex_expenses");
-        getExpense.addEncodedQuery("type=savings^category=trading_stocks^payment_method=electronic^details=" + current.u_stock.stock_symbol.toString());
-        getExpense.query();
-        getExpense.next();
-        getExpense.deleteRecord();
+        } else {
+            var getExpense = new GlideRecord("x_0586_personal_ex_expenses");
+            getExpense.addEncodedQuery("type=savings^category=trading_stocks^ORcategory=stocks^payment_method=electronic^details=" + current.u_stock.stock_symbol.toString());
+            getExpense.query();
+            while (getExpense.next()) {
+                getExpense.deleteRecord();
+            }
 
-        if (current.u_realised_pl != '') {
-            var addIncome = new GlideRecord("x_0586_personal_ex_expenses");
-            addIncome.initialize();
-            addIncome.type = 'income';
-            addIncome.category = 'stocks';
-            addIncome.subcategory = 'trading';
-            addIncome.payment_method = 'electronic';
-            addIncome.details = current.u_stock.stock_symbol;
-            addIncome.amount = current.u_realised_pl;
-            addIncome.insert();
-        }
+            if (current.u_realised_pl != '') {
+                var addIncome = new GlideRecord("x_0586_personal_ex_expenses");
+                addIncome.initialize();
+                addIncome.type = 'income';
+                addIncome.category = 'stocks';
+                if (current.instrument == 'stock') {
+                    addIncome.subcategory = 'trading';
+                } else {
+                    addIncome.subcategory = 'Investing';
+                }
+                addIncome.payment_method = 'electronic';
+                addIncome.details = current.u_stock.stock_symbol;
+                addIncome.amount = current.u_realised_pl;
+                addIncome.insert();
+            }
 
+        }
+    } catch (err) {
+        gs.addInfoMessage(err.toString());
     }
+
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
@@ -83,7 +101,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>855e1b712faa201051dad5f62799b626</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>Calculate Investment</sys_name>
         <sys_overrides/>
         <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
@@ -92,7 +110,7 @@
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name>sys_script_855e1b712faa201051dad5f62799b626</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-07-14 18:32:49</sys_updated_on>
+        <sys_updated_on>2022-01-24 07:48:21</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

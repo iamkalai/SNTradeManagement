@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_export_definition">
+    <sys_export_definition action="INSERT_OR_UPDATE">
+        <field_list>u_type,u_realised_pl,number,u_stock,u_actual_quantity,u_realised_pl_percent,u_active,closing_comments,sys_created_on,sys_created_by,duration,entry_date,u_stock_price,entry_rationale,exit_date,u_exit_price,instrument,investment,pair_trade,points_captured,sentiments_and_observation,u_stop_loss_price,sys_id,sys_updated_on,sys_updated_by,sys_mod_count</field_list>
+        <filter/>
+        <name>Trade management export_x_0586_trade_man</name>
+        <sys_class_name>sys_export_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-14 04:11:13</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d1ffa3502fd6811051dad5f62799b6f9</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Trade management export_x_0586_trade_man</sys_name>
+        <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
+        <sys_update_name>sys_export_definition_d1ffa3502fd6811051dad5f62799b6f9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-14 04:13:04</sys_updated_on>
+        <table_name>x_0586_trade_manag_trade</table_name>
+        <view display_value="Exp_dd1ffa3502fd6811051dad5f62799b6f9" name="exp_dd1ffa3502fd6811051dad5f62799b6f9">59ffa3502fd6811051dad5f62799b6fa</view>
+    </sys_export_definition>
+</record_update>

@@ -4,13 +4,13 @@
             <element>u_actual_quantity</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-07-30 16:30:31</sys_created_on>
-            <sys_id>c3fb650e1bd298908ed631d7dc4bcb33</sys_id>
+            <sys_created_on>2022-02-10 16:14:02</sys_created_on>
+            <sys_id>298261d62f21011051dad5f62799b652</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Entry" display_value="Entry" name="x_0586_trade_manag_trade" sys_domain="global" view="Default view">72fb250e1bd298908ed631d7dc4bcba1</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-30 16:30:31</sys_updated_on>
+            <sys_updated_on>2022-02-10 16:14:02</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>u_stock_price</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-07-30 16:30:31</sys_created_on>
-            <sys_id>4bfb650e1bd298908ed631d7dc4bcb33</sys_id>
+            <sys_created_on>2022-02-10 16:14:02</sys_created_on>
+            <sys_id>a98261d62f21011051dad5f62799b652</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Entry" display_value="Entry" name="x_0586_trade_manag_trade" sys_domain="global" view="Default view">72fb250e1bd298908ed631d7dc4bcba1</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-30 16:30:31</sys_updated_on>
+            <sys_updated_on>2022-02-10 16:14:02</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,41 +32,27 @@
             <element>.split</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-07-30 16:30:31</sys_created_on>
-            <sys_id>cffb650e1bd298908ed631d7dc4bcb33</sys_id>
+            <sys_created_on>2022-02-10 16:14:02</sys_created_on>
+            <sys_id>2d8261d62f21011051dad5f62799b652</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Entry" display_value="Entry" name="x_0586_trade_manag_trade" sys_domain="global" view="Default view">72fb250e1bd298908ed631d7dc4bcba1</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-30 16:30:31</sys_updated_on>
+            <sys_updated_on>2022-02-10 16:14:02</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_stop_loss_price</element>
+            <element>entry_date</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-07-30 16:30:31</sys_created_on>
-            <sys_id>47fb650e1bd298908ed631d7dc4bcb34</sys_id>
+            <sys_created_on>2022-02-10 16:14:02</sys_created_on>
+            <sys_id>ad8261d62f21011051dad5f62799b652</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Entry" display_value="Entry" name="x_0586_trade_manag_trade" sys_domain="global" view="Default view">72fb250e1bd298908ed631d7dc4bcba1</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-30 16:30:31</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>entry_date</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-07-30 16:30:31</sys_created_on>
-            <sys_id>cbfb650e1bd298908ed631d7dc4bcb34</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Entry" display_value="Entry" name="x_0586_trade_manag_trade" sys_domain="global" view="Default view">72fb250e1bd298908ed631d7dc4bcba1</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-30 16:30:31</sys_updated_on>
+            <sys_updated_on>2022-02-10 16:14:02</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

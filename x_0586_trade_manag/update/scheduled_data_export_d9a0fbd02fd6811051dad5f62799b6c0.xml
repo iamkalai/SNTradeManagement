@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="scheduled_data_export">
+    <scheduled_data_export action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <delta_on_or_after>sys_updated_on</delta_on_or_after>
+        <enable_delta_export>false</enable_delta_export>
+        <entered_time/>
+        <export_set display_value="Trade management export">09afab982f96811051dad5f62799b619</export_set>
+        <last_export_run>2022-04-16 09:54:51</last_export_run>
+        <name>Scheduled export trades</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <order/>
+        <parent/>
+        <post_script/>
+        <post_script_bool>false</post_script_bool>
+        <pre_script/>
+        <pre_script_bool>false</pre_script_bool>
+        <run_as display_value="Kalaiarasan P">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>5</run_dayofweek>
+        <run_period/>
+        <run_start>2022-03-14 04:14:13</run_start>
+        <run_time>1970-01-01 04:30:00</run_time>
+        <run_type>weekly</run_type>
+        <sys_class_name>scheduled_data_export</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-14 04:14:54</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d9a0fbd02fd6811051dad5f62799b6c0</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Scheduled export trades</sys_name>
+        <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
+        <sys_update_name>scheduled_data_export_d9a0fbd02fd6811051dad5f62799b6c0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-16 12:36:41</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </scheduled_data_export>
+</record_update>

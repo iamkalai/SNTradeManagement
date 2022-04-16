@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_0586_trade_manag_trade" version="2" view="exp_dtmpx_0586_trade_manag_tradeadmin">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_type</element>
+            <list_id display_value="x_0586_trade_manag_trade" element="NULL" name="x_0586_trade_manag_trade" parent="NULL" relationship="NULL" sys_domain="global" view="3b20bb102fd6811051dad5f62799b615">995033d02fd6811051dad5f62799b69d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-14 04:12:51</sys_created_on>
+            <sys_id>595033d02fd6811051dad5f62799b69e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-14 04:12:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_realised_pl</element>
+            <list_id display_value="x_0586_trade_manag_trade" element="NULL" name="x_0586_trade_manag_trade" parent="NULL" relationship="NULL" sys_domain="global" view="3b20bb102fd6811051dad5f62799b615">995033d02fd6811051dad5f62799b69d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-14 04:12:51</sys_created_on>
+            <sys_id>d95033d02fd6811051dad5f62799b69e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-14 04:12:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_0586_trade_manag_trade" element="NULL" name="x_0586_trade_manag_trade" parent="NULL" relationship="NULL" sys_domain="global" view="3b20bb102fd6811051dad5f62799b615">995033d02fd6811051dad5f62799b69d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-14 04:12:51</sys_created_on>
+            <sys_id>5d5033d02fd6811051dad5f62799b69e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-14 04:12:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_stock</element>
+            <list_id display_value="x_0586_trade_manag_trade" element="NULL" name="x_0586_trade_manag_trade" parent="NULL" relationship="NULL" sys_domain="global" view="3b20bb102fd6811051dad5f62799b615">995033d02fd6811051dad5f62799b69d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-14 04:12:51</sys_created_on>
+            <sys_id>dd5033d02fd6811051dad5f62799b69e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-14 04:12:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_actual_quantity</element>
+            <list_id display_value="x_0586_trade_manag_trade" element="NULL" name="x_0586_trade_manag_trade" parent="NULL" relationship="NULL" sys_domain="global" view="3b20bb102fd6811051dad5f62799b615">995033d02fd6811051dad5f62799b69d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-14 04:12:51</sys_created_on>
+            <sys_id>515033d02fd6811051dad5f62799b69f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-14 04:12:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_realised_pl_percent</element>
+            <list_id display_value="x_0586_trade_manag_trade" element="NULL" name="x_0586_trade_manag_trade" parent="NULL" relationship="NULL" sys_domain="global" view="3b20bb102fd6811051dad5f62799b615">995033d02fd6811051dad5f62799b69d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-14 04:12:51</sys_created_on>
+            <sys_id>d15033d02fd6811051dad5f62799b69f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-14 04:12:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_active</element>
+            <list_id display_value="x_0586_trade_manag_trade" element="NULL" name="x_0586_trade_manag_trade" parent="NULL" relationship="NULL" sys_domain="global" view="3b20bb102fd6811051dad5f62799b615">995033d02fd6811051dad5f62799b69d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-14 04:12:51</sys_created_on>
+            <sys_id>555033d02fd6811051dad5f62799b69f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-14 04:12:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>closing_comments</element>
+            <list_id display_value="x_0586_trade_manag_trade" element="NULL" name="x_0586_trade_manag_trade" parent="NULL" relationship="NULL" sys_domain="global" view="3b20bb102fd6811051dad5f62799b615">995033d02fd6811051dad5f62799b69d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-14 04:12:51</sys_created_on>
+            <sys_id>d55033d02fd6811051dad5f62799b69f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-14 04:12:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="x_0586_trade_manag_trade" element="NULL" name="x_0586_trade_manag_trade" parent="NULL" relationship="NULL" sys_domain="global" view="3b20bb102fd6811051dad5f62799b615">995033d02fd6811051dad5f62799b69d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-14 04:12:51</sys_created_on>
+            <sys_id>595033d02fd6811051dad5f62799b69f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-14 04:12:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_by</element>
+            <list_id display_value="x_0586_trade_manag_trade" element="NULL" name="x_0586_trade_manag_trade" parent="NULL" relationship="NULL" sys_domain="global" view="3b20bb102fd6811051dad5f62799b615">995033d02fd6811051dad5f62799b69d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-14 04:12:51</sys_created_on>
+            <sys_id>d95033d02fd6811051dad5f62799b69f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-14 04:12:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>duration</element>
+            <list_id display_value="x_0586_trade_manag_trade" element="NULL" name="x_0586_trade_manag_trade" parent="NULL" relationship="NULL" sys_domain="global" view="3b20bb102fd6811051dad5f62799b615">995033d02fd6811051dad5f62799b69d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>10</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-14 04:12:51</sys_created_on>
+            <sys_id>5d5033d02fd6811051dad5f62799b69f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-14 04:12:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>entry_date</element>
+            <list_id display_value="x_0586_trade_manag_trade" element="NULL" name="x_0586_trade_manag_trade" parent="NULL" relationship="NULL" sys_domain="global" view="3b20bb102fd6811051dad5f62799b615">995033d02fd6811051dad5f62799b69d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>11</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-14 04:12:51</sys_created_on>
+            <sys_id>dd5033d02fd6811051dad5f62799b69f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-14 04:12:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_stock_price</element>
+            <list_id display_value="x_0586_trade_manag_trade" element="NULL" name="x_0586_trade_manag_trade" parent="NULL" relationship="NULL" sys_domain="global" view="3b20bb102fd6811051dad5f62799b615">995033d02fd6811051dad5f62799b69d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>12</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-14 04:12:51</sys_created_on>
+            <sys_id>515033d02fd6811051dad5f62799b6a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-14 04:12:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>entry_rationale</element>
+            <list_id display_value="x_0586_trade_manag_trade" element="NULL" name="x_0586_trade_manag_trade" parent="NULL" relationship="NULL" sys_domain="global" view="3b20bb102fd6811051dad5f62799b615">995033d02fd6811051dad5f62799b69d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>13</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-14 04:12:51</sys_created_on>
+            <sys_id>d15033d02fd6811051dad5f62799b6a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-14 04:12:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>exit_date</element>
+            <list_id display_value="x_0586_trade_manag_trade" element="NULL" name="x_0586_trade_manag_trade" parent="NULL" relationship="NULL" sys_domain="global" view="3b20bb102fd6811051dad5f62799b615">995033d02fd6811051dad5f62799b69d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>14</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-14 04:12:51</sys_created_on>
+            <sys_id>555033d02fd6811051dad5f62799b6a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-14 04:12:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_exit_price</element>
+            <list_id display_value="x_0586_trade_manag_trade" element="NULL" name="x_0586_trade_manag_trade" parent="NULL" relationship="NULL" sys_domain="global" view="3b20bb102fd6811051dad5f62799b615">995033d02fd6811051dad5f62799b69d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>15</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-14 04:12:51</sys_created_on>
+            <sys_id>d55033d02fd6811051dad5f62799b6a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-14 04:12:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>instrument</element>
+            <list_id display_value="x_0586_trade_manag_trade" element="NULL" name="x_0586_trade_manag_trade" parent="NULL" relationship="NULL" sys_domain="global" view="3b20bb102fd6811051dad5f62799b615">995033d02fd6811051dad5f62799b69d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>16</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-14 04:12:51</sys_created_on>
+            <sys_id>595033d02fd6811051dad5f62799b6a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-14 04:12:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>investment</element>
+            <list_id display_value="x_0586_trade_manag_trade" element="NULL" name="x_0586_trade_manag_trade" parent="NULL" relationship="NULL" sys_domain="global" view="3b20bb102fd6811051dad5f62799b615">995033d02fd6811051dad5f62799b69d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>17</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-14 04:12:51</sys_created_on>
+            <sys_id>d95033d02fd6811051dad5f62799b6a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-14 04:12:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>pair_trade</element>
+            <list_id display_value="x_0586_trade_manag_trade" element="NULL" name="x_0586_trade_manag_trade" parent="NULL" relationship="NULL" sys_domain="global" view="3b20bb102fd6811051dad5f62799b615">995033d02fd6811051dad5f62799b69d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>18</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-14 04:12:51</sys_created_on>
+            <sys_id>5d5033d02fd6811051dad5f62799b6a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-14 04:12:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>points_captured</element>
+            <list_id display_value="x_0586_trade_manag_trade" element="NULL" name="x_0586_trade_manag_trade" parent="NULL" relationship="NULL" sys_domain="global" view="3b20bb102fd6811051dad5f62799b615">995033d02fd6811051dad5f62799b69d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>19</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-14 04:12:51</sys_created_on>
+            <sys_id>dd5033d02fd6811051dad5f62799b6a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-14 04:12:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sentiments_and_observation</element>
+            <list_id display_value="x_0586_trade_manag_trade" element="NULL" name="x_0586_trade_manag_trade" parent="NULL" relationship="NULL" sys_domain="global" view="3b20bb102fd6811051dad5f62799b615">995033d02fd6811051dad5f62799b69d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>20</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-14 04:12:51</sys_created_on>
+            <sys_id>515033d02fd6811051dad5f62799b6a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-14 04:12:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_stop_loss_price</element>
+            <list_id display_value="x_0586_trade_manag_trade" element="NULL" name="x_0586_trade_manag_trade" parent="NULL" relationship="NULL" sys_domain="global" view="3b20bb102fd6811051dad5f62799b615">995033d02fd6811051dad5f62799b69d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>21</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-14 04:12:51</sys_created_on>
+            <sys_id>d15033d02fd6811051dad5f62799b6a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-14 04:12:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_id</element>
+            <list_id display_value="x_0586_trade_manag_trade" element="NULL" name="x_0586_trade_manag_trade" parent="NULL" relationship="NULL" sys_domain="global" view="3b20bb102fd6811051dad5f62799b615">995033d02fd6811051dad5f62799b69d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>22</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-14 04:12:51</sys_created_on>
+            <sys_id>555033d02fd6811051dad5f62799b6a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-14 04:12:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_on</element>
+            <list_id display_value="x_0586_trade_manag_trade" element="NULL" name="x_0586_trade_manag_trade" parent="NULL" relationship="NULL" sys_domain="global" view="3b20bb102fd6811051dad5f62799b615">995033d02fd6811051dad5f62799b69d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>23</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-14 04:12:51</sys_created_on>
+            <sys_id>d55033d02fd6811051dad5f62799b6a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-14 04:12:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_by</element>
+            <list_id display_value="x_0586_trade_manag_trade" element="NULL" name="x_0586_trade_manag_trade" parent="NULL" relationship="NULL" sys_domain="global" view="3b20bb102fd6811051dad5f62799b615">995033d02fd6811051dad5f62799b69d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>24</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-14 04:12:51</sys_created_on>
+            <sys_id>595033d02fd6811051dad5f62799b6a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-14 04:12:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_mod_count</element>
+            <list_id display_value="x_0586_trade_manag_trade" element="NULL" name="x_0586_trade_manag_trade" parent="NULL" relationship="NULL" sys_domain="global" view="3b20bb102fd6811051dad5f62799b615">995033d02fd6811051dad5f62799b69d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>25</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-14 04:12:51</sys_created_on>
+            <sys_id>d95033d02fd6811051dad5f62799b6a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-14 04:12:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_0586_trade_manag_trade</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-14 04:12:51</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>995033d02fd6811051dad5f62799b69d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_0586_trade_manag_trade</sys_name>
+            <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
+            <sys_update_name>sys_ui_list_x_0586_trade_manag_trade_exp_dtmpx_0586_trade_manag_tradeadmin</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-14 04:12:51</sys_updated_on>
+            <sys_user/>
+            <view display_value="Exp_dtmpx_0586_trade_manag_tradeadmin" name="exp_dtmpx_0586_trade_manag_tradeadmin">3b20bb102fd6811051dad5f62799b615</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>
