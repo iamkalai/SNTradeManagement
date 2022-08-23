@@ -8,8 +8,8 @@
         <enable_delta_export>false</enable_delta_export>
         <entered_time/>
         <export_set display_value="Trade management export">09afab982f96811051dad5f62799b619</export_set>
-        <last_export_run>2022-04-16 09:54:51</last_export_run>
-        <name>Scheduled export trades</name>
+        <last_export_run>2022-08-13 08:22:21</last_export_run>
+        <name>Trade Export Job</name>
         <offset/>
         <offset_type>0</offset_type>
         <order/>
@@ -31,15 +31,15 @@
         <sys_created_on>2022-03-14 04:14:54</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>d9a0fbd02fd6811051dad5f62799b6c0</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_name>Scheduled export trades</sys_name>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>Trade Export Job</sys_name>
         <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name>scheduled_data_export_d9a0fbd02fd6811051dad5f62799b6c0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-16 12:36:41</sys_updated_on>
+        <sys_updated_on>2022-08-23 17:48:38</sys_updated_on>
         <time_zone/>
         <upgrade_safe>false</upgrade_safe>
     </scheduled_data_export>
