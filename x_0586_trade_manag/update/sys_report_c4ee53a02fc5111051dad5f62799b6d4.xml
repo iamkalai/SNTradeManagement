@@ -29,7 +29,7 @@
         <color display_value="Default Color">de699435d7033100b4964ebfae610331</color>
         <color_palette display_value="Default UI14">aa558ab3d7732100fa6c0c12ce610377</color_palette>
         <colors/>
-        <column>duration</column>
+        <column/>
         <compute_percent>aggregate</compute_percent>
         <content/>
         <created_by_user display_value="Kalaiarasan P">6816f79cc0a8016401c5a33be04be441</created_by_user>
@@ -45,17 +45,20 @@
         <donut_width_percent>50</donut_width_percent>
         <end_time/>
         <exp_report_attrs>true</exp_report_attrs>
-        <field>u_stock</field>
-        <field_list>entry_date,u_stock,duration,investment,u_stock_price,exit_date,u_realised_pl_percent</field_list>
-        <filter table="x_0586_trade_manag_trade">instrument=stock<item display_value="Stock" endquery="false" field="instrument" goto="false" newquery="false" operator="=" or="false" value="stock"/>
+        <field/>
+        <field_list>type,category,subcategory,amount,date,details,sys_updated_on,u_maturity</field_list>
+        <filter table="x_0586_personal_ex_expenses">date&gt;javascript:gs.dateGenerate('2021-02-28','23:23:59')^type=expense^category=business^subcategory=trading_loss<item endquery="false" field="date" goto="false" newquery="false" operator="&gt;" or="false" value="javascript:gs.dateGenerate('2021-02-28','23:23:59')"/>
+            <item display_value="Expense" endquery="false" field="type" goto="false" newquery="false" operator="=" or="false" value="expense"/>
+            <item display_value="Business" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="business"/>
+            <item display_value="Trading Loss" endquery="false" field="subcategory" goto="false" newquery="false" operator="=" or="false" value="trading_loss"/>
         </filter>
-        <formatting_configuration>{"table":"incident","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{}}</formatting_configuration>
+        <formatting_configuration>{"table":"x_0586_personal_ex_expenses","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{"amount,AGGREGATION":{"decimalPrecision":2,"groupingUsed":true,"roundingMode":"HALF_UP","metricPrefixSymbolUsed":false,"showOriginalNumberInTooltip":true,"addValueInTooltip":true}}}</formatting_configuration>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
         <gauge_autoscale>true</gauge_autoscale>
         <group/>
         <import_table/>
-        <interval>year</interval>
+        <interval>month</interval>
         <is_published>false</is_published>
         <is_real_time>false</is_real_time>
         <is_scheduled>false</is_scheduled>
@@ -74,13 +77,13 @@
         <map_source/>
         <orderby_list/>
         <other_threshold>-2</other_threshold>
-        <others>true</others>
+        <others>false</others>
         <page_hdrftr/>
         <pivot_expanded>true</pivot_expanded>
         <report_drilldown/>
-        <report_source display_value="Trade Management - All Trades (After FO) (Trade)">15611caf2f01b41051dad5f62799b6de</report_source>
+        <report_source display_value="Personal Expense Manager - Income and Expense (Expenses)">112594882f45111051dad5f62799b6d3</report_source>
         <roles/>
-        <row>u_realised_pl_percent</row>
+        <row/>
         <sc_groupby_item_id/>
         <sc_groupby_variable_id/>
         <sc_stackby_item_id/>
@@ -97,33 +100,33 @@
         <show_geographical_label>false</show_geographical_label>
         <show_legend>true</show_legend>
         <show_legend_border>false</show_legend_border>
-        <show_marker>false</show_marker>
-        <show_zero>false</show_zero>
+        <show_marker>true</show_marker>
+        <show_zero>true</show_zero>
         <source_type>source</source_type>
         <start_time/>
         <style_config/>
-        <sumfield>u_realised_pl</sumfield>
+        <sumfield>amount</sumfield>
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-09-09 10:59:19</sys_created_on>
+        <sys_created_on>2022-07-29 14:27:45</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>6da517202f26b01051dad5f62799b690</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Trade Aging</sys_name>
+        <sys_id>c4ee53a02fc5111051dad5f62799b6d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Trading Management - Total Trading Loss</sys_name>
         <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
-        <sys_update_name>sys_report_6da517202f26b01051dad5f62799b690</sys_update_name>
+        <sys_update_name>sys_report_c4ee53a02fc5111051dad5f62799b6d4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-27 10:39:03</sys_updated_on>
-        <table>x_0586_trade_manag_trade</table>
-        <title>Trade Aging</title>
+        <sys_updated_on>2022-07-29 14:27:45</sys_updated_on>
+        <table>x_0586_personal_ex_expenses</table>
+        <title>Trading Management - Total Trading Loss</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
         <trend_field/>
-        <type>bubble</type>
+        <type>single_score</type>
         <upper_limit/>
         <use_color_heatmap>false</use_color_heatmap>
         <use_color_palette>false</use_color_palette>

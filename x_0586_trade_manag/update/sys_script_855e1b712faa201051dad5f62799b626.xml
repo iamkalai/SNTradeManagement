@@ -65,7 +65,13 @@
             }
         } else {
             var getExpense = new GlideRecord("x_0586_personal_ex_expenses");
-            getExpense.addEncodedQuery("type=savings^category=trading_stocks^ORcategory=stocks^payment_method=electronic^details=" + current.u_stock.stock_symbol.toString());
+
+            if (current.instrument == 'stock') {
+                getExpense.addEncodedQuery("type=savings^category=trading_stocks^payment_method=electronic^details=" + current.u_stock.stock_symbol.toString());
+            } else {
+                getExpense.addEncodedQuery("type=savings^category=stocks^payment_method=electronic^details=" + current.u_stock.stock_symbol.toString());
+            }
+
             getExpense.query();
             while (getExpense.next()) {
                 getExpense.deleteRecord();
@@ -101,7 +107,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>855e1b712faa201051dad5f62799b626</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>Calculate Investment</sys_name>
         <sys_overrides/>
         <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
@@ -110,7 +116,7 @@
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name>sys_script_855e1b712faa201051dad5f62799b626</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-24 07:48:21</sys_updated_on>
+        <sys_updated_on>2022-05-20 07:32:24</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

@@ -45,11 +45,16 @@
         <donut_width_percent>50</donut_width_percent>
         <end_time/>
         <exp_report_attrs>true</exp_report_attrs>
-        <field>category</field>
-        <field_list>type,category,subcategory,amount,date,details,number,status,sys_updated_on,payment_method</field_list>
-        <filter table="x_0586_personal_ex_expenses">category=stocks^subcategory=trading^date&gt;javascript:gs.dateGenerate('2021-02-28','23:59:59')<item display_value="Stocks" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="stocks"/>
+        <field/>
+        <field_list>type,category,subcategory,amount,date,details,sys_updated_on,u_maturity</field_list>
+        <filter table="x_0586_personal_ex_expenses">date&gt;javascript:gs.dateGenerate('2021-02-28','23:23:59')^type=income^category=stocks^subcategory=trading^NQdate&gt;javascript:gs.dateGenerate('2021-02-28','23:23:59')^type=expense^category=business^subcategory=trading_loss<item endquery="false" field="date" goto="false" newquery="false" operator="&gt;" or="false" value="javascript:gs.dateGenerate('2021-02-28','23:23:59')"/>
+            <item display_value="Income" endquery="false" field="type" goto="false" newquery="false" operator="=" or="false" value="income"/>
+            <item display_value="Stocks" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="stocks"/>
             <item display_value="Trading" endquery="false" field="subcategory" goto="false" newquery="false" operator="=" or="false" value="trading"/>
-            <item endquery="false" field="date" goto="false" newquery="false" operator="&gt;" or="false" value="javascript:gs.dateGenerate('2021-02-28','23:59:59')"/>
+            <item endquery="false" field="date" goto="false" newquery="true" operator="&gt;" or="false" value="javascript:gs.dateGenerate('2021-02-28','23:23:59')"/>
+            <item display_value="Expense" endquery="false" field="type" goto="false" newquery="false" operator="=" or="false" value="expense"/>
+            <item display_value="Business" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="business"/>
+            <item display_value="Trading Loss" endquery="false" field="subcategory" goto="false" newquery="false" operator="=" or="false" value="trading_loss"/>
         </filter>
         <formatting_configuration>{"table":"x_0586_personal_ex_expenses","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{"amount,AGGREGATION":{"decimalPrecision":2,"groupingUsed":true,"roundingMode":"HALF_UP","metricPrefixSymbolUsed":false,"showOriginalNumberInTooltip":true,"addValueInTooltip":true}}}</formatting_configuration>
         <from/>
@@ -80,7 +85,7 @@
         <page_hdrftr/>
         <pivot_expanded>true</pivot_expanded>
         <report_drilldown/>
-        <report_source display_value="Personal Expense Manager - Income (Expenses)">fbcb31bc1b8c04108ed631d7dc4bcb23</report_source>
+        <report_source display_value="Personal Expense Manager - Income and Expense (Expenses)">112594882f45111051dad5f62799b6d3</report_source>
         <roles/>
         <row/>
         <sc_groupby_item_id/>
@@ -110,7 +115,7 @@
         <sys_created_on>2021-07-05 14:25:18</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>37dbc0e32f01b41051dad5f62799b625</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Trading Management - Total Trading Income</sys_name>
         <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
         <sys_policy/>
@@ -118,13 +123,13 @@
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name>sys_report_37dbc0e32f01b41051dad5f62799b625</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-04 10:21:46</sys_updated_on>
+        <sys_updated_on>2022-07-27 10:47:36</sys_updated_on>
         <table>x_0586_personal_ex_expenses</table>
         <title>Trading Management - Total Trading Income</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
-        <trend_field>sys_created_on</trend_field>
+        <trend_field/>
         <type>single_score</type>
         <upper_limit/>
         <use_color_heatmap>false</use_color_heatmap>
