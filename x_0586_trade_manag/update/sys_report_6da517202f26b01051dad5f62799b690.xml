@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report">
     <sys_report action="INSERT_OR_UPDATE">
         <additional_groupby/>
-        <aggregate>SUM</aggregate>
+        <aggregate>COUNT</aggregate>
         <aggregation_source>no_override</aggregation_source>
         <allow_data_label_overlap>false</allow_data_label_overlap>
         <apply_alias>false</apply_alias>
@@ -46,8 +46,8 @@
         <end_time/>
         <exp_report_attrs>true</exp_report_attrs>
         <field>u_stock</field>
-        <field_list>entry_date,u_stock,duration,investment,u_stock_price,exit_date,u_realised_pl_percent</field_list>
-        <filter table="x_0586_trade_manag_trade">instrument=stock<item display_value="Stock" endquery="false" field="instrument" goto="false" newquery="false" operator="=" or="false" value="stock"/>
+        <field_list>number,entry_date,u_stock,u_actual_quantity,u_stock_price,entry_rationale,investment,duration,instrument,u_realised_pl_percent</field_list>
+        <filter table="x_0586_trade_manag_trade">instrumentINstock,stock_investment<item display_value="stock,stock_investment" endquery="false" field="instrument" goto="false" newquery="false" operator="IN" or="false" value="stock,stock_investment"/>
         </filter>
         <formatting_configuration>{"table":"incident","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{}}</formatting_configuration>
         <from/>
@@ -78,7 +78,7 @@
         <page_hdrftr/>
         <pivot_expanded>true</pivot_expanded>
         <report_drilldown/>
-        <report_source display_value="Trade Management - All Trades (After FO) (Trade)">15611caf2f01b41051dad5f62799b6de</report_source>
+        <report_source display_value="Trade Management - All Trades (After FO) (Trade)">0bd0ceb62fe7dd1051dad5f62799b6ca</report_source>
         <roles/>
         <row>u_realised_pl_percent</row>
         <sc_groupby_item_id/>
@@ -102,13 +102,13 @@
         <source_type>source</source_type>
         <start_time/>
         <style_config/>
-        <sumfield>u_realised_pl</sumfield>
+        <sumfield/>
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-09-09 10:59:19</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>6da517202f26b01051dad5f62799b690</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Trade Aging</sys_name>
         <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
         <sys_policy/>
@@ -116,7 +116,7 @@
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name>sys_report_6da517202f26b01051dad5f62799b690</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-27 10:39:03</sys_updated_on>
+        <sys_updated_on>2023-01-05 16:43:29</sys_updated_on>
         <table>x_0586_trade_manag_trade</table>
         <title>Trade Aging</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="hasLabels=true" label="Trade" max_length="40" name="x_0586_trade_manag_trade" sizeclass="300" type="collection">
+    <element attributes="hasLabels=true" db_object_id="f4fb063adb41330057c764d74896191d" label="Trade" max_length="40" name="x_0586_trade_manag_trade" type="collection">
         <element label="Closing Comments" max_length="4000" name="closing_comments" type="string"/>
         <element label="Duration" max_length="40" name="duration" type="integer"/>
         <element default="javascript:gs.nowDateTime()" dynamic_default_value="79cb83a85f220100a9ad2572f2b4773c" label="Entry Date" max_length="40" name="entry_date" type="glide_date_time" use_dynamic_default="true"/>
@@ -18,6 +18,7 @@
         <element label="Pair Trade" max_length="32" name="pair_trade" reference="x_0586_trade_manag_trade" type="reference"/>
         <element label="Points Captured" max_length="20" name="points_captured" type="decimal"/>
         <element label="Sentiments and Observations" max_length="4000" name="sentiments_and_observation" type="string"/>
+        <element attributes="encode_utf8=false" label="Strategy" max_length="32" name="strategy" reference="x_0586_trade_manag_trade_strategy" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
         <element default="true" label="Active" max_length="40" name="u_active" type="boolean"/>
         <element label="Quantity" max_length="40" name="u_actual_quantity" type="integer"/>
         <element default="10000" label="Deprecated Capital" max_length="20" name="u_capital" type="decimal"/>
@@ -83,6 +84,9 @@
             <element name="pair_trade"/>
         </index>
         <index name="index2">
+            <element name="strategy"/>
+        </index>
+        <index name="index3">
             <element name="u_stock"/>
         </index>
     </element>

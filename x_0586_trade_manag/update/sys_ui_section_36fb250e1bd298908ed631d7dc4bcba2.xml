@@ -4,13 +4,13 @@
             <element>u_realised_pl</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-07-30 16:30:31</sys_created_on>
-            <sys_id>cffb650e1bd298908ed631d7dc4bcb41</sys_id>
+            <sys_created_on>2023-06-30 06:45:21</sys_created_on>
+            <sys_id>3e3b0cbc47f3251086f73e7d826d4379</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Summary" display_value="Summary" name="x_0586_trade_manag_trade" sys_domain="global" view="Default view">36fb250e1bd298908ed631d7dc4bcba2</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-30 16:30:31</sys_updated_on>
+            <sys_updated_on>2023-06-30 06:45:21</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>u_realised_pl_percent</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-07-30 16:30:31</sys_created_on>
-            <sys_id>47fb650e1bd298908ed631d7dc4bcb42</sys_id>
+            <sys_created_on>2023-06-30 06:45:21</sys_created_on>
+            <sys_id>363b0cbc47f3251086f73e7d826d437a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Summary" display_value="Summary" name="x_0586_trade_manag_trade" sys_domain="global" view="Default view">36fb250e1bd298908ed631d7dc4bcba2</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-30 16:30:31</sys_updated_on>
+            <sys_updated_on>2023-06-30 06:45:21</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>.split</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-07-30 16:30:31</sys_created_on>
-            <sys_id>cbfb650e1bd298908ed631d7dc4bcb42</sys_id>
+            <sys_created_on>2023-06-30 06:45:21</sys_created_on>
+            <sys_id>b63b0cbc47f3251086f73e7d826d437a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Summary" display_value="Summary" name="x_0586_trade_manag_trade" sys_domain="global" view="Default view">36fb250e1bd298908ed631d7dc4bcba2</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-30 16:30:31</sys_updated_on>
+            <sys_updated_on>2023-06-30 06:45:21</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -46,13 +46,27 @@
             <element>points_captured</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-07-30 16:30:31</sys_created_on>
-            <sys_id>43fb650e1bd298908ed631d7dc4bcb43</sys_id>
+            <sys_created_on>2023-06-30 06:45:21</sys_created_on>
+            <sys_id>3a3b0cbc47f3251086f73e7d826d437a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Summary" display_value="Summary" name="x_0586_trade_manag_trade" sys_domain="global" view="Default view">36fb250e1bd298908ed631d7dc4bcba2</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-30 16:30:31</sys_updated_on>
+            <sys_updated_on>2023-06-30 06:45:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>duration</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-30 06:45:21</sys_created_on>
+            <sys_id>ba3b0cbc47f3251086f73e7d826d437a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Summary" display_value="Summary" name="x_0586_trade_manag_trade" sys_domain="global" view="Default view">36fb250e1bd298908ed631d7dc4bcba2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-30 06:45:21</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_cubes">
+    <pa_cubes action="INSERT_OR_UPDATE">
+        <benchmarking>false</benchmarking>
+        <calendar>standard</calendar>
+        <calendar_freq/>
+        <conditions table="x_0586_trade_manag_trade">entry_date&gt;javascript:gs.dateGenerate('2021-02-28','23:59:59')<item endquery="false" field="entry_date" goto="false" newquery="false" operator="&gt;" or="false" value="javascript:gs.dateGenerate('2021-02-28','23:59:59')"/>
+        </conditions>
+        <description/>
+        <facts_table>x_0586_trade_manag_trade</facts_table>
+        <facts_table_pk/>
+        <facts_table_pktable/>
+        <facts_table_pkview/>
+        <frequency>10</frequency>
+        <max_record_fetch_count>50000</max_record_fetch_count>
+        <name>Active Trades</name>
+        <override_record_collection>false</override_record_collection>
+        <report_source display_value="Trade Management - All Trades (After FO) (Trade)">0bd0ceb62fe7dd1051dad5f62799b6ca</report_source>
+        <report_source_updated_at>2023-08-30 05:57:33</report_source_updated_at>
+        <sys_class_name>pa_cubes</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-30 11:28:02</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ad94179847c1fd1086f73e7d826d4308</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Active Trades</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
+        <sys_update_name>pa_cubes_ad94179847c1fd1086f73e7d826d4308</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-30 11:28:02</sys_updated_on>
+    </pa_cubes>
+    <sys_translated_text action="delete_multiple" query="documentkey=ad94179847c1fd1086f73e7d826d4308"/>
+</record_update>

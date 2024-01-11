@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4a5f2bc34787f15086f73e7d826d43a7" extends="sys_import_set_row" label="Imp Tmpl X 0586 Trade Manag Trade" max_length="40" name="u_imp_tmpl_x_0586_trade_manag_trade" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Number" label="Number" max_length="40" name="u_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Strategy" label="Strategy" max_length="32" name="u_strategy" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Sys ID" label="Sys ID" max_length="40" name="u_sys_id" type="string"/>
+    </element>
+</database>

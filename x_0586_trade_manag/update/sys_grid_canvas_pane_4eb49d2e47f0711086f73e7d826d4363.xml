@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
     <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
         <grid_canvas display_value="PA Trade Management - New Tab">8996a70f2fc9f01051dad5f62799b6d6</grid_canvas>
-        <height>4</height>
-        <portal_widget display_value="Created 2022-02-04 15:54:00">37d8999c2fe1411051dad5f62799b680</portal_widget>
+        <height>5</height>
+        <portal_widget display_value="Created 2023-08-24 21:08:34">f5b49d2e47f0711086f73e7d826d4360</portal_widget>
         <posx>0</posx>
-        <posy>8</posy>
+        <posy>0</posy>
         <sys_class_name>sys_grid_canvas_pane</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-04 10:24:01</sys_created_on>
+        <sys_created_on>2023-08-24 15:38:34</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>f3d8999c2fe1411051dad5f62799b684</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_id>4eb49d2e47f0711086f73e7d826d4363</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>8996a70f2fc9f01051dad5f62799b6d6</sys_name>
         <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
-        <sys_update_name>sys_grid_canvas_pane_f3d8999c2fe1411051dad5f62799b684</sys_update_name>
+        <sys_update_name>sys_grid_canvas_pane_4eb49d2e47f0711086f73e7d826d4363</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-29 14:28:17</sys_updated_on>
+        <sys_updated_on>2023-08-24 15:38:53</sys_updated_on>
         <width>3</width>
     </sys_grid_canvas_pane>
 </record_update>

@@ -45,8 +45,8 @@
         <donut_width_percent>50</donut_width_percent>
         <end_time/>
         <exp_report_attrs>true</exp_report_attrs>
-        <field>instrument</field>
-        <field_list>instrument,u_type,u_stock,u_realised_pl,entry_rationale,investment,u_actual_quantity,u_stock_price,u_exit_price,entry_date,exit_date,u_realised_pl_percent,closing_comments,duration</field_list>
+        <field/>
+        <field_list>number,entry_date,u_stock,u_actual_quantity,u_stock_price,entry_rationale,investment,duration,instrument,u_realised_pl_percent</field_list>
         <filter/>
         <formatting_configuration>{"table":"incident","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{}}</formatting_configuration>
         <from/>
@@ -77,7 +77,7 @@
         <page_hdrftr/>
         <pivot_expanded>true</pivot_expanded>
         <report_drilldown/>
-        <report_source display_value="Trade Management - All Trades (After FO) (Trade)">15611caf2f01b41051dad5f62799b6de</report_source>
+        <report_source display_value="Trade Management - All Trades (After FO) (Trade)">0bd0ceb62fe7dd1051dad5f62799b6ca</report_source>
         <roles/>
         <row/>
         <sc_groupby_item_id/>
@@ -86,7 +86,7 @@
         <sc_stackby_variable_id/>
         <score_color display_value="Black">65b30218a9fe3dba0120df8611520d97</score_color>
         <series_name_text/>
-        <set_color>color_palette</set_color>
+        <set_color>one_color</set_color>
         <show_chart_border>false</show_chart_border>
         <show_chart_data_label>false</show_chart_data_label>
         <show_chart_title>report</show_chart_title>
@@ -107,7 +107,7 @@
         <sys_created_on>2021-07-05 14:42:49</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>50ef0cab2f01b41051dad5f62799b6de</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Trading Management - Number Of Monthly Trades (Opened)</sys_name>
         <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
         <sys_policy/>
@@ -115,7 +115,7 @@
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name>sys_report_50ef0cab2f01b41051dad5f62799b6de</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-07-05 14:50:41</sys_updated_on>
+        <sys_updated_on>2023-01-05 16:48:18</sys_updated_on>
         <table>x_0586_trade_manag_trade</table>
         <title>Trading Management - Number Of Monthly Trades (Opened)</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ae131f434783f15086f73e7d826d43c0" label="Trade Strategy" max_length="40" name="x_0586_trade_manag_trade_strategy" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Description" max_length="4000" name="description" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element display="true" label="Title" max_length="100" name="title" type="string" unique="true"/>
+        <index name="index" unique="true">
+            <element name="title"/>
+        </index>
+    </element>
+</database>

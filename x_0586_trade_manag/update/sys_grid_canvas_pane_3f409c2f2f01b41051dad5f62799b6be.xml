@@ -4,13 +4,13 @@
         <height>15</height>
         <portal_widget display_value="Created 2021-07-05 20:14:41">f34054eb2f01b41051dad5f62799b6e8</portal_widget>
         <posx>6</posx>
-        <posy>41</posy>
+        <posy>31</posy>
         <sys_class_name>sys_grid_canvas_pane</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-07-05 14:44:41</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>3f409c2f2f01b41051dad5f62799b6be</sys_id>
-        <sys_mod_count>53</sys_mod_count>
+        <sys_mod_count>66</sys_mod_count>
         <sys_name>8996a70f2fc9f01051dad5f62799b6d6</sys_name>
         <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
         <sys_policy/>
@@ -18,7 +18,7 @@
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name>sys_grid_canvas_pane_3f409c2f2f01b41051dad5f62799b6be</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-29 14:28:16</sys_updated_on>
+        <sys_updated_on>2023-08-24 15:41:34</sys_updated_on>
         <width>6</width>
     </sys_grid_canvas_pane>
 </record_update>
