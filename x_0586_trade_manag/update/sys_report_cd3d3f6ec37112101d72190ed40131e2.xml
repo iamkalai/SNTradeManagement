@@ -36,19 +36,23 @@
         <created_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</created_by_user>
         <custom_chart_size>false</custom_chart_size>
         <custom_chart_title_position>false</custom_chart_title_position>
-        <custom_config>{"transforms":[{"transform":{"transform":"Reference","name":"chart-subjects"}}]}</custom_config>
+        <custom_config/>
         <decimal_precision>2</decimal_precision>
         <description/>
         <direction>minimize</direction>
         <display_column_lines>false</display_column_lines>
         <display_grid>false</display_grid>
         <display_row_lines>false</display_row_lines>
-        <donut_width_percent>50</donut_width_percent>
+        <donut_width_percent>30</donut_width_percent>
         <end_time/>
         <exp_report_attrs>true</exp_report_attrs>
-        <field>u_stock</field>
-        <field_list>number,entry_date,u_stock,u_actual_quantity,u_stock_price,entry_rationale,investment,duration,instrument,u_realised_pl_percent</field_list>
-        <filter table="x_0586_trade_manag_trade">instrumentINstock,stock_investment^strategy.active=true<item display_value="stock,stock_investment" endquery="false" field="instrument" goto="false" newquery="false" operator="IN" or="false" value="stock,stock_investment"/>
+        <field>duration</field>
+        <field_list>number,opened_at,short_description,caller_id,priority,state,category,assignment_group,assigned_to,sys_updated_on,sys_updated_by</field_list>
+        <filter table="x_0586_trade_manag_trade">u_active=false^exit_date&gt;javascript:gs.dateGenerate('2021-02-28','23:59:59')^duration&gt;1^instrumentINstock,stock_investment^entry_date&gt;javascript:gs.dateGenerate('2021-02-28','23:59:59')^strategy.active=true<item endquery="false" field="u_active" goto="false" newquery="false" operator="=" or="false" value="false"/>
+            <item endquery="false" field="exit_date" goto="false" newquery="false" operator="&gt;" or="false" value="javascript:gs.dateGenerate('2021-02-28','23:59:59')"/>
+            <item endquery="false" field="duration" goto="false" newquery="false" operator="&gt;" or="false" value="1"/>
+            <item display_value="stock,stock_investment" endquery="false" field="instrument" goto="false" newquery="false" operator="IN" or="false" value="stock,stock_investment"/>
+            <item endquery="false" field="entry_date" goto="false" newquery="false" operator="&gt;" or="false" value="javascript:gs.dateGenerate('2021-02-28','23:59:59')"/>
             <item endquery="false" field="strategy.active" goto="false" newquery="false" operator="=" or="false" value="true"/>
         </filter>
         <formatting_configuration>{"table":"incident","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{}}</formatting_configuration>
@@ -57,7 +61,7 @@
         <gauge_autoscale>true</gauge_autoscale>
         <group/>
         <import_table/>
-        <interval>year</interval>
+        <interval>month</interval>
         <is_published>false</is_published>
         <is_real_time>false</is_real_time>
         <is_scheduled>false</is_scheduled>
@@ -76,23 +80,23 @@
         <map_source/>
         <no_bulk_migration>false</no_bulk_migration>
         <orderby_list/>
-        <other_threshold>-2</other_threshold>
+        <other_threshold>10</other_threshold>
         <others>true</others>
         <page_hdrftr/>
         <pivot_expanded>true</pivot_expanded>
         <report_drilldown/>
-        <report_source display_value="Trade Management - All Trades (After FO) (Trade)">0bd0ceb62fe7dd1051dad5f62799b6ca</report_source>
+        <report_source/>
         <roles/>
-        <row>u_realised_pl_percent</row>
+        <row>strategy</row>
         <sc_groupby_item_id/>
         <sc_groupby_variable_id/>
         <sc_stackby_item_id/>
         <sc_stackby_variable_id/>
         <score_color display_value="Black">65b30218a9fe3dba0120df8611520d97</score_color>
         <series_name_text/>
-        <set_color>null</set_color>
+        <set_color>color_palette</set_color>
         <show_chart_border>false</show_chart_border>
-        <show_chart_data_label>false</show_chart_data_label>
+        <show_chart_data_label>true</show_chart_data_label>
         <show_chart_title>report</show_chart_title>
         <show_chart_total>false</show_chart_total>
         <show_data_label_position_middle>false</show_data_label_position_middle>
@@ -102,31 +106,31 @@
         <show_legend_border>false</show_legend_border>
         <show_marker>false</show_marker>
         <show_zero>false</show_zero>
-        <source_type>source</source_type>
+        <source_type>table</source_type>
         <start_time/>
         <style_config/>
         <sumfield/>
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-09-09 10:59:19</sys_created_on>
-        <sys_id>6da517202f26b01051dad5f62799b690</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_name>Trade Aging</sys_name>
+        <sys_created_on>2024-11-14 13:19:47</sys_created_on>
+        <sys_id>cd3d3f6ec37112101d72190ed40131e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Bar on Trade table by Duration created by System Administrator: 2024-11-14 18:41:57</sys_name>
         <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
         <sys_policy/>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
-        <sys_update_name>sys_report_6da517202f26b01051dad5f62799b690</sys_update_name>
+        <sys_update_name>sys_report_cd3d3f6ec37112101d72190ed40131e2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-01 16:48:00</sys_updated_on>
+        <sys_updated_on>2024-11-14 13:19:47</sys_updated_on>
         <table>x_0586_trade_manag_trade</table>
-        <title>Trade Aging</title>
+        <title>Bar on Trade table by Duration created by System Administrator: 2024-11-14 18:41:57</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
         <trend_field/>
-        <type>bubble</type>
+        <type>heatmap</type>
         <upper_limit/>
-        <use_color_heatmap>false</use_color_heatmap>
+        <use_color_heatmap>true</use_color_heatmap>
         <use_null_in_trend>false</use_null_in_trend>
         <user>6816f79cc0a8016401c5a33be04be441</user>
         <x_axis_allow_decimals>true</x_axis_allow_decimals>

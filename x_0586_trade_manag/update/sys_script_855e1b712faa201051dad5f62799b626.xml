@@ -37,7 +37,7 @@
         var entry = new GlideDateTime(current.getValue('entry_date'));
         var exit = new GlideDateTime();
         var duration = GlideDateTime.subtract(entry, exit);
-        current.duration = (duration.getDayPart() >= 1) ? duration.getDayPart() : 1;
+        current.duration = (duration.getRoundedDayPart() >= 1) ? duration.getRoundedDayPart() : 1;
 
         if (current.u_exit_price == '') {
             if (current.investment.changes() || current.operation() == 'insert') {
@@ -103,20 +103,18 @@
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-26 12:40:50</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>855e1b712faa201051dad5f62799b626</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Calculate Investment</sys_name>
         <sys_overrides/>
         <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name>sys_script_855e1b712faa201051dad5f62799b626</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-05-20 07:32:24</sys_updated_on>
+        <sys_updated_on>2024-06-10 06:17:56</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

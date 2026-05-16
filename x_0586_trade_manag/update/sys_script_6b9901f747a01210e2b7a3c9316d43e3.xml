@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_0586_trade_manag_trade</collection>
+        <condition>current.isNewRecord()</condition>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Display Rule</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    var tradeEntryText = "Trendlyne: 70, 47.7, 41.6(57.3)\nPE - PE - Strong Buy Zone(Current-Undervalued,1 Year Forward-Undervalued) and PB - Sell Zone(Current-Undervalued,1 Year Forward-Undervalued) \nRSI: 39.4\nPiotroski Score - 7";
+    current.entry_rationale = tradeEntryText;
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-16 18:10:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6b9901f747a01210e2b7a3c9316d43e3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Display Rule</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
+        <sys_update_name>sys_script_6b9901f747a01210e2b7a3c9316d43e3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-10 04:30:27</sys_updated_on>
+        <template/>
+        <when>before_display</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=6b9901f747a01210e2b7a3c9316d43e3"/>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>6b9901f747a01210e2b7a3c9316d43e3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-10 04:27:06</sys_created_on>
+        <sys_id>3939c5b6c30132101d72190ed4013108</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-10 04:27:06</sys_updated_on>
+        <table>sys_script</table>
+        <use_es_latest>false</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
