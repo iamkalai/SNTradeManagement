@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_restricted_caller_access">
+    <sys_restricted_caller_access action="INSERT_OR_UPDATE">
+        <description/>
+        <operation>read</operation>
+        <rca_type>real_rca</rca_type>
+        <source>8beb4bb8ff942210a9b0ffffffffffaa</source>
+        <source_scope display_value="Global">global</source_scope>
+        <source_table>sys_script_include</source_table>
+        <source_type>2</source_type>
+        <status>2</status>
+        <sys_class_name>sys_restricted_caller_access</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2026-05-17 09:20:19</sys_created_on>
+        <sys_id>4637925bc338c3101d72190ed4013103</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>global</sys_name>
+        <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
+        <sys_update_name>sys_restricted_caller_access_4637925bc338c3101d72190ed4013103</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-05-17 09:20:19</sys_updated_on>
+        <target name="x_0586_trade_manag_trade_strategy" target_table="sys_db_object">ae131f434783f15086f73e7d826d43c0</target>
+        <target_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</target_scope>
+        <target_table>sys_db_object</target_table>
+        <target_type>1</target_type>
+    </sys_restricted_caller_access>
+</record_update>
