@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>os_version</element>
-            <list_id display_value="cmdb_ci_server" element="NULL" name="cmdb_ci_server" parent="NULL" relationship="NULL" sys_domain="global" view="00a851a31b6e1c148ed631d7dc4bcb19">40a851a31b6e1c148ed631d7dc4bcb1a</list_id>
+            <list_id display_value="cmdb_ci_server" element="NULL" name="cmdb_ci_server" parent="NULL" relationship="NULL" sys_domain="global" view="df4e6cb847773110e2b7a3c9316d4320">40a851a31b6e1c148ed631d7dc4bcb1a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -28,7 +28,6 @@
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-08-16 17:12:31</sys_created_on>
-            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>40a851a31b6e1c148ed631d7dc4bcb1a</sys_id>
@@ -36,13 +35,12 @@
             <sys_name>cmdb_ci_server</sys_name>
             <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
             <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
             <sys_update_name>sys_ui_list_cmdb_ci_server_RPT08a811a31b6e1c148ed631d7dc4bcbaf</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2020-08-16 17:12:31</sys_updated_on>
             <sys_user/>
-            <view display_value="Rpt08a811a31b6e1c148ed631d7dc4bcbaf" name="RPT08a811a31b6e1c148ed631d7dc4bcbaf">00a851a31b6e1c148ed631d7dc4bcb19</view>
+            <view display_value="Rpt08a811a31b6e1c148ed631d7dc4bcbaf" name="RPT08a811a31b6e1c148ed631d7dc4bcbaf">df4e6cb847773110e2b7a3c9316d4320</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

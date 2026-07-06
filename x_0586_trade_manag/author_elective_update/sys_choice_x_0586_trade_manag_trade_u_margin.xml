@@ -6,13 +6,10 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-04-30 07:27:15</sys_created_on>
-            <sys_customer_update>false</sys_customer_update>
-            <sys_id>5111127edb41330057c764d74896191f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>u_margin</sys_name>
             <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
             <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
             <sys_update_name>sys_choice_x_0586_trade_manag_trade_u_margin</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
@@ -32,7 +29,6 @@
             <sys_created_on>2019-04-30 07:27:15</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>d511127edb41330057c764d74896191e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2019-04-30 07:27:15</sys_updated_on>
@@ -52,7 +48,6 @@
             <sys_created_on>2019-04-30 07:27:15</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>151112bedb41330057c764d7489619bd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2019-04-30 07:27:15</sys_updated_on>
@@ -72,7 +67,6 @@
             <sys_created_on>2019-04-30 07:27:15</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>d11112bedb41330057c764d7489619be</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2019-04-30 07:27:15</sys_updated_on>
@@ -92,7 +86,6 @@
             <sys_created_on>2019-04-30 07:27:15</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>911112bedb41330057c764d7489619bf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2019-04-30 07:27:15</sys_updated_on>
@@ -112,7 +105,6 @@
             <sys_created_on>2019-04-30 07:27:15</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>511112bedb41330057c764d7489619c0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2019-04-30 07:27:15</sys_updated_on>
@@ -132,7 +124,6 @@
             <sys_created_on>2019-04-30 07:27:15</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>111112bedb41330057c764d7489619c1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2019-04-30 07:27:15</sys_updated_on>
@@ -152,7 +143,6 @@
             <sys_created_on>2019-04-30 07:27:15</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>dd1112bedb41330057c764d7489619c1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2019-04-30 07:27:15</sys_updated_on>
@@ -172,7 +162,6 @@
             <sys_created_on>2019-04-30 07:27:15</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>9d1112bedb41330057c764d7489619c2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2019-04-30 07:27:15</sys_updated_on>
@@ -192,7 +181,6 @@
             <sys_created_on>2019-04-30 07:27:15</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>5d1112bedb41330057c764d7489619c3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2019-04-30 07:27:15</sys_updated_on>
@@ -212,7 +200,6 @@
             <sys_created_on>2019-04-30 07:27:15</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>1d1112bedb41330057c764d7489619c4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2019-04-30 07:27:15</sys_updated_on>

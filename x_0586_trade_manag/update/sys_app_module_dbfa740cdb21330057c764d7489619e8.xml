@@ -3,7 +3,6 @@
         <active>true</active>
         <application display_value="Trade Management">7bd52d59db376300d8ccd421cf961970</application>
         <assessment/>
-        <content_page/>
         <device_type/>
         <filter table="core_company">stock_symbolISNOTEMPTY^publicly_traded=true^vendor_typeLIKE2c094c08db5fcb00d8ccd421cf961910^EQ<item endquery="false" field="stock_symbol" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
             <item endquery="false" field="publicly_traded" goto="false" newquery="false" operator="=" or="false" value="true"/>
@@ -22,13 +21,11 @@
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
+        <require_confirmation>true</require_confirmation>
         <roles/>
-        <survey/>
-        <survey_overwrite>true</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-05-16 08:41:15</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>dbfa740cdb21330057c764d7489619e8</sys_id>
@@ -37,7 +34,6 @@
         <sys_overrides/>
         <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name>sys_app_module_dbfa740cdb21330057c764d7489619e8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>

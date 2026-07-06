@@ -8,15 +8,14 @@
         <sys_class_name>sys_complex_object</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-08-13 09:02:57</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>13cbc8261b2294148ed631d7dc4bcb8d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>FD9fcbc82686229414dbe218a0c7f7af8c</sys_name>
         <sys_overrides/>
         <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name>sys_complex_object_13cbc8261b2294148ed631d7dc4bcb8d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>

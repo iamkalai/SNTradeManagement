@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="entry_date" label="Entry Date" language="en" table="var__m_sys_hub_action_input_5a33314a1b1698908ed631d7dc4bcba8">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>entry_date</element>
+            <help/>
+            <hint/>
+            <label>Entry Date</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_5a33314a1b1698908ed631d7dc4bcba8</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-30 17:02:09</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Entry Date</sys_name>
+            <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_input_5a33314a1b1698908ed631d7dc4bcba8_entry_date_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-30 17:02:09</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -9,11 +9,10 @@
         <current_solution_version>1</current_solution_version>
         <dataset_language>en</dataset_language>
         <fields>cluster_parameters</fields>
-        <filter table="v_cmdb_running_process">sys_created_on&gt;2020-03-07 12:35:59^sys_created_on&lt;=2020-03-07 12:59:01<item endquery="false" field="sys_created_on" goto="false" newquery="false" operator="&gt;" or="false" value="2020-03-07 12:35:59"/>
-            <item endquery="false" field="sys_created_on" goto="false" newquery="false" operator="&lt;=" or="false" value="2020-03-07 12:59:01"/>
-        </filter>
+        <filter table="v_cmdb_running_process">sys_created_on&gt;2020-03-07 12:35:59^sys_created_on&lt;=2020-03-07 12:59:01</filter>
         <group_unclustered_rec>false</group_unclustered_rec>
         <min_records>2</min_records>
+        <pretrained>false</pretrained>
         <purity_fields/>
         <request_source>api</request_source>
         <segmentation_field>cluster_name</segmentation_field>
@@ -25,20 +24,20 @@
         <sys_class_name>ml_capability_definition_clustering</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-12 10:06:45</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>ce55ba552f9e201051dad5f62799b630</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>application_suggestion</sys_name>
         <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name>ml_capability_definition_clustering_ce55ba552f9e201051dad5f62799b630</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-02-12 10:06:45</sys_updated_on>
         <table>v_cmdb_running_process</table>
         <training_frequency>run_once</training_frequency>
+        <triggered_source/>
         <update_frequency>do_not_update</update_frequency>
         <use_segmentation>true</use_segmentation>
         <word_vector_corpus/>

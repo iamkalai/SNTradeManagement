@@ -52,7 +52,6 @@
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-20 13:47:21</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
         <sys_id>029e3d7c4e12498b8013f3f476f57ea9</sys_id>
         <sys_metadata>5e5d91efdbc5330057c764d7489619d9</sys_metadata>
@@ -61,7 +60,6 @@
         <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
         <sys_parent display_value="">42cc55afdbc5330057c764d7489619a6</sys_parent>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_scope_delete display_value="">0796acae3c1b44d480b90d43a626d764</sys_scope_delete>
         <sys_update_name>sys_ui_policy_action_5e5d91efdbc5330057c764d7489619d9</sys_update_name>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Idea" max_length="40" name="x_0586_trade_manag_idea" sizeclass="1" type="collection">
+    <element db_object_id="252ea87847773110e2b7a3c9316d439c" label="Idea" max_length="40" name="x_0586_trade_manag_idea" type="collection">
         <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
         <element label="Closing Comments" max_length="4000" name="closing_comments" type="string"/>
         <element label="Entry Price" max_length="20" name="entry_price" type="decimal"/>

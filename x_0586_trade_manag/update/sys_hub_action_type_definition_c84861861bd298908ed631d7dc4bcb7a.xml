@@ -2,36 +2,40 @@
     <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
+        <action_status/>
         <action_template/>
         <active>true</active>
         <annotation>This updates the trade completion details.</annotation>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <ih_action>false</ih_action>
         <internal_name>trade_updates</internal_name>
         <label_cache>[{"name":"{{action.quantity}}","label":"action➛Quantity","type":"action","ref":""},{"name":"{{action.entry_price}}","label":"action➛Entry Price","type":"action","ref":""},{"name":"{{action.exit_price}}","label":"action➛Exit Price","type":"action","ref":""},{"name":"{{action.entry_date}}","label":"action➛Entry Date","type":"action","ref":""},{"name":"{{action.exit_date}}","label":"action➛Exit Date","type":"action","ref":""},{"name":"{{action.type}}","label":"action➛Type","type":"action","ref":""},{"name":"{{step[bd2bc8f9-f7ae-4603-9324-cf061fd7fb3d].variable}}","label":"step➛Process PL➛total_pl","type":"step","ref":""},{"name":"{{step[bd2bc8f9-f7ae-4603-9324-cf061fd7fb3d].total_pl}}","label":"step➛Process PL➛Total PL","type":"step","ref":""},{"name":"{{step[bd2bc8f9-f7ae-4603-9324-cf061fd7fb3d].points_captured}}","label":"step➛Process PL➛Points Captured","type":"step","ref":""},{"name":"{{step[bd2bc8f9-f7ae-4603-9324-cf061fd7fb3d].pl_percent}}","label":"step➛Process PL➛PL Percent","type":"step","ref":""},{"name":"{{step[bd2bc8f9-f7ae-4603-9324-cf061fd7fb3d].duration}}","label":"step➛Process PL➛Duration","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>ec1cf54a1b5698908ed631d7dc4bcb04</latest_snapshot>
         <master_snapshot>5a33314a1b1698908ed631d7dc4bcba8</master_snapshot>
+        <master_snapshot_digest/>
         <name>Trade Updates</name>
         <natlang/>
         <outputs/>
         <outputs/>
+        <pre_compiled>false</pre_compiled>
         <state>published</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 16:14:12</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>c84861861bd298908ed631d7dc4bcb7a</sys_id>
         <sys_mod_count>40</sys_mod_count>
         <sys_name>Trade Updates</sys_name>
         <sys_overrides/>
         <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_c84861861bd298908ed631d7dc4bcb7a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
@@ -39,6 +43,7 @@
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=c84861861bd298908ed631d7dc4bcb7a"/>
     <sys_variable_value action="delete_multiple" query="document_key=c84861861bd298908ed631d7dc4bcb7a"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_type_definition</document>
@@ -149,6 +154,7 @@
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Trade Updates">c84861861bd298908ed631d7dc4bcb7a</action>
         <cid>bd2bc8f9-f7ae-4603-9324-cf061fd7fb3d</cid>
+        <error_handling_type/>
         <extended_inputs/>
         <extended_inputs/>
         <extended_outputs/>
@@ -159,18 +165,11 @@
         <outputs/>
         <section/>
         <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 16:16:17</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>62b86d861bd298908ed631d7dc4bcbd3</sys_id>
         <sys_mod_count>16</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 17:37:48</sys_updated_on>
     </sys_hub_step_instance>
@@ -315,6 +314,9 @@
         <table>var__m_sys_hub_step_ext_input_62b86d861bd298908ed631d7dc4bcbd3</table>
         <value>{{action.type}}</value>
     </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_62b86d861bd298908ed631d7dc4bcbd3^id=62b86d861bd298908ed631d7dc4bcbd3"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=62b86d861bd298908ed631d7dc4bcbd3"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=62b86d861bd298908ed631d7dc4bcbd3"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=62b86d861bd298908ed631d7dc4bcbd3^sys_idNOT IN090d618e1bd298908ed631d7dc4bcb47,0a2a254a1bd298908ed631d7dc4bcbc6,28f9ad0a1bd298908ed631d7dc4bcbc7,58f9ad0a1bd298908ed631d7dc4bcbc3,90f9ad0a1bd298908ed631d7dc4bcbbb,98f9ad0a1bd298908ed631d7dc4bcbbf"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -347,6 +349,7 @@
         <element>type</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -377,13 +380,11 @@
         <sys_class_name>sys_hub_step_ext_input</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 16:35:02</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>090d618e1bd298908ed631d7dc4bcb47</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
@@ -395,6 +396,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -430,6 +432,7 @@
         <element>quantity</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -460,13 +463,11 @@
         <sys_class_name>sys_hub_step_ext_input</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 16:22:32</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>0a2a254a1bd298908ed631d7dc4bcbc6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
@@ -478,6 +479,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -513,6 +515,7 @@
         <element>exit_date</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -543,13 +546,11 @@
         <sys_class_name>sys_hub_step_ext_input</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 16:21:36</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>28f9ad0a1bd298908ed631d7dc4bcbc7</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
@@ -561,6 +562,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -596,6 +598,7 @@
         <element>entry_date</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -626,13 +629,11 @@
         <sys_class_name>sys_hub_step_ext_input</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 16:21:36</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>58f9ad0a1bd298908ed631d7dc4bcbc3</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
@@ -644,6 +645,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -679,6 +681,7 @@
         <element>entry_price</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -709,13 +712,11 @@
         <sys_class_name>sys_hub_step_ext_input</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 16:21:36</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>90f9ad0a1bd298908ed631d7dc4bcbbb</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
@@ -727,6 +728,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -762,6 +764,7 @@
         <element>exit_price</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -792,13 +795,11 @@
         <sys_class_name>sys_hub_step_ext_input</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 16:21:36</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>98f9ad0a1bd298908ed631d7dc4bcbbf</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
@@ -810,6 +811,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -846,6 +848,7 @@
         <element>points_captured</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -876,13 +879,11 @@
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 16:33:31</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>43ace54e1bd298908ed631d7dc4bcb3d</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
@@ -894,6 +895,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -929,6 +931,7 @@
         <element>total_pl</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -959,13 +962,11 @@
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 16:33:31</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>4bace54e1bd298908ed631d7dc4bcb36</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
@@ -977,6 +978,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1012,6 +1014,7 @@
         <element>duration</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1042,13 +1045,11 @@
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 17:00:54</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>88f2f50a1b1698908ed631d7dc4bcb40</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
@@ -1060,6 +1061,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1095,6 +1097,7 @@
         <element>pl_percent</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1125,13 +1128,11 @@
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 16:33:31</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>c7ace54e1bd298908ed631d7dc4bcb42</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
@@ -1143,10 +1144,12 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=62b86d861bd298908ed631d7dc4bcbd3"/>
     <sys_hub_action_input action="delete_multiple" query="model=c84861861bd298908ed631d7dc4bcb7a^sys_idNOT IN0e39adc21bd298908ed631d7dc4bcba2,b0ec6d4e1bd298908ed631d7dc4bcb9e,c639a9c61bd298908ed631d7dc4bcbed,c639a9c61bd298908ed631d7dc4bcbf8,ce39a9c61bd298908ed631d7dc4bcbe7,ce39a9c61bd298908ed631d7dc4bcbf2"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -1179,6 +1182,7 @@
         <element>quantity</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1209,13 +1213,11 @@
         <sys_class_name>sys_hub_action_input</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 16:18:26</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>0e39adc21bd298908ed631d7dc4bcba2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
@@ -1227,10 +1229,12 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=0e39adc21bd298908ed631d7dc4bcba2"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1262,6 +1266,7 @@
         <element>type</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1292,13 +1297,11 @@
         <sys_class_name>sys_hub_action_input</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 16:34:28</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>b0ec6d4e1bd298908ed631d7dc4bcb9e</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
@@ -1310,10 +1313,12 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b0ec6d4e1bd298908ed631d7dc4bcb9e"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1345,6 +1350,7 @@
         <element>exit_price</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1375,13 +1381,11 @@
         <sys_class_name>sys_hub_action_input</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 16:18:26</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>c639a9c61bd298908ed631d7dc4bcbed</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
@@ -1393,10 +1397,12 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c639a9c61bd298908ed631d7dc4bcbed"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1428,6 +1434,7 @@
         <element>exit_date</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1458,13 +1465,11 @@
         <sys_class_name>sys_hub_action_input</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 16:18:27</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>c639a9c61bd298908ed631d7dc4bcbf8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
@@ -1476,10 +1481,12 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c639a9c61bd298908ed631d7dc4bcbf8"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1511,6 +1518,7 @@
         <element>entry_price</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1541,13 +1549,11 @@
         <sys_class_name>sys_hub_action_input</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 16:18:26</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>ce39a9c61bd298908ed631d7dc4bcbe7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
@@ -1559,10 +1565,12 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ce39a9c61bd298908ed631d7dc4bcbe7"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1594,6 +1602,7 @@
         <element>entry_date</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1624,13 +1633,11 @@
         <sys_class_name>sys_hub_action_input</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 16:18:26</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>ce39a9c61bd298908ed631d7dc4bcbf2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
@@ -1642,10 +1649,12 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ce39a9c61bd298908ed631d7dc4bcbf2"/>
     <sys_hub_action_output action="delete_multiple" query="model=c84861861bd298908ed631d7dc4bcb7a^sys_idNOT IN0e133d0a1b1698908ed631d7dc4bcb0c,4299650a1bd298908ed631d7dc4bcb31,4a99650a1bd298908ed631d7dc4bcb18,8299650a1bd298908ed631d7dc4bcb1f"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -1679,6 +1688,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1710,13 +1720,11 @@
         <sys_class_name>sys_hub_action_output</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 17:01:35</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>0e133d0a1b1698908ed631d7dc4bcb0c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
@@ -1728,10 +1736,13 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=0e133d0a1b1698908ed631d7dc4bcb0c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=0e133d0a1b1698908ed631d7dc4bcb0c"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1764,6 +1775,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1795,13 +1807,11 @@
         <sys_class_name>sys_hub_action_output</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 16:20:05</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>4299650a1bd298908ed631d7dc4bcb31</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
@@ -1813,10 +1823,13 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4299650a1bd298908ed631d7dc4bcb31"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=4299650a1bd298908ed631d7dc4bcb31"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1849,6 +1862,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1880,13 +1894,11 @@
         <sys_class_name>sys_hub_action_output</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 16:20:05</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>4a99650a1bd298908ed631d7dc4bcb18</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
@@ -1898,10 +1910,13 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4a99650a1bd298908ed631d7dc4bcb18"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=4a99650a1bd298908ed631d7dc4bcb18"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1934,6 +1949,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1965,13 +1981,11 @@
         <sys_class_name>sys_hub_action_output</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 16:20:05</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>8299650a1bd298908ed631d7dc4bcb1f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
@@ -1983,11 +1997,15 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_c84861861bd298908ed631d7dc4bcb7a^sys_idNOT IN0639a9c61bd298908ed631d7dc4bcbec,0639a9c61bd298908ed631d7dc4bcbf7,0e39a9c61bd298908ed631d7dc4bcbe6,0e39a9c61bd298908ed631d7dc4bcbf1,0e39a9c61bd298908ed631d7dc4bcbfc,bcec6d4e1bd298908ed631d7dc4bcba2"/>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8299650a1bd298908ed631d7dc4bcb1f"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8299650a1bd298908ed631d7dc4bcb1f"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=c84861861bd298908ed631d7dc4bcb7a"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=c84861861bd298908ed631d7dc4bcb7a"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>entry_price</element>
         <help/>
@@ -1999,15 +2017,13 @@
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 16:18:26</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>0639a9c61bd298908ed631d7dc4bcbec</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Entry Price</sys_name>
         <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_c84861861bd298908ed631d7dc4bcb7a_entry_price_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 16:18:26</sys_updated_on>
         <url/>
@@ -2024,15 +2040,13 @@
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 16:18:27</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>0639a9c61bd298908ed631d7dc4bcbf7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Entry Date</sys_name>
         <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_c84861861bd298908ed631d7dc4bcb7a_entry_date_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 16:18:27</sys_updated_on>
         <url/>
@@ -2049,15 +2063,13 @@
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 16:18:26</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>0e39a9c61bd298908ed631d7dc4bcbe6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Quantity</sys_name>
         <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_c84861861bd298908ed631d7dc4bcb7a_quantity_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 16:18:26</sys_updated_on>
         <url/>
@@ -2074,15 +2086,13 @@
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 16:18:26</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>0e39a9c61bd298908ed631d7dc4bcbf1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Exit Price</sys_name>
         <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_c84861861bd298908ed631d7dc4bcb7a_exit_price_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 16:18:26</sys_updated_on>
         <url/>
@@ -2099,15 +2109,13 @@
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 16:18:27</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>0e39a9c61bd298908ed631d7dc4bcbfc</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Exit Date</sys_name>
         <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_c84861861bd298908ed631d7dc4bcb7a_exit_date_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 16:18:27</sys_updated_on>
         <url/>
@@ -2124,21 +2132,19 @@
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 16:34:28</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>bcec6d4e1bd298908ed631d7dc4bcba2</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
+        <sys_name>Type</sys_name>
         <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_c84861861bd298908ed631d7dc4bcb7a_type_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 16:35:02</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_c84861861bd298908ed631d7dc4bcb7a^sys_idNOT IN8699650a1bd298908ed631d7dc4bcb35,8a133d0a1b1698908ed631d7dc4bcb11,8e99650a1bd298908ed631d7dc4bcb2f,ce99650a1bd298908ed631d7dc4bcb1d"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_c84861861bd298908ed631d7dc4bcb7a"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>pl_percent</element>
         <help/>
@@ -2150,15 +2156,13 @@
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 16:20:05</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>8699650a1bd298908ed631d7dc4bcb35</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>PL Percent</sys_name>
         <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_c84861861bd298908ed631d7dc4bcb7a_pl_percent_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 16:20:05</sys_updated_on>
         <url/>
@@ -2175,15 +2179,13 @@
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 17:01:35</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>8a133d0a1b1698908ed631d7dc4bcb11</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Duration</sys_name>
         <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_c84861861bd298908ed631d7dc4bcb7a_duration_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 17:01:35</sys_updated_on>
         <url/>
@@ -2200,15 +2202,13 @@
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 16:20:05</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>8e99650a1bd298908ed631d7dc4bcb2f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Total PL</sys_name>
         <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_c84861861bd298908ed631d7dc4bcb7a_total_pl_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 16:20:05</sys_updated_on>
         <url/>
@@ -2225,52 +2225,49 @@
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 16:20:05</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>ce99650a1bd298908ed631d7dc4bcb1d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Points Captured</sys_name>
         <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_c84861861bd298908ed631d7dc4bcb7a_points_captured_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 16:20:05</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_c84861861bd298908ed631d7dc4bcb7a"/>
     <sys_hub_action_plan action="delete_multiple" query="action_id=c84861861bd298908ed631d7dc4bcb7a^sys_idNOT IN8733b14a1b1698908ed631d7dc4bcb21"/>
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Trade Updates">c84861861bd298908ed631d7dc4bcb7a</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"8733b14a1b1698908ed631d7dc4bcb21","name":"plan"}}</plan>
         <snapshot>ec1cf54a1b5698908ed631d7dc4bcb04</snapshot>
-        <sys_class_name>sys_hub_action_plan</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 17:02:12</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>8733b14a1b1698908ed631d7dc4bcb21</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
         <sys_overrides/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 17:40:52</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
+        <action_status/>
         <action_template/>
         <annotation>This updates the trade completion details.</annotation>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <internal_name>trade_updates</internal_name>
         <label_cache>[{"name":"{{action.quantity}}","label":"action➛Quantity","type":"action","ref":""},{"name":"{{action.entry_price}}","label":"action➛Entry Price","type":"action","ref":""},{"name":"{{action.exit_price}}","label":"action➛Exit Price","type":"action","ref":""},{"name":"{{action.entry_date}}","label":"action➛Entry Date","type":"action","ref":""},{"name":"{{action.exit_date}}","label":"action➛Exit Date","type":"action","ref":""},{"name":"{{action.type}}","label":"action➛Type","type":"action","ref":""},{"name":"{{step[bd2bc8f9-f7ae-4603-9324-cf061fd7fb3d].variable}}","label":"step➛Process PL➛total_pl","type":"step","ref":""},{"name":"{{step[bd2bc8f9-f7ae-4603-9324-cf061fd7fb3d].total_pl}}","label":"step➛Process PL➛Total PL","type":"step","ref":""},{"name":"{{step[bd2bc8f9-f7ae-4603-9324-cf061fd7fb3d].points_captured}}","label":"step➛Process PL➛Points Captured","type":"step","ref":""},{"name":"{{step[bd2bc8f9-f7ae-4603-9324-cf061fd7fb3d].pl_percent}}","label":"step➛Process PL➛PL Percent","type":"step","ref":""},{"name":"{{step[bd2bc8f9-f7ae-4603-9324-cf061fd7fb3d].duration}}","label":"step➛Process PL➛Duration","type":"step","ref":""}]</label_cache>
         <master>true</master>
@@ -2282,15 +2279,14 @@
         <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 17:02:09</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>5a33314a1b1698908ed631d7dc4bcba8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
@@ -2298,6 +2294,7 @@
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=5a33314a1b1698908ed631d7dc4bcba8"/>
     <sys_variable_value action="delete_multiple" query="document_key=5a33314a1b1698908ed631d7dc4bcba8"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_type_snapshot</document>
@@ -2408,6 +2405,7 @@
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Trade Updates">5a33314a1b1698908ed631d7dc4bcba8</action>
         <cid>bd2bc8f9-f7ae-4603-9324-cf061fd7fb3d</cid>
+        <error_handling_type/>
         <extended_inputs/>
         <extended_inputs/>
         <extended_outputs/>
@@ -2418,18 +2416,11 @@
         <outputs/>
         <section/>
         <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 17:02:10</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>ae33314a1b1698908ed631d7dc4bcbf4</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 17:40:50</sys_updated_on>
     </sys_hub_step_instance>
@@ -2574,6 +2565,9 @@
         <table>var__m_sys_hub_step_ext_input_ae33314a1b1698908ed631d7dc4bcbf4</table>
         <value>{{action.type}}</value>
     </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_ae33314a1b1698908ed631d7dc4bcbf4^id=ae33314a1b1698908ed631d7dc4bcbf4"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=ae33314a1b1698908ed631d7dc4bcbf4"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=ae33314a1b1698908ed631d7dc4bcbf4"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=ae33314a1b1698908ed631d7dc4bcbf4^sys_idNOT IN2a33314a1b1698908ed631d7dc4bcbf7,6233714a1b1698908ed631d7dc4bcb0f,6633714a1b1698908ed631d7dc4bcb09,6a33714a1b1698908ed631d7dc4bcb03,6e33314a1b1698908ed631d7dc4bcbfd,6e33714a1b1698908ed631d7dc4bcb14"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -2606,6 +2600,7 @@
         <element>entry_price</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2636,13 +2631,11 @@
         <sys_class_name>sys_hub_step_ext_input</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 17:02:10</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>2a33314a1b1698908ed631d7dc4bcbf7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
@@ -2654,6 +2647,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2689,6 +2683,7 @@
         <element>quantity</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2719,13 +2714,11 @@
         <sys_class_name>sys_hub_step_ext_input</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 17:02:10</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>6233714a1b1698908ed631d7dc4bcb0f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
@@ -2737,6 +2730,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2772,6 +2766,7 @@
         <element>exit_date</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2802,13 +2797,11 @@
         <sys_class_name>sys_hub_step_ext_input</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 17:02:10</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>6633714a1b1698908ed631d7dc4bcb09</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
@@ -2820,6 +2813,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2855,6 +2849,7 @@
         <element>entry_date</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2885,13 +2880,11 @@
         <sys_class_name>sys_hub_step_ext_input</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 17:02:10</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>6a33714a1b1698908ed631d7dc4bcb03</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
@@ -2903,6 +2896,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2938,6 +2932,7 @@
         <element>exit_price</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2968,13 +2963,11 @@
         <sys_class_name>sys_hub_step_ext_input</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 17:02:10</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>6e33314a1b1698908ed631d7dc4bcbfd</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
@@ -2986,6 +2979,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3021,6 +3015,7 @@
         <element>type</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3051,13 +3046,11 @@
         <sys_class_name>sys_hub_step_ext_input</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 17:02:10</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>6e33714a1b1698908ed631d7dc4bcb14</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
@@ -3069,6 +3062,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3105,6 +3099,7 @@
         <element>total_pl</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3135,13 +3130,11 @@
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 17:02:10</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>6233714a1b1698908ed631d7dc4bcb1b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
@@ -3153,6 +3146,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3188,6 +3182,7 @@
         <element>pl_percent</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3218,13 +3213,11 @@
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 17:02:10</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>6633714a1b1698908ed631d7dc4bcb27</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
@@ -3236,6 +3229,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3271,6 +3265,7 @@
         <element>duration</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3301,13 +3296,11 @@
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 17:02:10</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>e233714a1b1698908ed631d7dc4bcb2d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
@@ -3319,6 +3312,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3354,6 +3348,7 @@
         <element>points_captured</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3384,13 +3379,11 @@
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 17:02:10</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>e633714a1b1698908ed631d7dc4bcb21</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
@@ -3402,10 +3395,12 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ae33314a1b1698908ed631d7dc4bcbf4"/>
     <sys_hub_action_input action="delete_multiple" query="model=5a33314a1b1698908ed631d7dc4bcba8^sys_idNOT IN2633314a1b1698908ed631d7dc4bcbe7,5633314a1b1698908ed631d7dc4bcbb0,5e33314a1b1698908ed631d7dc4bcba9,6233314a1b1698908ed631d7dc4bcbbc,a233314a1b1698908ed631d7dc4bcbed,e233314a1b1698908ed631d7dc4bcbb6"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -3438,6 +3433,7 @@
         <element>exit_date</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3468,13 +3464,11 @@
         <sys_class_name>sys_hub_action_input</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 17:02:10</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>2633314a1b1698908ed631d7dc4bcbe7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
@@ -3486,10 +3480,12 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2633314a1b1698908ed631d7dc4bcbe7"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -3521,6 +3517,7 @@
         <element>entry_price</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3551,13 +3548,11 @@
         <sys_class_name>sys_hub_action_input</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 17:02:09</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>5633314a1b1698908ed631d7dc4bcbb0</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
@@ -3569,10 +3564,12 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=5633314a1b1698908ed631d7dc4bcbb0"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -3604,6 +3601,7 @@
         <element>quantity</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3634,13 +3632,11 @@
         <sys_class_name>sys_hub_action_input</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 17:02:09</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>5e33314a1b1698908ed631d7dc4bcba9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
@@ -3652,10 +3648,12 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=5e33314a1b1698908ed631d7dc4bcba9"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -3687,6 +3685,7 @@
         <element>entry_date</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3717,13 +3716,11 @@
         <sys_class_name>sys_hub_action_input</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 17:02:09</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>6233314a1b1698908ed631d7dc4bcbbc</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
@@ -3735,10 +3732,12 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=6233314a1b1698908ed631d7dc4bcbbc"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -3770,6 +3769,7 @@
         <element>type</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3800,13 +3800,11 @@
         <sys_class_name>sys_hub_action_input</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 17:02:10</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>a233314a1b1698908ed631d7dc4bcbed</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
@@ -3818,10 +3816,12 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a233314a1b1698908ed631d7dc4bcbed"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -3853,6 +3853,7 @@
         <element>exit_price</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3883,13 +3884,11 @@
         <sys_class_name>sys_hub_action_input</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 17:02:09</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>e233314a1b1698908ed631d7dc4bcbb6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
@@ -3901,10 +3900,12 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e233314a1b1698908ed631d7dc4bcbb6"/>
     <sys_hub_action_output action="delete_multiple" query="model=5a33314a1b1698908ed631d7dc4bcba8^sys_idNOT IN3a33714a1b1698908ed631d7dc4bcb4d,3e33714a1b1698908ed631d7dc4bcb41,b633714a1b1698908ed631d7dc4bcb3b,ba33714a1b1698908ed631d7dc4bcb47"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -3938,6 +3939,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3969,13 +3971,11 @@
         <sys_class_name>sys_hub_action_output</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 17:02:11</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>3a33714a1b1698908ed631d7dc4bcb4d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
@@ -3987,10 +3987,13 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=3a33714a1b1698908ed631d7dc4bcb4d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3a33714a1b1698908ed631d7dc4bcb4d"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -4023,6 +4026,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4054,13 +4058,11 @@
         <sys_class_name>sys_hub_action_output</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 17:02:10</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>3e33714a1b1698908ed631d7dc4bcb41</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
@@ -4072,10 +4074,13 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=3e33714a1b1698908ed631d7dc4bcb41"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3e33714a1b1698908ed631d7dc4bcb41"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -4108,6 +4113,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4139,13 +4145,11 @@
         <sys_class_name>sys_hub_action_output</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 17:02:10</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>b633714a1b1698908ed631d7dc4bcb3b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
@@ -4157,10 +4161,13 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b633714a1b1698908ed631d7dc4bcb3b"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b633714a1b1698908ed631d7dc4bcb3b"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -4193,6 +4200,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4224,13 +4232,11 @@
         <sys_class_name>sys_hub_action_output</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 17:02:11</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>ba33714a1b1698908ed631d7dc4bcb47</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
@@ -4242,11 +4248,15 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_5a33314a1b1698908ed631d7dc4bcba8^sys_idNOT IN2e33314a1b1698908ed631d7dc4bcbb4,6a33314a1b1698908ed631d7dc4bcbf1,6e33314a1b1698908ed631d7dc4bcbe5,9e33314a1b1698908ed631d7dc4bcbae,aa33314a1b1698908ed631d7dc4bcbba,ea33314a1b1698908ed631d7dc4bcbeb"/>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ba33714a1b1698908ed631d7dc4bcb47"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ba33714a1b1698908ed631d7dc4bcb47"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=5a33314a1b1698908ed631d7dc4bcba8"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=5a33314a1b1698908ed631d7dc4bcba8"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>entry_price</element>
         <help/>
@@ -4258,15 +4268,13 @@
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 17:02:09</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>2e33314a1b1698908ed631d7dc4bcbb4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Entry Price</sys_name>
         <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_5a33314a1b1698908ed631d7dc4bcba8_entry_price_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 17:02:09</sys_updated_on>
         <url/>
@@ -4283,15 +4291,13 @@
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 17:02:10</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>6a33314a1b1698908ed631d7dc4bcbf1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Type</sys_name>
         <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_5a33314a1b1698908ed631d7dc4bcba8_type_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 17:02:10</sys_updated_on>
         <url/>
@@ -4308,15 +4314,13 @@
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 17:02:09</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>6e33314a1b1698908ed631d7dc4bcbe5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Entry Date</sys_name>
         <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_5a33314a1b1698908ed631d7dc4bcba8_entry_date_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 17:02:09</sys_updated_on>
         <url/>
@@ -4333,15 +4337,13 @@
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 17:02:09</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>9e33314a1b1698908ed631d7dc4bcbae</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Quantity</sys_name>
         <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_5a33314a1b1698908ed631d7dc4bcba8_quantity_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 17:02:09</sys_updated_on>
         <url/>
@@ -4358,15 +4360,13 @@
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 17:02:09</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>aa33314a1b1698908ed631d7dc4bcbba</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Exit Price</sys_name>
         <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_5a33314a1b1698908ed631d7dc4bcba8_exit_price_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 17:02:09</sys_updated_on>
         <url/>
@@ -4383,21 +4383,19 @@
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 17:02:10</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>ea33314a1b1698908ed631d7dc4bcbeb</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Exit Date</sys_name>
         <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_5a33314a1b1698908ed631d7dc4bcba8_exit_date_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 17:02:10</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_5a33314a1b1698908ed631d7dc4bcba8^sys_idNOT IN7233714a1b1698908ed631d7dc4bcb4c,7633714a1b1698908ed631d7dc4bcb40,f233714a1b1698908ed631d7dc4bcb46,fe33714a1b1698908ed631d7dc4bcb51"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_5a33314a1b1698908ed631d7dc4bcba8"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>pl_percent</element>
         <help/>
@@ -4409,15 +4407,13 @@
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 17:02:11</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>7233714a1b1698908ed631d7dc4bcb4c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>PL Percent</sys_name>
         <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_5a33314a1b1698908ed631d7dc4bcba8_pl_percent_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 17:02:11</sys_updated_on>
         <url/>
@@ -4434,15 +4430,13 @@
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 17:02:10</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>7633714a1b1698908ed631d7dc4bcb40</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Points Captured</sys_name>
         <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_5a33314a1b1698908ed631d7dc4bcba8_points_captured_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 17:02:10</sys_updated_on>
         <url/>
@@ -4459,15 +4453,13 @@
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 17:02:11</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>f233714a1b1698908ed631d7dc4bcb46</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Total PL</sys_name>
         <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_5a33314a1b1698908ed631d7dc4bcba8_total_pl_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 17:02:11</sys_updated_on>
         <url/>
@@ -4484,18 +4476,22 @@
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-30 17:02:11</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>fe33714a1b1698908ed631d7dc4bcb51</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Duration</sys_name>
         <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_5a33314a1b1698908ed631d7dc4bcba8_duration_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-30 17:02:11</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_5a33314a1b1698908ed631d7dc4bcba8"/>
+    <sys_hub_action_type_definition action="UPDATE">
+        <sys_id>c84861861bd298908ed631d7dc4bcb7a</sys_id>
+        <latest_snapshot>5a33314a1b1698908ed631d7dc4bcba8</latest_snapshot>
+        <compiler_build>glide-utah-12-21-2022__patch7a-09-28-2023_10-10-2023_1258.zip</compiler_build>
+    </sys_hub_action_type_definition>
 </record_update>

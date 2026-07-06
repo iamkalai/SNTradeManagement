@@ -31,7 +31,7 @@
         <reverted_from/>
         <source>7bd52d59db376300d8ccd421cf9619f6</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-02-22 10:30:24</sys_created_on>
         <sys_id>e678f19ddb776300d8ccd421cf961932</sys_id>
@@ -48,7 +48,6 @@
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-20 13:39:51</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="sys_report_users_groups">sys_report_users_groups</sys_db_object>
         <sys_id>1e360ba4af9b4af08cd4d3b9bbea9900</sys_id>
         <sys_metadata>2e78f19ddb776300d8ccd421cf96192f</sys_metadata>
@@ -57,7 +56,6 @@
         <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
         <sys_parent display_value="">2678f19ddb776300d8ccd421cf96192f</sys_parent>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_scope_delete display_value="">0796acae3c1b44d480b90d43a626d764</sys_scope_delete>
         <sys_update_name>sys_report_users_groups_2e78f19ddb776300d8ccd421cf96192f</sys_update_name>

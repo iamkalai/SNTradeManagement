@@ -33,7 +33,7 @@
         <reverted_from/>
         <source>7bd52d59db376300d8ccd421cf9619f6</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-02-22 10:07:20</sys_created_on>
         <sys_id>303335d5db776300d8ccd421cf961936</sys_id>
@@ -50,7 +50,6 @@
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-20 13:39:49</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="sys_data_policy_rule">sys_data_policy_rule</sys_db_object>
         <sys_id>33386137889c4742a158e5ee1bf36304</sys_id>
         <sys_metadata>f03335d5db776300d8ccd421cf961934</sys_metadata>
@@ -59,7 +58,6 @@
         <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
         <sys_parent display_value="">14e2b1d5db776300d8ccd421cf961930</sys_parent>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_scope_delete display_value="">0796acae3c1b44d480b90d43a626d764</sys_scope_delete>
         <sys_update_name>sys_data_policy_rule_f03335d5db776300d8ccd421cf961934</sys_update_name>

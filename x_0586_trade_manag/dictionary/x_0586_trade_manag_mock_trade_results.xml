@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Mock Trade Results" max_length="40" name="x_0586_trade_manag_mock_trade_results" sizeclass="3" type="collection">
+    <element db_object_id="c22ee87847773110e2b7a3c9316d4366" label="Mock Trade Results" max_length="40" name="x_0586_trade_manag_mock_trade_results" type="collection">
         <element label="Comments" max_length="4000" name="comments" type="string"/>
         <element label="Max Loss" max_length="20" name="max_loss" type="decimal"/>
         <element label="Max Win" max_length="20" name="max_win" type="decimal"/>

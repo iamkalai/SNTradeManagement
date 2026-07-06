@@ -51,7 +51,6 @@
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-09-09 11:00:49</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="sys_grid_canvas_pane">sys_grid_canvas_pane</sys_db_object>
         <sys_id>118e950be1d347608806f92e65910390</sys_id>
         <sys_metadata>b9e189ef2f85b41051dad5f62799b6c0</sys_metadata>
@@ -60,7 +59,6 @@
         <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
         <sys_parent/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_scope_delete display_value="">0796acae3c1b44d480b90d43a626d764</sys_scope_delete>
         <sys_update_name>sys_grid_canvas_pane_b9e189ef2f85b41051dad5f62799b6c0</sys_update_name>

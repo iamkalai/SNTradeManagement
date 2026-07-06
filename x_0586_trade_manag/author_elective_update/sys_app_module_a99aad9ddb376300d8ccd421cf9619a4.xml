@@ -70,11 +70,10 @@
         <update_guid_history>ed9aad9de2376300396c1679c2aec2a5:-2036269883</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Record deleted 2019-09-20 19:09:22">d691844d1b4084108ed631d7dc4bcb47</sys_audit_delete>
+        <sys_audit_delete display_value="">d691844d1b4084108ed631d7dc4bcb47</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-20 13:39:22</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
         <sys_id>298d9400bbfe44988ccf36467e0ec004</sys_id>
         <sys_metadata>a99aad9ddb376300d8ccd421cf9619a4</sys_metadata>
@@ -83,7 +82,6 @@
         <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
         <sys_parent/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_scope_delete display_value="">0796acae3c1b44d480b90d43a626d764</sys_scope_delete>
         <sys_update_name>sys_app_module_a99aad9ddb376300d8ccd421cf9619a4</sys_update_name>

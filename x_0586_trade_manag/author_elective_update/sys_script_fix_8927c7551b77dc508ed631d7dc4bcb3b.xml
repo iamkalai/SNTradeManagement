@@ -58,7 +58,6 @@ gr.deleteMultiple();]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_fix&lt
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-11 05:20:25</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="sys_script_fix">sys_script_fix</sys_db_object>
         <sys_id>1f0c919562ea4907a3bf08aa1ac39839</sys_id>
         <sys_metadata>8927c7551b77dc508ed631d7dc4bcb3b</sys_metadata>
@@ -67,7 +66,6 @@ gr.deleteMultiple();]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_fix&lt
         <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
         <sys_parent/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_scope_delete display_value="">0796acae3c1b44d480b90d43a626d764</sys_scope_delete>
         <sys_update_name>sys_script_fix_8927c7551b77dc508ed631d7dc4bcb3b</sys_update_name>

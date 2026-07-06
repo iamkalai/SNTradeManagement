@@ -78,7 +78,6 @@
             <sys_class_name>sys_ui_section</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-07-30 16:30:30</sys_created_on>
-            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>72fb250e1bd298908ed631d7dc4bcba1</sys_id>
@@ -87,7 +86,6 @@
             <sys_overrides/>
             <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
             <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
             <sys_update_name>sys_ui_section_72fb250e1bd298908ed631d7dc4bcba1</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
