@@ -29,7 +29,7 @@
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
 
-    var tradeEntryText = "Trendlyne: 70, 47.7, 41.6(57.3)\nPE - PE - Strong Buy Zone(Current-Undervalued,1 Year Forward-Undervalued) and PB - Sell Zone(Current-Undervalued,1 Year Forward-Undervalued) \nRSI: 39.4\nPiotroski Score - 7";
+    var tradeEntryText = "Trendlyne: 70, 47.7, 41.6(57.3)\nPE - Neutral zone(Current-Undervalued,1 Year Forward-Undervalued)\nRSI: 39.4\nPiotroski Score - 7";
     current.entry_rationale = tradeEntryText;
 
 })(current, previous);]]></script>
@@ -39,7 +39,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6b9901f747a01210e2b7a3c9316d43e3</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Display Rule</sys_name>
         <sys_overrides/>
         <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
@@ -47,7 +47,7 @@
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name>sys_script_6b9901f747a01210e2b7a3c9316d43e3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-11-10 04:30:27</sys_updated_on>
+        <sys_updated_on>2026-07-17 09:43:00</sys_updated_on>
         <template/>
         <when>before_display</when>
     </sys_script>

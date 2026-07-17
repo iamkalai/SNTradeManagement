@@ -6,7 +6,7 @@
         <created_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</created_by_user>
         <created_on/>
         <dashboard display_value="Trade Management">0ec7779292c68d71a862ec4d1d4627b4</dashboard>
-        <edit_locked/>
+        <edit_locked>{"sysId":"6816f79cc0a8016401c5a33be04be441","name":"System Administrator","avatar":"a5d3c898c3222010ae17dd981840dd8b.iix?t=small","lockedOn":"1783415646828"}</edit_locked>
         <enable_data_cache>false</enable_data_cache>
         <include_custom_insights>true</include_custom_insights>
         <include_key_contributors>true</include_key_contributors>
@@ -32,7 +32,7 @@
         <sys_created_on>2026-05-22 15:25:28</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>f830fde079fc8ce10489bdf0c7833281</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
@@ -40,7 +40,7 @@
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name>par_dashboard_user_metadata_f830fde079fc8ce10489bdf0c7833281</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-07-02 05:28:44</sys_updated_on>
+        <sys_updated_on>2026-07-07 09:14:06</sys_updated_on>
         <updated_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</updated_by_user>
         <use_custom_tab_colors>false</use_custom_tab_colors>
         <widgets_margin/>
