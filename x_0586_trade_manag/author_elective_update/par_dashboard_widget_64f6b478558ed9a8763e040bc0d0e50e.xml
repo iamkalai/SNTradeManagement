@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">3cc042eee2ffb824bf1972d269d0e178</canvas>
+        <component display_value="Bubble">50dbc52a13c8b4691f7c60e0246bf28c</component>
+        <component_props>{"applyDateRange":false,"bareBorder":false,"colorConfig":{"type":"default"},"dataSources":[{"allowRealTime":true,"dataCategories":["group","simple","trend"],"filterQuery":"instrumentINstock,stock_investment^strategy.active=true","id":"dGFibGV4XzA1ODZfdHJhZGVfbWFuYWdfdHJhZGUxNzc5NDYzNTI4NDc5OTU5MzU4NDguNDY1MTAzMzk=","isDatabaseView":false,"preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"sourceType":"table","tableOrViewName":"x_0586_trade_manag_trade","label":"Trade"}],"dateFormat":"default","emptyStateAlignment":"vertical-centered","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateHeading":"No data available.","emptyStateIllustration":"no-data","enableCustomEmptyState":false,"enableDrilldown":true,"enableRealTimeUpdate":false,"filterConfigurations":"@state.parFilters","followFilters":true,"groupBy":[{"categoryIndex":0,"disableRanges":false,"groupBy":[{"dataSource":"dGFibGV4XzA1ODZfdHJhZGVfbWFuYWdfdHJhZGUxNzc5NDYzNTI4NDc5OTU5MzU4NDguNDY1MTAzMzk=","groupByField":"duration","isRange":false,"isChoice":false,"isPaBucket":false}],"maxNumberOfGroups":10,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false},{"categoryIndex":1,"disableRanges":false,"groupBy":[{"dataSource":"dGFibGV4XzA1ODZfdHJhZGVfbWFuYWdfdHJhZGUxNzc5NDYzNTI4NDc5OTU5MzU4NDguNDY1MTAzMzk=","groupByField":"u_realised_pl_percent","isRange":false,"isChoice":false,"isPaBucket":false}],"maxNumberOfGroups":10,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false},{"categoryIndex":2,"disableRanges":false,"groupBy":[{"dataSource":"dGFibGV4XzA1ODZfdHJhZGVfbWFuYWdfdHJhZGUxNzc5NDYzNTI4NDc5OTU5MzU4NDguNDY1MTAzMzk=","groupByField":"u_stock","isRange":false,"isChoice":false,"isPaBucket":false}],"hideZeroValues":false,"maxNumberOfGroups":10,"showOthers":true,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC"}],"hideMatrixAggregate":false,"legendPosition":"bottom","metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGV4XzA1ODZfdHJhZGVfbWFuYWdfdHJhZGUxNzc5NDYzNTI4NDc5OTU5MzU4NDguNDY1MTAzMzk=","id":"ZEdGaWJHVjRYekExT0RaZmRISmhaR1ZmYldGdVlXZGZkSEpoWkdVeE56YzVORFl6TlRJNE5EYzVPVFU1TXpVNE5EZ3VORFkxTVRBek16az0xNzc5NDYzNTI4NDgwMTU1NTg1NzcuMzgxNTc0NjIz","numberFormat":{"customFormat":true,"abbreviationEnabled":true,"numberInTooltipsEnabled":true},"dateFormat":{"customFormat":false},"stringFormat":{"customFormat":false}}],"newReporting":false,"numberOfPeriods":3,"noDebounce":false,"period":"M","showAbsolutePeriod":false,"showAdditionalGroupBySelector":false,"showChange":false,"showChangeFrom":"previous","showChangePercentage":false,"showComment":false,"showConfidenceBand":false,"showDataPassthrough":false,"showFilterIcon":true,"showFirstGroupAggregate":false,"showForecast":false,"showForecastRange":false,"showGapPercentage":false,"headerTitle":"Trade Aging","showHeader":true,"showBorder":true,"showHeaderSeparator":false,"showLegend":true,"showMaximumRange":false,"showMetricLabel":false,"showSecondGroupAggregate":false,"showSparkline":false,"showSubAggregate":false,"showTarget":false,"showThreshold":false,"showTotalAggregate":false,"showTrend":false,"sortBy":"name","sortByOrder":"asc","wrapTitle":false,"userInfo":"@context.session.user","enableAddZerosAtApi":true,"emptyStateHeadingLevel":3,"scoreType":null,"cacheExpirationTime":0,"showLoadingIndicator":false,"useDataCache":false,"showFilterAsSeparateSeries":false,"showCacheTime":true,"hideDevSettings":false,"allowAdditionalGroupByPerMetric":false,"showDataTable":false,"lineClamp":1,"allowChangeDateRange":false,"showRefresh":true,"useCurrentDateForEnd":false,"enableClickAndStay":false,"showDateRangeByDefault":false,"headingLevel":2,"sharedContext":null,"componentId":"1hj9n1dq","filterPerMetric":[]}</component_props>
+        <h>22</h>
+        <name>Trade Aging</name>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-22 15:25:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>64f6b478558ed9a8763e040bc0d0e50e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Trade Aging</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
+        <sys_update_name>par_dashboard_widget_64f6b478558ed9a8763e040bc0d0e50e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-17 16:45:50</sys_updated_on>
+        <visualization/>
+        <w>48</w>
+        <widget_props/>
+        <x>0</x>
+        <y>72</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</application>
+        <file_path/>
+        <instance_id>fb74e09ddb863d98b1eb9027c59619c2</instance_id>
+        <instance_name>dev192526</instance_name>
+        <name>par_dashboard_widget_64f6b478558ed9a8763e040bc0d0e50e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">3cc042eee2ffb824bf1972d269d0e178</canvas><component display_value="Bubble">50dbc52a13c8b4691f7c60e0246bf28c</component><component_props>{"applyDateRange":false,"bareBorder":false,"colorConfig":{"type":"default"},"dataSources":[{"allowRealTime":true,"dataCategories":["group","simple","trend"],"filterQuery":"instrumentINstock,stock_investment^strategy.active=true","id":"dGFibGV4XzA1ODZfdHJhZGVfbWFuYWdfdHJhZGUxNzc5NDYzNTI4NDc5OTU5MzU4NDguNDY1MTAzMzk=","isDatabaseView":false,"preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"sourceType":"table","tableOrViewName":"x_0586_trade_manag_trade","label":"Trade"}],"dateFormat":"default","emptyStateAlignment":"vertical-centered","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateHeading":"No data available.","emptyStateIllustration":"no-data","enableCustomEmptyState":false,"enableDrilldown":true,"enableRealTimeUpdate":false,"filterConfigurations":"@state.parFilters","followFilters":true,"groupBy":[{"categoryIndex":0,"disableRanges":false,"groupBy":[{"dataSource":"dGFibGV4XzA1ODZfdHJhZGVfbWFuYWdfdHJhZGUxNzc5NDYzNTI4NDc5OTU5MzU4NDguNDY1MTAzMzk=","groupByField":"duration","isRange":false,"isChoice":false,"isPaBucket":false}],"maxNumberOfGroups":10,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false},{"categoryIndex":1,"disableRanges":false,"groupBy":[{"dataSource":"dGFibGV4XzA1ODZfdHJhZGVfbWFuYWdfdHJhZGUxNzc5NDYzNTI4NDc5OTU5MzU4NDguNDY1MTAzMzk=","groupByField":"u_realised_pl_percent","isRange":false,"isChoice":false,"isPaBucket":false}],"maxNumberOfGroups":10,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false},{"categoryIndex":2,"disableRanges":false,"groupBy":[{"dataSource":"dGFibGV4XzA1ODZfdHJhZGVfbWFuYWdfdHJhZGUxNzc5NDYzNTI4NDc5OTU5MzU4NDguNDY1MTAzMzk=","groupByField":"u_stock","isRange":false,"isChoice":false,"isPaBucket":false}],"hideZeroValues":false,"maxNumberOfGroups":10,"showOthers":true,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC"}],"hideMatrixAggregate":false,"legendPosition":"bottom","metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGV4XzA1ODZfdHJhZGVfbWFuYWdfdHJhZGUxNzc5NDYzNTI4NDc5OTU5MzU4NDguNDY1MTAzMzk=","id":"ZEdGaWJHVjRYekExT0RaZmRISmhaR1ZmYldGdVlXZGZkSEpoWkdVeE56YzVORFl6TlRJNE5EYzVPVFU1TXpVNE5EZ3VORFkxTVRBek16az0xNzc5NDYzNTI4NDgwMTU1NTg1NzcuMzgxNTc0NjIz","numberFormat":{"customFormat":true,"abbreviationEnabled":true,"numberInTooltipsEnabled":true},"dateFormat":{"customFormat":false},"stringFormat":{"customFormat":false}}],"newReporting":false,"numberOfPeriods":3,"noDebounce":false,"period":"M","showAbsolutePeriod":false,"showAdditionalGroupBySelector":false,"showChange":false,"showChangeFrom":"previous","showChangePercentage":false,"showComment":false,"showConfidenceBand":false,"showDataPassthrough":false,"showFilterIcon":true,"showFirstGroupAggregate":false,"showForecast":false,"showForecastRange":false,"showGapPercentage":false,"headerTitle":"Trade Aging","showHeader":true,"showBorder":true,"showHeaderSeparator":false,"showLegend":true,"showMaximumRange":false,"showMetricLabel":false,"showSecondGroupAggregate":false,"showSparkline":false,"showSubAggregate":false,"showTarget":false,"showThreshold":false,"showTotalAggregate":false,"showTrend":false,"sortBy":"name","sortByOrder":"asc","wrapTitle":false,"userInfo":"@context.session.user","enableAddZerosAtApi":true,"emptyStateHeadingLevel":3,"scoreType":null,"cacheExpirationTime":0,"showLoadingIndicator":false,"useDataCache":false,"showFilterAsSeparateSeries":false,"showCacheTime":true,"hideDevSettings":false,"allowAdditionalGroupByPerMetric":false,"showDataTable":false,"lineClamp":1,"allowChangeDateRange":false,"showRefresh":true,"useCurrentDateForEnd":false,"enableClickAndStay":false,"showDateRangeByDefault":false,"headingLevel":2,"sharedContext":null,"componentId":"1hj9n1dq","filterPerMetric":[]}</component_props><h>22</h><name>Trade Aging</name><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-22 15:25:28</sys_created_on><sys_domain>global</sys_domain><sys_id>64f6b478558ed9a8763e040bc0d0e50e</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Trade Aging</sys_name><sys_overrides/><sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package><sys_policy/><sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope><sys_update_name>par_dashboard_widget_64f6b478558ed9a8763e040bc0d0e50e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-17 16:45:50</sys_updated_on><visualization/><w>48</w><widget_props/><x>0</x><y>72</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-703036690</payload_hash>
+        <record_name>Trade Aging</record_name>
+        <reverted_from/>
+        <source>6943617c477b3110e2b7a3c9316d43a4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-17 16:45:50</sys_created_on>
+        <sys_id>b62606cbc3c247901d72190ed4013187</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19f70f855630000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-17 16:45:50</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>362606cbe4c24790bc00cc5c9d6ac186</update_guid>
+        <update_guid_history>362606cbe4c24790bc00cc5c9d6ac186:-703036690,868ad242b1bd0f10ad0134b446bb39f7:-1772364896</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Trade Aging">7b56cacbc3c247901d72190ed40131e1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-17 16:46:43</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>820dfd3be7c946a0b4880443d0dce790</sys_id>
+        <sys_metadata>64f6b478558ed9a8763e040bc0d0e50e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Trade Aging</sys_name>
+        <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
+        <sys_scope_delete display_value="">0796acae3c1b44d480b90d43a626d764</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_64f6b478558ed9a8763e040bc0d0e50e</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_64f6b478558ed9a8763e040bc0d0e50e">b62606cbc3c247901d72190ed4013187</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-17 16:46:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

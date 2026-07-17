@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard">
+    <par_dashboard action="DELETE">
+        <active>true</active>
+        <base_dashboard/>
+        <certified>false</certified>
+        <description/>
+        <experience/>
+        <grid>48</grid>
+        <name>Trade Management</name>
+        <sys_class_name>par_dashboard</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-04 17:03:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>0ec7779292c68d71a862ec4d1d4627b4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Trade Management</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
+        <sys_update_name>par_dashboard_0ec7779292c68d71a862ec4d1d4627b4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-22 15:25:50</sys_updated_on>
+        <sys_ux_app_config/>
+        <sys_ux_app_route/>
+        <sys_ux_macroponent/>
+        <sys_ux_screen/>
+        <sys_ux_screen_type/>
+    </par_dashboard>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</application>
+        <file_path/>
+        <instance_id>fb74e09ddb863d98b1eb9027c59619c2</instance_id>
+        <instance_name>dev192526</instance_name>
+        <name>par_dashboard_0ec7779292c68d71a862ec4d1d4627b4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard"><par_dashboard action="INSERT_OR_UPDATE"><active>true</active><base_dashboard/><certified>false</certified><description/><experience/><grid>48</grid><name>Trade Management</name><sys_class_name>par_dashboard</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-07-04 17:03:52</sys_created_on><sys_domain>global</sys_domain><sys_id>0ec7779292c68d71a862ec4d1d4627b4</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Trade Management</sys_name><sys_overrides/><sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package><sys_policy/><sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope><sys_update_name>par_dashboard_0ec7779292c68d71a862ec4d1d4627b4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-22 15:25:50</sys_updated_on><sys_ux_app_config/><sys_ux_app_route/><sys_ux_macroponent/><sys_ux_screen/><sys_ux_screen_type/></par_dashboard></record_update>]]></payload>
+        <payload_hash>-520549293</payload_hash>
+        <record_name>Trade Management</record_name>
+        <reverted_from/>
+        <source>322834b97db1311076daf29f52070d4e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-22 15:25:50</sys_created_on>
+        <sys_id>c9da59c5c30d03501d72190ed4013106</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e504af69a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-22 15:25:50</sys_updated_on>
+        <type>PAR Dashboard</type>
+        <update_guid>09da59c5750d0350eb5a36e009ccc405</update_guid>
+        <update_guid_history>09da59c5750d0350eb5a36e009ccc405:-520549293,0cca11c5840d035083e3ce73f910d4e3:-31637625,0cca11c5f40d03501ba53cf9aadb7395:-508681618</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Trade Management">7b56cacbc3c247901d72190ed40131b4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-17 16:46:44</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard">par_dashboard</sys_db_object>
+        <sys_id>4e8f7edba91340d4a50c660a55150ff9</sys_id>
+        <sys_metadata>0ec7779292c68d71a862ec4d1d4627b4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Trade Management</sys_name>
+        <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
+        <sys_scope_delete display_value="">0796acae3c1b44d480b90d43a626d764</sys_scope_delete>
+        <sys_update_name>par_dashboard_0ec7779292c68d71a862ec4d1d4627b4</sys_update_name>
+        <sys_update_version display_value="par_dashboard_0ec7779292c68d71a862ec4d1d4627b4">c9da59c5c30d03501d72190ed4013106</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-17 16:46:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

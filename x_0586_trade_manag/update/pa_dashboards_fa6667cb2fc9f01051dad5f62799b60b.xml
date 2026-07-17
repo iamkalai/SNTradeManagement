@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_dashboards">
     <pa_dashboards action="INSERT_OR_UPDATE">
-        <active>false</active>
+        <active>true</active>
         <breakdown_source/>
         <color>#ffffff</color>
         <disable_multiple_element>false</disable_multiple_element>
-        <experience_dashboard display_value="Trade Management">0ec7779292c68d71a862ec4d1d4627b4</experience_dashboard>
+        <experience_dashboard/>
         <group/>
         <groups/>
         <is_breakdown>false</is_breakdown>
@@ -28,7 +28,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fa6667cb2fc9f01051dad5f62799b60b</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Trade Management</sys_name>
         <sys_overrides/>
         <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
@@ -36,7 +36,7 @@
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name>pa_dashboards_fa6667cb2fc9f01051dad5f62799b60b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-05-22 15:25:30</sys_updated_on>
+        <sys_updated_on>2026-07-17 16:46:44</sys_updated_on>
         <users/>
         <visible_to>2</visible_to>
     </pa_dashboards>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="DELETE">
+        <grid_canvas display_value="PA Trade Management - New Tab">8996a70f2fc9f01051dad5f62799b6d6</grid_canvas>
+        <height>10</height>
+        <portal_widget display_value="Created 2026-07-17 23:02:45">06e0de43c34647901d72190ed40131ae</portal_widget>
+        <posx>0</posx>
+        <posy>0</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-17 17:32:45</sys_created_on>
+        <sys_id>42e0de43c34647901d72190ed40131b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>8996a70f2fc9f01051dad5f62799b6d6</sys_name>
+        <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_42e0de43c34647901d72190ed40131b3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-17 17:32:45</sys_updated_on>
+        <width>12</width>
+    </sys_grid_canvas_pane>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</application>
+        <file_path/>
+        <instance_id>fb74e09ddb863d98b1eb9027c59619c2</instance_id>
+        <instance_name>dev192526</instance_name>
+        <name>sys_grid_canvas_pane_42e0de43c34647901d72190ed40131b3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane"><sys_grid_canvas_pane action="INSERT_OR_UPDATE"><grid_canvas display_value="PA Trade Management - New Tab">8996a70f2fc9f01051dad5f62799b6d6</grid_canvas><height>10</height><portal_widget display_value="Created 2026-07-17 23:02:45">06e0de43c34647901d72190ed40131ae</portal_widget><posx>0</posx><posy>0</posy><sys_class_name>sys_grid_canvas_pane</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-17 17:32:45</sys_created_on><sys_id>42e0de43c34647901d72190ed40131b3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>8996a70f2fc9f01051dad5f62799b6d6</sys_name><sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package><sys_policy/><sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope><sys_update_name>sys_grid_canvas_pane_42e0de43c34647901d72190ed40131b3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-17 17:32:45</sys_updated_on><width>12</width></sys_grid_canvas_pane></record_update>]]></payload>
+        <payload_hash>-534279008</payload_hash>
+        <record_name>8996a70f2fc9f01051dad5f62799b6d6</record_name>
+        <reverted_from/>
+        <source>6943617c477b3110e2b7a3c9316d43a4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-17 17:32:45</sys_created_on>
+        <sys_id>c6e0de43c34647901d72190ed40131b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19f712347130000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-17 17:32:45</sys_updated_on>
+        <type>Grid Canvas Pane</type>
+        <update_guid>06e0de43aa464790f6c505ff99770bb7</update_guid>
+        <update_guid_history>06e0de43aa464790f6c505ff99770bb7:-534279008</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-17 17:32:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_grid_canvas_pane">sys_grid_canvas_pane</sys_db_object>
+        <sys_id>80647e3b1a964500babe286aea862909</sys_id>
+        <sys_metadata>42e0de43c34647901d72190ed40131b3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>8996a70f2fc9f01051dad5f62799b6d6</sys_name>
+        <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
+        <sys_scope_delete display_value="">0796acae3c1b44d480b90d43a626d764</sys_scope_delete>
+        <sys_update_name>sys_grid_canvas_pane_42e0de43c34647901d72190ed40131b3</sys_update_name>
+        <sys_update_version display_value="sys_grid_canvas_pane_42e0de43c34647901d72190ed40131b3">c6e0de43c34647901d72190ed40131b8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-17 17:32:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

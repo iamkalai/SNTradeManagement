@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="DELETE">
+        <group_id/>
+        <report_id display_value="Trade Management - All Trade Calendar">e98142fe2fe7dd1051dad5f62799b685</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-07 14:03:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a18142fe2fe7dd1051dad5f62799b686</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>e98142fe2fe7dd1051dad5f62799b685</sys_name>
+        <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
+        <sys_update_name>sys_report_users_groups_a18142fe2fe7dd1051dad5f62799b686</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-07 14:03:11</sys_updated_on>
+        <user_id display_value="Kalaiarasan P">6816f79cc0a8016401c5a33be04be441</user_id>
+    </sys_report_users_groups>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</application>
+        <file_path/>
+        <instance_id>fb74e09ddb863d98b1eb9027c59619c2</instance_id>
+        <instance_name>dev192526</instance_name>
+        <name>sys_report_users_groups_a18142fe2fe7dd1051dad5f62799b686</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="Trade Management - All Trade Calendar">e98142fe2fe7dd1051dad5f62799b685</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-07 14:03:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a18142fe2fe7dd1051dad5f62799b686</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>e98142fe2fe7dd1051dad5f62799b685</sys_name>
+        <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
+        <sys_update_name>sys_report_users_groups_a18142fe2fe7dd1051dad5f62799b686</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-07 14:03:11</sys_updated_on>
+        <user_id display_value="Kalaiarasan P">6816f79cc0a8016401c5a33be04be441</user_id>
+    </sys_report_users_groups>
+</record_update>]]></payload>
+        <payload_hash>1741948227</payload_hash>
+        <record_name>e98142fe2fe7dd1051dad5f62799b685</record_name>
+        <reverted_from/>
+        <source>012e687847773110e2b7a3c9316d43fc</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-15 05:29:37</sys_created_on>
+        <sys_id>a14ea8b847773110e2b7a3c9316d4338</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d0b98c2ef0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-15 05:29:37</sys_updated_on>
+        <type>Report Users and Groups</type>
+        <update_guid>614ea8b834773110a55a0ec975452938</update_guid>
+        <update_guid_history>614ea8b834773110a55a0ec975452938:1741948227</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-17 16:42:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_report_users_groups">sys_report_users_groups</sys_db_object>
+        <sys_id>60d9bd4bc8d742b49d092e71e1a5b710</sys_id>
+        <sys_metadata>a18142fe2fe7dd1051dad5f62799b686</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>e98142fe2fe7dd1051dad5f62799b685</sys_name>
+        <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
+        <sys_scope_delete display_value="">0796acae3c1b44d480b90d43a626d764</sys_scope_delete>
+        <sys_update_name>sys_report_users_groups_a18142fe2fe7dd1051dad5f62799b686</sys_update_name>
+        <sys_update_version display_value="sys_report_users_groups_a18142fe2fe7dd1051dad5f62799b686">a14ea8b847773110e2b7a3c9316d4338</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-17 16:42:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

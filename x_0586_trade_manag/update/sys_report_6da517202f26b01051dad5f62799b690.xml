@@ -48,8 +48,10 @@
         <exp_report_attrs>true</exp_report_attrs>
         <field>u_stock</field>
         <field_list>number,entry_date,u_stock,u_actual_quantity,u_stock_price,entry_rationale,investment,duration,instrument,u_realised_pl_percent</field_list>
-        <filter table="x_0586_trade_manag_trade">instrumentINstock,stock_investment^strategy.active=true<item display_value="stock,stock_investment" endquery="false" field="instrument" goto="false" newquery="false" operator="IN" or="false" value="stock,stock_investment"/>
+        <filter table="x_0586_trade_manag_trade">instrumentINstock,stock_investment^strategy.active=true^entry_dateRELATIVEGT@month@ago@24^ORexit_dateRELATIVEGT@month@ago@24<item display_value="stock,stock_investment" endquery="false" field="instrument" goto="false" newquery="false" operator="IN" or="false" value="stock,stock_investment"/>
             <item endquery="false" field="strategy.active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="entry_date" goto="false" newquery="false" operator="RELATIVE" or="false" value="GT@month@ago@24"/>
+            <item endquery="false" field="exit_date" goto="false" newquery="false" operator="RELATIVE" or="true" value="GT@month@ago@24"/>
         </filter>
         <formatting_configuration>{"table":"incident","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{}}</formatting_configuration>
         <from/>
@@ -110,16 +112,16 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-09-09 10:59:19</sys_created_on>
         <sys_id>6da517202f26b01051dad5f62799b690</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_name>Trade Aging</sys_name>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Trading Management - Trade Aging</sys_name>
         <sys_package display_value="Trade Management" source="x_0586_trade_manag">a3d5a515db376300d8ccd421cf961925</sys_package>
         <sys_policy/>
         <sys_scope display_value="Trade Management">a3d5a515db376300d8ccd421cf961925</sys_scope>
         <sys_update_name>sys_report_6da517202f26b01051dad5f62799b690</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-01 16:48:00</sys_updated_on>
+        <sys_updated_on>2026-07-17 18:17:14</sys_updated_on>
         <table>x_0586_trade_manag_trade</table>
-        <title>Trade Aging</title>
+        <title>Trading Management - Trade Aging</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
